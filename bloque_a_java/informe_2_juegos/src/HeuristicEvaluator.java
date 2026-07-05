@@ -16,6 +16,27 @@ public class HeuristicEvaluator {
     };
 
     /**
+     * Retorna el peso posicional dinámico de una celda.
+     * Si es una casilla C (-20) o X (-50) y su esquina adyacente correspondiente
+     * ya está ocupada, se elimina la penalización y se le asigna un valor positivo (+5).
+     */
+    private static int getCellWeight(Board board, int r, int c) {
+        int weight = CELL_WEIGHTS[r][c];
+
+        // Verificar casillas C y X
+        if (weight == -20 || weight == -50) {
+            int cornerR = (r < 4) ? 0 : 7;
+            int cornerC = (c < 4) ? 0 : 7;
+            
+            if (board.getCell(cornerR, cornerC) != Board.EMPTY) {
+                // La esquina ya está ocupada, por lo que jugar aquí es seguro y ayuda a consolidar el borde.
+                return 5;
+            }
+        }
+        return weight;
+    }
+
+    /**
      * Evalúa el estado del tablero desde la perspectiva del jugador de IA.
      * Retorna una puntuación entera. Valores más altos indican ventaja para la IA.
      */
@@ -42,10 +63,10 @@ public class HeuristicEvaluator {
             for (int c = 0; c < Board.SIZE; c++) {
                 char cell = board.getCell(r, c);
                 if (cell == aiPlayer) {
-                    positionScore += CELL_WEIGHTS[r][c];
+                    positionScore += getCellWeight(board, r, c);
                     aiCount++;
                 } else if (cell == humanPlayer) {
-                    positionScore -= CELL_WEIGHTS[r][c];
+                    positionScore -= getCellWeight(board, r, c);
                     humanCount++;
                 }
             }
