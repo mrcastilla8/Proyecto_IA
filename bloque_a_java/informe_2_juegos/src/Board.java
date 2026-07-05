@@ -9,6 +9,13 @@ public class Board {
     public static final char WHITE = 'O'; // IA
 
     private char[][] grid;
+    private String blackLabel = "Humano (Negras)";
+    private String whiteLabel = "IA (Blancas)";
+
+    public void setPlayerLabels(String blackLabel, String whiteLabel) {
+        this.blackLabel = blackLabel;
+        this.whiteLabel = whiteLabel;
+    }
 
     // Direcciones de búsqueda: [fila, columna]
     private static final int[][] DIRECTIONS = {
@@ -33,15 +40,17 @@ public class Board {
     }
 
     // Constructor copia para clonación
-    private Board(char[][] otherGrid) {
+    private Board(char[][] otherGrid, String blackLabel, String whiteLabel) {
         grid = new char[SIZE][SIZE];
         for (int i = 0; i < SIZE; i++) {
             System.arraycopy(otherGrid[i], 0, grid[i], 0, SIZE);
         }
+        this.blackLabel = blackLabel;
+        this.whiteLabel = whiteLabel;
     }
 
     public Board getClone() {
-        return new Board(this.grid);
+        return new Board(this.grid, this.blackLabel, this.whiteLabel);
     }
 
     public char getCell(int r, int c) {
@@ -292,7 +301,7 @@ public class Board {
             System.out.println();
             System.out.println("   " + ANSI_GRAY_TEXT + "+" + "---+".repeat(SIZE) + ANSI_RESET);
         }
-        System.out.println("Fichas -> " + ANSI_GRAY_TEXT + "█" + ANSI_RESET + " Humano (Negras): " + getScore(BLACK) +
-                           "  |  " + ANSI_WHITE_TEXT + "█" + ANSI_RESET + " IA (Blancas): " + getScore(WHITE) + "\n");
+        System.out.println("Fichas -> " + ANSI_GRAY_TEXT + "█" + ANSI_RESET + " " + blackLabel + ": " + getScore(BLACK) +
+                           "  |  " + ANSI_WHITE_TEXT + "█" + ANSI_RESET + " " + whiteLabel + ": " + getScore(WHITE) + "\n");
     }
 }

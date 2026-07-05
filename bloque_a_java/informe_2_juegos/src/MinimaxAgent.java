@@ -1,4 +1,3 @@
-
 import java.util.List;
 
 public class MinimaxAgent {
@@ -23,18 +22,17 @@ public class MinimaxAgent {
     }
 
     /**
-     * Retorna la coordenada de la mejor jugada [fila, columna] para el jugador IA.
+     * Retorna la coordenada de la mejor jugada [fila, columna] para el jugador IA especificado.
      */
-    public int[] getBestMove(Board board, int maxDepth, boolean usePruning) {
-        char aiPlayer = Board.WHITE;
-        char humanPlayer = Board.BLACK;
+    public int[] getBestMove(Board board, int maxDepth, boolean usePruning, char player) {
+        char aiPlayer = player;
         
         List<int[]> legalMoves = board.getLegalMoves(aiPlayer);
         if (legalMoves.isEmpty()) {
             return null; // No hay jugadas posibles (debe pasar)
         }
 
-        int[] bestMove = null;
+        int[] bestMove = legalMoves.get(0);
         int bestValue = Integer.MIN_VALUE;
         int alpha = Integer.MIN_VALUE;
         int beta = Integer.MAX_VALUE;
@@ -43,8 +41,8 @@ public class MinimaxAgent {
             Board tempBoard = board.getClone();
             tempBoard.makeMove(move[0], move[1], aiPlayer);
 
-            // Iniciar búsqueda Minimax recursiva (el siguiente turno es del humano, que minimiza)
-            int moveValue = minimax(tempBoard, maxDepth - 1, false, alpha, beta, usePruning);
+            // Iniciar búsqueda Minimax recursiva (el siguiente turno es del oponente, que minimiza)
+            int moveValue = minimax(tempBoard, maxDepth - 1, false, alpha, beta, usePruning, aiPlayer);
 
             if (moveValue > bestValue) {
                 bestValue = moveValue;
@@ -60,9 +58,9 @@ public class MinimaxAgent {
     }
 
     /**
-     * Algoritmo Minimax unificado con opción de Poda Alfa-Beta.
+     * Algoritmo Minimax unificado con opción de Poda Alfa-Beta, parametrizado por el jugador maximizante.
      */
-    public int minimax(Board board, int depth, boolean isMax, int alpha, int beta, boolean usePruning) {
+    public int minimax(Board board, int depth, boolean isMax, int alpha, int beta, boolean usePruning, char maximizingPlayer) {
         // Incrementar el contador de nodos evaluados
         if (usePruning) {
             nodesEvaluatedWithPruning++;
@@ -72,15 +70,15 @@ public class MinimaxAgent {
 
         // Caso base: profundidad límite alcanzada o fin del juego
         if (depth == 0 || board.isTerminal()) {
-            return HeuristicEvaluator.evaluate(board, Board.WHITE, Board.BLACK);
+            return HeuristicEvaluator.evaluate(board, maximizingPlayer, Board.getOpponent(maximizingPlayer));
         }
 
-        char currentPlayer = isMax ? Board.WHITE : Board.BLACK;
+        char currentPlayer = isMax ? maximizingPlayer : Board.getOpponent(maximizingPlayer);
         List<int[]> moves = board.getLegalMoves(currentPlayer);
 
         // Si el jugador actual no tiene movimientos, pero el juego no ha terminado (paso de turno)
         if (moves.isEmpty()) {
-            return minimax(board, depth - 1, !isMax, alpha, beta, usePruning);
+            return minimax(board, depth - 1, !isMax, alpha, beta, usePruning, maximizingPlayer);
         }
 
         if (isMax) {
@@ -89,7 +87,7 @@ public class MinimaxAgent {
                 Board child = board.getClone();
                 child.makeMove(move[0], move[1], currentPlayer);
                 
-                int eval = minimax(child, depth - 1, false, alpha, beta, usePruning);
+                int eval = minimax(child, depth - 1, false, alpha, beta, usePruning, maximizingPlayer);
                 maxEval = Math.max(maxEval, eval);
 
                 if (usePruning) {
@@ -106,7 +104,7 @@ public class MinimaxAgent {
                 Board child = board.getClone();
                 child.makeMove(move[0], move[1], currentPlayer);
                 
-                int eval = minimax(child, depth - 1, true, alpha, beta, usePruning);
+                int eval = minimax(child, depth - 1, true, alpha, beta, usePruning, maximizingPlayer);
                 minEval = Math.min(minEval, eval);
 
                 if (usePruning) {
