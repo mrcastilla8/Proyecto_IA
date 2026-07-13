@@ -170,19 +170,23 @@ public class SearchAlgorithms {
         PriorityQueue<SearchNode> frontier = new PriorityQueue<>(Comparator.comparingInt(SearchNode::getF));
         Set<State> visited = new HashSet<>();
         frontier.add(root);
-        visited.add(initial);
 
         while (!frontier.isEmpty()) {
             SearchNode current = frontier.poll();
+
+            if (visited.contains(current.getState())) {
+                continue;
+            }
 
             if (current.getState().isGoal()) {
                 return new SearchResult(current, nodosExpandidos, current.getGCost(), true);
             }
 
+            visited.add(current.getState());
             nodosExpandidos++;
+
             for (State.Successor succ : current.getState().getSuccessors()) {
                 if (!visited.contains(succ.state)) {
-                    visited.add(succ.state);
                     int g = current.getGCost() + succ.cost;
                     int h = manhattanDistance(succ.state);
                     SearchNode child = new SearchNode(succ.state, current, succ.action, g, h);
