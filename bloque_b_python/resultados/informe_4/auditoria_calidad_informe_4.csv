@@ -1,0 +1,18 @@
+﻿Criterio,Estado,Evidencia
+Variable objetivo categórica,Cumple,abandono codificado como No=0 y Si=1
+One-Hot Encoding,Cumple,plan_contratado se transforma dentro de ColumnTransformer
+Balanceo de clases,Cumple,SMOTE dentro de ImbPipeline y de cada fold
+Regresión Logística,Cumple,Incluida y evaluada
+Al menos tres modelos adicionales,Cumple,"KNN, SVC, Árbol de Decisión y Random Forest"
+Modelo de ensamble/boosting,Cumple,Random Forest y AdaBoost
+Ajuste de hiperparámetros,Cumple,GridSearchCV con 5 folds y refit por F1
+Matriz de confusión,Cumple,Generada para el SVC optimizado
+"Accuracy, Precision, Recall y F1",Cumple,Calculadas sobre el test
+ROC-AUC y curva ROC,Cumple,Calculadas mediante decision_function
+Data leakage,Cumple,valor_vida_cliente excluida de FEATURES y X
+Split antes del preprocesamiento,Cumple,train_test_split precede fit del preprocesador
+GridSearch sin test,Cumple,GridSearchCV se ajusta con X_train e y_train
+Rutas portables,Cumple,Búsqueda relativa desde la raíz o notebooks
+Interpretabilidad,Cumple,Permutation Importance del pipeline ganador
+Recomendaciones y limitaciones,Cumple,Incluidas y vinculadas a resultados
+Holdout totalmente ciego,Observación,"El test fue observado en la etapa base, aunque no se usó para seleccionar ni ajustar"
