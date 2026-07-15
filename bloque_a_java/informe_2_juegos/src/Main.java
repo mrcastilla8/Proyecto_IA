@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         
         // Códigos ANSI para dar estilo
         final String ANSI_RESET = "\u001B[0m";
@@ -13,8 +13,6 @@ public class Main {
         final String ANSI_WHITE = "\u001B[37m";
         final String ANSI_RED = "\u001B[31m";
         final String ANSI_BOLD = "\u001B[1m";
-        final String ANSI_GREEN_BG = "\u001B[42m";
-        final String ANSI_BLACK_TEXT = "\u001B[30m";
         final String ANSI_WHITE_TEXT = "\u001B[97m";
         final String ANSI_YELLOW_TEXT = "\u001B[33m";
         final String ANSI_GRAY_TEXT = "\u001B[90m";
@@ -36,17 +34,17 @@ public class Main {
             System.out.println("2) Inteligencia Artificial vs. Inteligencia Artificial (Modo Espectador)");
             System.out.println("3) Salir");
             System.out.print("Opción (1-3): ");
-            String modeOpt = scanner.nextLine().trim();
+            String opcModo = teclado.nextLine().trim();
 
-            if (modeOpt.equals("3")) {
+            if (opcModo.equals("3")) {
                 System.out.println("\n¡Gracias por jugar! Saliendo del programa...");
                 break;
             }
 
-            int gameMode = 1;
-            if (modeOpt.equals("2")) {
-                gameMode = 2;
-            } else if (!modeOpt.equals("1")) {
+            int modoJuego = 1;
+            if (opcModo.equals("2")) {
+                modoJuego = 2;
+            } else if (!opcModo.equals("1")) {
                 System.out.println(ANSI_RED + "Opción no válida. Reintentando..." + ANSI_RESET);
                 try {
                     Thread.sleep(1000);
@@ -56,11 +54,11 @@ public class Main {
                 continue;
             }
 
-            int depth1 = 5; // Para Negras (IA 1 en modo 2)
-            int depth2 = 5; // Para Blancas (IA en modo 1, IA 2 en modo 2)
-            boolean isAutoPlay = false; // Solo modo 2: true para simulación continua, false para manual-ENTER
+            int prof1 = 5; // Para Negras (IA 1 en modo 2)
+            int prof2 = 5; // Para Blancas (IA en modo 1, IA 2 en modo 2)
+            boolean esAuto = false; // Solo modo 2: true para simulación continua, false para manual-ENTER
 
-            if (gameMode == 1) {
+            if (modoJuego == 1) {
                 // Selección de dificultad Humano vs IA (Modo 1)
                 System.out.println("\nSelecciona la dificultad de la IA (Profundidad de búsqueda):");
                 System.out.println("1) Fácil (Profundidad 3) - Respuesta instantánea, juego casual.");
@@ -68,31 +66,31 @@ public class Main {
                 System.out.println("3) Difícil (Profundidad 6) - Pensamiento profundo, más estratégico.");
                 System.out.println("4) Personalizado");
                 System.out.print("Opción (1-4): ");
-                String optStr = scanner.nextLine().trim();
-                int selectedDepth = 5;
-                if (optStr.equals("1")) {
-                    selectedDepth = 3;
-                } else if (optStr.equals("2")) {
-                    selectedDepth = 5;
-                } else if (optStr.equals("3")) {
-                    selectedDepth = 6;
-                } else if (optStr.equals("4")) {
+                String opcStr = teclado.nextLine().trim();
+                int profSeleccionada = 5;
+                if (opcStr.equals("1")) {
+                    profSeleccionada = 3;
+                } else if (opcStr.equals("2")) {
+                    profSeleccionada = 5;
+                } else if (opcStr.equals("3")) {
+                    profSeleccionada = 6;
+                } else if (opcStr.equals("4")) {
                     System.out.print("Introduce la profundidad deseada (1-10): ");
                     try {
-                        selectedDepth = Integer.parseInt(scanner.nextLine().trim());
-                        if (selectedDepth < 1) selectedDepth = 1;
-                        if (selectedDepth > 10) {
+                        profSeleccionada = Integer.parseInt(teclado.nextLine().trim());
+                        if (profSeleccionada < 1) profSeleccionada = 1;
+                        if (profSeleccionada > 10) {
                             System.out.println(ANSI_RED + "Profundidad limitada a 8 para evitar sobrecarga de memoria." + ANSI_RESET);
-                            selectedDepth = 8;
+                            profSeleccionada = 8;
                         }
                     } catch (NumberFormatException e) {
                         System.out.println("Entrada inválida. Usando profundidad 5 por defecto.");
-                        selectedDepth = 5;
+                        profSeleccionada = 5;
                     }
                 } else {
                     System.out.println("Opción no válida. Usando profundidad 5 por defecto.");
                 }
-                depth2 = selectedDepth; // IA es Blancas
+                prof2 = profSeleccionada; // IA es Blancas
             } else {
                 // Configuración IA vs IA (Modo 2)
                 System.out.println("\n--- CONFIGURACIÓN DEL MODO ESPECTADOR (IA vs. IA) ---");
@@ -103,10 +101,10 @@ public class Main {
                 System.out.println("2) Medio (Profundidad 5) [Recomendado]");
                 System.out.println("3) Difícil (Profundidad 6)");
                 System.out.print("Opción (1-3): ");
-                String opt1 = scanner.nextLine().trim();
-                if (opt1.equals("1")) depth1 = 3;
-                else if (opt1.equals("2")) depth1 = 5;
-                else if (opt1.equals("3")) depth1 = 6;
+                String opcIA1 = teclado.nextLine().trim();
+                if (opcIA1.equals("1")) prof1 = 3;
+                else if (opcIA1.equals("2")) prof1 = 5;
+                else if (opcIA1.equals("3")) prof1 = 6;
                 else System.out.println("Opción inválida. Usando profundidad 5 por defecto.");
 
                 // IA 2 (Blancas)
@@ -115,10 +113,10 @@ public class Main {
                 System.out.println("2) Medio (Profundidad 5) [Recomendado]");
                 System.out.println("3) Difícil (Profundidad 6)");
                 System.out.print("Opción (1-3): ");
-                String opt2 = scanner.nextLine().trim();
-                if (opt2.equals("1")) depth2 = 3;
-                else if (opt2.equals("2")) depth2 = 5;
-                else if (opt2.equals("3")) depth2 = 6;
+                String opcIA2 = teclado.nextLine().trim();
+                if (opcIA2.equals("1")) prof2 = 3;
+                else if (opcIA2.equals("2")) prof2 = 5;
+                else if (opcIA2.equals("3")) prof2 = 6;
                 else System.out.println("Opción inválida. Usando profundidad 5 por defecto.");
 
                 // Flujo de avance
@@ -126,100 +124,100 @@ public class Main {
                 System.out.println("1) Manual (Paso a paso presionando ENTER)");
                 System.out.println("2) Automático (Simulación continua con retardo de 1.8 segundos)");
                 System.out.print("Opción (1-2): ");
-                String optFlow = scanner.nextLine().trim();
-                if (optFlow.equals("2")) {
-                    isAutoPlay = true;
+                String opcFlujo = teclado.nextLine().trim();
+                if (opcFlujo.equals("2")) {
+                    esAuto = true;
                 }
             }
 
             // Pantalla de inicio
-            if (gameMode == 1) {
+            if (modoJuego == 1) {
                 System.out.println("\nIniciando partida. Tú eres " + ANSI_GRAY_TEXT + "█" + ANSI_RESET + ANSI_BOLD + " Humano (Negras)" + ANSI_RESET + 
                                    ". La IA es " + ANSI_WHITE_TEXT + "█" + ANSI_RESET + ANSI_BOLD + " IA (Blancas)" + ANSI_RESET + ".");
                 System.out.println("Las casillas marcadas con '" + ANSI_YELLOW_TEXT + "+" + ANSI_RESET + "' son tus movimientos válidos.");
             } else {
                 System.out.println("\nIniciando partida IA vs. IA.");
-                System.out.println("Fichas Negras (█): IA 1 (Profundidad " + depth1 + ")");
-                System.out.println("Fichas Blancas (░): IA 2 (Profundidad " + depth2 + ")");
-                System.out.println("Flujo: " + (isAutoPlay ? "Automático (1.8s de retraso)" : "Manual (presiona ENTER para cada jugada)"));
+                System.out.println("Fichas Negras (█): IA 1 (Profundidad " + prof1 + ")");
+                System.out.println("Fichas Blancas (░): IA 2 (Profundidad " + prof2 + ")");
+                System.out.println("Flujo: " + (esAuto ? "Automático (1.8s de retraso)" : "Manual (presiona ENTER para cada jugada)"));
             }
             System.out.print("Presiona ENTER para comenzar el juego...");
-            scanner.nextLine();
+            teclado.nextLine();
 
-            Board board = new Board();
-            if (gameMode == 2) {
-                board.setPlayerLabels("IA 1 (Negras)", "IA 2 (Blancas)");
+            Tablero tablero = new Tablero();
+            if (modoJuego == 2) {
+                tablero.setEtiquetasJugadores("IA 1 (Negras)", "IA 2 (Blancas)");
             }
-            MinimaxAgent agent = new MinimaxAgent();
-            char turn = Board.BLACK; // Comienza el jugador Negro
+            AgenteMinimax agente = new AgenteMinimax();
+            char turno = Tablero.NEGRO; // Comienza el jugador Negro
 
-            while (!board.isTerminal()) {
-                List<int[]> legalMoves = board.getLegalMoves(turn);
+            while (!tablero.esTerminal()) {
+                List<int[]> movimientosLegales = tablero.getMovimientosLegales(turno);
 
-                if (legalMoves.isEmpty()) {
+                if (movimientosLegales.isEmpty()) {
                     // Lógica de "Pass" en Othello
-                    String playerStr;
-                    if (gameMode == 1) {
-                        playerStr = (turn == Board.BLACK) ? "Humano (Negras)" : "IA (Blancas)";
+                    String jugadorStr;
+                    if (modoJuego == 1) {
+                        jugadorStr = (turno == Tablero.NEGRO) ? "Humano (Negras)" : "IA (Blancas)";
                     } else {
-                        playerStr = (turn == Board.BLACK) ? "IA 1 (Negras)" : "IA 2 (Blancas)";
+                        jugadorStr = (turno == Tablero.NEGRO) ? "IA 1 (Negras)" : "IA 2 (Blancas)";
                     }
-                    System.out.println(ANSI_RED + "\n¡No hay movimientos legales para " + playerStr + "! Pasa de turno." + ANSI_RESET);
+                    System.out.println(ANSI_RED + "\n¡No hay movimientos legales para " + jugadorStr + "! Pasa de turno." + ANSI_RESET);
                     System.out.print("Presiona ENTER para continuar...");
-                    scanner.nextLine();
-                    turn = Board.getOpponent(turn);
+                    teclado.nextLine();
+                    turno = Tablero.getOponente(turno);
                     continue;
                 }
 
-                if (turn == Board.BLACK) {
+                if (turno == Tablero.NEGRO) {
                     // Turno de las Negras
-                    if (gameMode == 1) {
+                    if (modoJuego == 1) {
                         // MODO 1: Humano
                         System.out.print("\033[H\033[2J");
                         System.out.flush();
-                        board.printBoard(legalMoves); // Tablero siempre arriba
+                        tablero.imprimirTablero(movimientosLegales); // Tablero siempre arriba
                         System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TU TURNO: HUMANO (NEGRAS) ===" + ANSI_RESET);
-                        int[] selectedMove = null;
+                        int[] movSeleccionado = null;
 
-                        while (selectedMove == null) {
+                        while (movSeleccionado == null) {
                             System.out.print("Tu turno. Introduce tu coordenada (Ejemplo: F5 o C4): ");
-                            String input = scanner.nextLine().trim().toUpperCase();
+                            String entrada = teclado.nextLine().trim().toUpperCase();
 
-                            if (input.length() != 2) {
+                            if (entrada.length() != 2) {
                                 System.out.println(ANSI_RED + "Entrada inválida. Debe ser una letra (A-H) y un número (1-8)." + ANSI_RESET);
                                 continue;
                             }
 
-                            char colChar = input.charAt(0);
-                            char rowChar = input.charAt(1);
+                            char colChar = entrada.charAt(0);
+                            char rowChar = entrada.charAt(1);
 
                             int col = colChar - 'A';
                             int row = rowChar - '1';
 
-                            if (!Board.isValidCoordinate(row, col)) {
+                            if (!Tablero.esCoordenadaValida(row, col)) {
                                 System.out.println(ANSI_RED + "Coordenadas fuera del tablero." + ANSI_RESET);
                                 continue;
                             }
 
                             // Verificar si es un movimiento legal
-                            boolean isLegal = false;
-                            for (int[] move : legalMoves) {
-                                if (move[0] == row && move[1] == col) {
-                                    isLegal = true;
+                            boolean esLegal = false;
+                            for (int[] mov : movimientosLegales) {
+                                if (mov[0] == row && mov[1] == col) {
+                                    esLegal = true;
                                     break;
                                 }
                             }
 
-                            if (!isLegal) {
+                            if (!esLegal) {
                                 System.out.println(ANSI_RED + "¡Ese no es un movimiento válido! Revisa las pistas (+)." + ANSI_RESET);
                                 continue;
                             }
 
-                            selectedMove = new int[]{row, col};
+                            movSeleccionado = new int[]{row, col};
                         }
 
-                        board.makeMoveWithAnimation(selectedMove[0], selectedMove[1], Board.BLACK);
-                        System.out.println("\nJugaste en " + ANSI_YELLOW + (char)('A' + selectedMove[1]) + (selectedMove[0] + 1) + ANSI_RESET);
+                        tablero.realizarMovimientoConAnimacion(movSeleccionado[0], movSeleccionado[1], Tablero.NEGRO);
+                        System.out.println("\nJugaste en " + ANSI_YELLOW + (char)('A' + movSeleccionado[1]) + (movSeleccionado[0] + 1) + ANSI_RESET);
                         
                         try {
                             Thread.sleep(1200);
@@ -230,37 +228,37 @@ public class Main {
                         // MODO 2: IA 1 (Negras)
                         System.out.print("\033[H\033[2J");
                         System.out.flush();
-                        board.printBoard(null); // Tablero siempre arriba
+                        tablero.imprimirTablero(null); // Tablero siempre arriba
                         System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA IA 1: PENSANDO... ===" + ANSI_RESET);
-                        System.out.println(ANSI_CYAN + "IA 1 pensando... (Profundidad: " + depth1 + ")" + ANSI_RESET);
+                        System.out.println(ANSI_CYAN + "IA 1 pensando... (Profundidad: " + prof1 + ")" + ANSI_RESET);
 
-                        agent.resetCounters();
+                        agente.reiniciarContadores();
                         
                         // Calcular jugada con poda
                         long startTimePruning = System.nanoTime();
-                        int[] bestMove = agent.getBestMove(board, depth1, true, Board.BLACK);
+                        int[] bestMove = agente.getMejorMovimiento(tablero, prof1, true, Tablero.NEGRO);
                         long endTimePruning = System.nanoTime();
                         double durationPruningMs = (endTimePruning - startTimePruning) / 1_000_000.0;
 
-                        // Calcular sin poda para métricas (si depth1 <= 5)
+                        // Calcular sin poda para métricas (si prof1 <= 5)
                         long startTimeNoPruning = 0;
                         long endTimeNoPruning = 0;
                         double durationNoPruningMs = 0;
-                        boolean ranWithoutPruning = false;
+                        boolean corrioSinPoda = false;
 
-                        if (depth1 <= 5) {
+                        if (prof1 <= 5) {
                             startTimeNoPruning = System.nanoTime();
-                            agent.getBestMove(board, depth1, false, Board.BLACK);
+                            agente.getMejorMovimiento(tablero, prof1, false, Tablero.NEGRO);
                             endTimeNoPruning = System.nanoTime();
                             durationNoPruningMs = (endTimeNoPruning - startTimeNoPruning) / 1_000_000.0;
-                            ranWithoutPruning = true;
+                            corrioSinPoda = true;
                         }
 
                         if (bestMove != null) {
                             // Anunciar jugada encima del tablero actual
                             System.out.print("\033[H\033[2J");
                             System.out.flush();
-                            board.printBoard(null); // Tablero siempre arriba
+                            tablero.imprimirTablero(null); // Tablero siempre arriba
                             System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA IA 1: DECISIÓN ===" + ANSI_RESET);
                             System.out.println("La IA 1 jugará en " + ANSI_YELLOW + (char)('A' + bestMove[1]) + (bestMove[0] + 1) + ANSI_RESET);
                             
@@ -270,13 +268,13 @@ public class Main {
                                 Thread.currentThread().interrupt();
                             }
 
-                            // Animación de colocación (coloca la ficha en la misma posición de pantalla)
-                            board.makeMoveWithAnimation(bestMove[0], bestMove[1], Board.BLACK);
+                            // Animación de colocación
+                            tablero.realizarMovimientoConAnimacion(bestMove[0], bestMove[1], Tablero.NEGRO);
                             
                             // Limpiar y mostrar métricas
                             System.out.print("\033[H\033[2J");
                             System.out.flush();
-                            board.printBoard(null); // Tablero siempre arriba
+                            tablero.imprimirTablero(null); // Tablero siempre arriba
 
                             System.out.println("La IA 1 jugó en " + ANSI_YELLOW + (char)('A' + bestMove[1]) + (bestMove[0] + 1) + ANSI_RESET);
                             System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA IA 1: JUGADA REALIZADA ===" + ANSI_RESET);
@@ -285,24 +283,24 @@ public class Main {
                             System.out.println(ANSI_GREEN + ANSI_BOLD + "|   MÉTRICAS IA 1 (NEGRAS) - BÚSQUEDA ADVERSARIAL       |" + ANSI_RESET);
                             System.out.println(ANSI_GREEN + ANSI_BOLD + "+-------------------------------------------------------+" + ANSI_RESET);
                             
-                            long nodesWith = agent.getNodesEvaluatedWithPruning();
-                            System.out.printf("  Nodos evaluados CON poda Alfa-Beta : %,d%n", nodesWith);
+                            long nodosCon = agente.getNodosEvaluadosConPoda();
+                            System.out.printf("  Nodos evaluados CON poda Alfa-Beta : %,d%n", nodosCon);
                             System.out.printf("  Tiempo empleado CON poda           : %.2f ms%n", durationPruningMs);
                             
-                            if (ranWithoutPruning) {
-                                long nodesWithout = agent.getNodesEvaluatedWithoutPruning();
-                                System.out.printf("  Nodos evaluados SIN poda Alfa-Beta : %,d%n", nodesWithout);
+                            if (corrioSinPoda) {
+                                long nodosSin = agente.getNodosEvaluadosSinPoda();
+                                System.out.printf("  Nodos evaluados SIN poda Alfa-Beta : %,d%n", nodosSin);
                                 System.out.printf("  Tiempo empleado SIN poda           : %.2f ms%n", durationNoPruningMs);
                                 
-                                double reduction = (1.0 - ((double) nodesWith / nodesWithout)) * 100.0;
-                                System.out.printf("  " + ANSI_YELLOW + "Reducción de nodos                 : %.2f%%%n" + ANSI_RESET, reduction);
+                                double reduccion = (1.0 - ((double) nodosCon / nodosSin)) * 100.0;
+                                System.out.printf("  " + ANSI_YELLOW + "Reducción de nodos                 : %.2f%%%n" + ANSI_RESET, reduccion);
                             } else {
-                                System.out.println("  Nodos evaluados SIN poda (Est.): > " + String.format("%,d", nodesWith * 15));
+                                System.out.println("  Nodos evaluados SIN poda (Est.): > " + String.format("%,d", nodosCon * 15));
                             }
                             System.out.println(ANSI_GREEN + ANSI_BOLD + "+-------------------------------------------------------+" + ANSI_RESET);
                         }
 
-                        if (isAutoPlay) {
+                        if (esAuto) {
                             try {
                                 Thread.sleep(1800);
                             } catch (InterruptedException e) {
@@ -310,49 +308,49 @@ public class Main {
                             }
                         } else {
                             System.out.print("Presiona ENTER para el turno de la IA 2...");
-                            scanner.nextLine();
+                            teclado.nextLine();
                         }
                     }
 
                 } else {
                     // Turno de las Blancas (IA en Modo 1, IA 2 en Modo 2)
-                    String iaName = (gameMode == 1) ? "IA" : "IA 2";
+                    String nombreIA = (modoJuego == 1) ? "IA" : "IA 2";
                     
                     System.out.print("\033[H\033[2J");
                     System.out.flush();
-                    board.printBoard(null); // Tablero siempre arriba
-                    System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA " + iaName + ": PENSANDO... ===" + ANSI_RESET);
-                    System.out.println(ANSI_CYAN + iaName + " pensando... (Profundidad: " + depth2 + ")" + ANSI_RESET);
+                    tablero.imprimirTablero(null); // Tablero siempre arriba
+                    System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA " + nombreIA + ": PENSANDO... ===" + ANSI_RESET);
+                    System.out.println(ANSI_CYAN + nombreIA + " pensando... (Profundidad: " + prof2 + ")" + ANSI_RESET);
 
-                    agent.resetCounters();
+                    agente.reiniciarContadores();
                     
                     // Calcular jugada con poda
                     long startTimePruning = System.nanoTime();
-                    int[] bestMove = agent.getBestMove(board, depth2, true, Board.WHITE);
+                    int[] bestMove = agente.getMejorMovimiento(tablero, prof2, true, Tablero.BLANCO);
                     long endTimePruning = System.nanoTime();
                     double durationPruningMs = (endTimePruning - startTimePruning) / 1_000_000.0;
 
-                    // Calcular sin poda para métricas (si depth2 <= 5)
+                    // Calcular sin poda para métricas (si prof2 <= 5)
                     long startTimeNoPruning = 0;
                     long endTimeNoPruning = 0;
                     double durationNoPruningMs = 0;
-                    boolean ranWithoutPruning = false;
+                    boolean corrioSinPoda = false;
 
-                    if (depth2 <= 5) {
+                    if (prof2 <= 5) {
                         startTimeNoPruning = System.nanoTime();
-                        agent.getBestMove(board, depth2, false, Board.WHITE);
+                        agente.getMejorMovimiento(tablero, prof2, false, Tablero.BLANCO);
                         endTimeNoPruning = System.nanoTime();
                         durationNoPruningMs = (endTimeNoPruning - startTimeNoPruning) / 1_000_000.0;
-                        ranWithoutPruning = true;
+                        corrioSinPoda = true;
                     }
 
                     if (bestMove != null) {
                         // Anunciar jugada encima del tablero actual
                         System.out.print("\033[H\033[2J");
                         System.out.flush();
-                        board.printBoard(null); // Tablero siempre arriba
-                        System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA " + iaName + ": DECISIÓN ===" + ANSI_RESET);
-                        System.out.println("La " + iaName + " jugará en " + ANSI_YELLOW + (char)('A' + bestMove[1]) + (bestMove[0] + 1) + ANSI_RESET);
+                        tablero.imprimirTablero(null); // Tablero siempre arriba
+                        System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA " + nombreIA + ": DECISIÓN ===" + ANSI_RESET);
+                        System.out.println("La " + nombreIA + " jugará en " + ANSI_YELLOW + (char)('A' + bestMove[1]) + (bestMove[0] + 1) + ANSI_RESET);
                         
                         try {
                             Thread.sleep(1200);
@@ -361,86 +359,86 @@ public class Main {
                         }
 
                         // Animación de colocación
-                        board.makeMoveWithAnimation(bestMove[0], bestMove[1], Board.WHITE);
+                        tablero.realizarMovimientoConAnimacion(bestMove[0], bestMove[1], Tablero.BLANCO);
                         
                         // Limpiar y mostrar métricas
                         System.out.print("\033[H\033[2J");
                         System.out.flush();
-                        board.printBoard(null); // Tablero siempre arriba
+                        tablero.imprimirTablero(null); // Tablero siempre arriba
 
-                        System.out.println("La " + iaName + " jugó en " + ANSI_YELLOW + (char)('A' + bestMove[1]) + (bestMove[0] + 1) + ANSI_RESET);
-                        System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA " + iaName + ": JUGADA REALIZADA ===" + ANSI_RESET);
+                        System.out.println("La " + nombreIA + " jugó en " + ANSI_YELLOW + (char)('A' + bestMove[1]) + (bestMove[0] + 1) + ANSI_RESET);
+                        System.out.println(ANSI_CYAN + ANSI_BOLD + "=== TURNO DE LA " + nombreIA + ": JUGADA REALIZADA ===" + ANSI_RESET);
 
                         System.out.println(ANSI_GREEN + ANSI_BOLD + "+-------------------------------------------------------+" + ANSI_RESET);
-                        System.out.println(ANSI_GREEN + ANSI_BOLD + "|   MÉTRICAS " + iaName.toUpperCase() + " (BLANCAS) - BÚSQUEDA ADVERSARIAL   |" + ANSI_RESET);
+                        System.out.println(ANSI_GREEN + ANSI_BOLD + "|   MÉTRICAS " + nombreIA.toUpperCase() + " (BLANCAS) - BÚSQUEDA ADVERSARIAL   |" + ANSI_RESET);
                         System.out.println(ANSI_GREEN + ANSI_BOLD + "+-------------------------------------------------------+" + ANSI_RESET);
                         
-                        long nodesWith = agent.getNodesEvaluatedWithPruning();
-                        System.out.printf("  Nodos evaluados CON poda Alfa-Beta : %,d%n", nodesWith);
+                        long nodosCon = agente.getNodosEvaluadosConPoda();
+                        System.out.printf("  Nodos evaluados CON poda Alfa-Beta : %,d%n", nodosCon);
                         System.out.printf("  Tiempo empleado CON poda           : %.2f ms%n", durationPruningMs);
                         
-                        if (ranWithoutPruning) {
-                            long nodesWithout = agent.getNodesEvaluatedWithoutPruning();
-                            System.out.printf("  Nodos evaluados SIN poda Alfa-Beta : %,d%n", nodesWithout);
+                        if (corrioSinPoda) {
+                            long nodosSin = agente.getNodosEvaluadosSinPoda();
+                            System.out.printf("  Nodos evaluados SIN poda Alfa-Beta : %,d%n", nodosSin);
                             System.out.printf("  Tiempo empleado SIN poda           : %.2f ms%n", durationNoPruningMs);
                             
-                            double reduction = (1.0 - ((double) nodesWith / nodesWithout)) * 100.0;
-                            System.out.printf("  " + ANSI_YELLOW + "Reducción de nodos                 : %.2f%%%n" + ANSI_RESET, reduction);
+                            double reduccion = (1.0 - ((double) nodosCon / nodosSin)) * 100.0;
+                            System.out.printf("  " + ANSI_YELLOW + "Reducción de nodos                 : %.2f%%%n" + ANSI_RESET, reduccion);
                             System.out.printf("  " + ANSI_YELLOW + "Velocidad relativa                 : %.1fx más rápido%n" + ANSI_RESET, (durationNoPruningMs / durationPruningMs));
                         } else {
-                            System.out.println("  Nodos evaluados SIN poda (Est.): > " + String.format("%,d", nodesWith * 15));
+                            System.out.println("  Nodos evaluados SIN poda (Est.): > " + String.format("%,d", nodosCon * 15));
                         }
                         System.out.println(ANSI_GREEN + ANSI_BOLD + "+-------------------------------------------------------+" + ANSI_RESET);
                     } else {
                         System.out.print("\033[H\033[2J");
                         System.out.flush();
-                        board.printBoard(null); // Tablero siempre arriba
-                        System.out.println(ANSI_RED + "La " + iaName + " decidió pasar." + ANSI_RESET);
+                        tablero.imprimirTablero(null); // Tablero siempre arriba
+                        System.out.println(ANSI_RED + "La " + nombreIA + " decidió pasar." + ANSI_RESET);
                     }
 
-                    if (gameMode == 2 && isAutoPlay) {
+                    if (modoJuego == 2 && esAuto) {
                         try {
                             Thread.sleep(1800);
                         } catch (InterruptedException e) {
                             Thread.currentThread().interrupt();
                         }
                     } else {
-                        String nextTurnMsg = (gameMode == 1) ? "tu turno..." : "el turno de la IA 1...";
-                        System.out.print("Presiona ENTER para " + nextTurnMsg);
-                        scanner.nextLine();
+                        String siguienteMsg = (modoJuego == 1) ? "tu turno..." : "el turno de la IA 1...";
+                        System.out.print("Presiona ENTER para " + siguienteMsg);
+                        teclado.nextLine();
                     }
                 }
 
                 // Cambiar turno
-                turn = Board.getOpponent(turn);
+                turno = Tablero.getOponente(turno);
             }
 
             // Fin del juego
             System.out.print("\033[H\033[2J");
             System.out.flush();
-            board.printBoard(null); // Tablero siempre arriba
+            tablero.imprimirTablero(null); // Tablero siempre arriba
             System.out.println(ANSI_CYAN + ANSI_BOLD + "===============================================" + ANSI_RESET);
             System.out.println(ANSI_CYAN + ANSI_BOLD + "               ¡FIN DE LA PARTIDA!             " + ANSI_RESET);
             System.out.println(ANSI_CYAN + ANSI_BOLD + "===============================================" + ANSI_RESET);
             
-            int finalBlack = board.getScore(Board.BLACK);
-            int finalWhite = board.getScore(Board.WHITE);
+            int finalNegro = tablero.getPuntaje(Tablero.NEGRO);
+            int finalBlanco = tablero.getPuntaje(Tablero.BLANCO);
 
             System.out.println("Puntaje Final:");
-            String nameBlack = (gameMode == 1) ? "Humano (Negras)" : "IA 1 (Negras)";
-            String nameWhite = (gameMode == 1) ? "IA (Blancas)" : "IA 2 (Blancas)";
+            String nombreNegro = (modoJuego == 1) ? "Humano (Negras)" : "IA 1 (Negras)";
+            String nombreBlanco = (modoJuego == 1) ? "IA (Blancas)" : "IA 2 (Blancas)";
 
-            System.out.println(ANSI_GRAY_TEXT + "█" + ANSI_RESET + " " + nameBlack + ": " + ANSI_BOLD + finalBlack + ANSI_RESET);
-            System.out.println(ANSI_WHITE_TEXT + "█" + ANSI_RESET + " " + nameWhite + ": " + ANSI_BOLD + finalWhite + ANSI_RESET + "\n");
+            System.out.println(ANSI_GRAY_TEXT + "█" + ANSI_RESET + " " + nombreNegro + ": " + ANSI_BOLD + finalNegro + ANSI_RESET);
+            System.out.println(ANSI_WHITE_TEXT + "█" + ANSI_RESET + " " + nombreBlanco + ": " + ANSI_BOLD + finalBlanco + ANSI_RESET + "\n");
 
-            if (finalBlack > finalWhite) {
-                if (gameMode == 1) {
+            if (finalNegro > finalBlanco) {
+                if (modoJuego == 1) {
                     System.out.println(ANSI_GREEN + ANSI_BOLD + "¡Felicidades! Has derrotado a la Inteligencia Artificial." + ANSI_RESET);
                 } else {
                     System.out.println(ANSI_GREEN + ANSI_BOLD + "¡Partida finalizada! La IA 1 (Negras) ha ganado el enfrentamiento." + ANSI_RESET);
                 }
-            } else if (finalBlack < finalWhite) {
-                if (gameMode == 1) {
+            } else if (finalNegro < finalBlanco) {
+                if (modoJuego == 1) {
                     System.out.println(ANSI_RED + ANSI_BOLD + "La Inteligencia Artificial ha ganado. ¡Sigue practicando!" + ANSI_RESET);
                 } else {
                     System.out.println(ANSI_RED + ANSI_BOLD + "¡Partida finalizada! La IA 2 (Blancas) ha ganado el enfrentamiento." + ANSI_RESET);
@@ -450,9 +448,9 @@ public class Main {
             }
 
             System.out.print("\nPresiona ENTER para volver al menú principal...");
-            scanner.nextLine();
+            teclado.nextLine();
         }
 
-        scanner.close();
+        teclado.close();
     }
 }
