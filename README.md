@@ -8,7 +8,7 @@ El proyecto está estructurado en dos bloques principales:
 
 ---
 
-## 👥 Integrantes y Roles
+## Integrantes y Roles
 
 | Integrante | Rol | Responsabilidad Principal |
 | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ El proyecto está estructurado en dos bloques principales:
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 El repositorio está organizado de la siguiente manera:
 
@@ -60,9 +60,9 @@ Proyecto_IA/
 
 ---
 
-## 🛠️ Requisitos e Instalación
+## Requisitos e Instalación
 
-### ☕ Bloque A (Java)
+### Bloque A (Java)
 * Requiere **Java Development Kit (JDK) 11** o superior instalado en el sistema.
 
 * **Módulo de Búsqueda (Informe 1 - Solucionador de 8-Puzzle)**:
@@ -78,9 +78,6 @@ Proyecto_IA/
   ```
 
 * **Módulo de Juegos (Informe 2 - Othello con Poda Alfa-Beta)**:
-  > [!IMPORTANT]
-  > Este módulo **requiere obligatoriamente** compilarse con la bandera `-encoding UTF-8`. El archivo `Tablero.java` contiene caracteres especiales Unicode (`███` y `▒▒▒`) para pintar y animar el tablero y las fichas a color en consola. Si estás en Windows y compilas sin esta bandera, el compilador `javac` interpretará el código usando el charset por defecto de la plataforma (ej. Windows-1252) arrojando errores de compilación por caracteres no asignables (*unmappable character*).
-  
   Navega hasta la carpeta del código fuente de juegos, compila forzando UTF-8 y ejecuta:
   ```bash
   cd bloque_a_java/informe_2_juegos/src
@@ -98,7 +95,7 @@ Proyecto_IA/
 
 ---
 
-### 🐍 Bloque B (Python)
+### Bloque B (Python)
 * Requiere **Python 3.8 o superior** instalado en el sistema.
 
 #### 1. Configuración del Entorno Virtual e Instalación de Dependencias
