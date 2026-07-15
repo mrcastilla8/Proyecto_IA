@@ -8,7 +8,7 @@ El proyecto está estructurado en dos bloques principales:
 
 ---
 
-## 👥 Integrantes y Roles
+## Integrantes y Roles
 
 | Integrante | Rol | Responsabilidad Principal |
 | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ El proyecto está estructurado en dos bloques principales:
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 El repositorio está organizado de la siguiente manera:
 
@@ -33,11 +33,13 @@ Proyecto_IA/
 │
 ├── bloque_a_java/                      # Bloque A: Algoritmos de búsqueda y juegos en Java
 │   ├── informe_1_busqueda/             # Desarrollo del Informe 1 (Búsqueda en Espacio de Estados)
-│   │   ├── src/                        # Código fuente .java
-│   │   └── README.md                   # Guía de ejecución del módulo de búsqueda
+│   │   ├── src/                        # Código fuente .java (BFS, DFS, Greedy, A*)
+│   │   ├── IA_Informe1.docx            # Informe escrito (Word)
+│   │   └── diagnostico_informe1.md     # Diagnóstico del solucionador 8-puzzle
 │   └── informe_2_juegos/               # Desarrollo del Informe 2 (Juegos Adversariales y Poda)
-│       ├── src/                        # Código fuente .java (Minimax, Poda Alfa-Beta)
-│       └── README.md                   # Guía de juego y explicación del contador de nodos
+│       ├── src/                        # Código fuente .java (Minimax, Poda Alfa-Beta, Tablero)
+│       ├── Informe 2.docx              # Documento del Informe 2 (Word)
+│       └── Informe 2.pdf               # Documento del Informe 2 (PDF)
 │
 ├── bloque_b_python/                    # Bloque B: Aprendizaje Automático sobre la Empresa Ficticia
 │   ├── data/                           # Dataset y scripts de generación
@@ -46,36 +48,100 @@ Proyecto_IA/
 │   ├── notebooks/                      # Notebooks de Jupyter (.ipynb)
 │   │   ├── Informe_3_Regresion.ipynb
 │   │   ├── Informe_4_Clasificacion.ipynb
-│   │   ├── Informe_5_Agrupamiento.ipynb
-│   │   └── Informe_6_Reduccion.ipynb
+│   │   ├── Informe_5_Clustering.ipynb  # Algoritmos de clustering (K-Means, DBSCAN)
+│   │   └── Informe_6_Reduccion.ipynb   # Reducción de dimensionalidad (PCA, t-SNE)
 │   └── requirements.txt                # Dependencias requeridas del proyecto
 │
-└── entregables_finales/                 # PDF consolidados del proyecto
-    ├── informes_pdf/                   # Informes técnicos en PDF (1 al 6)
-    ├── Anexo_Prompts.pdf               # Bitácora detallada de prompts de IA
-    └── Autoevaluacion.pdf              # Cuadro de autoevaluación (Sección 11)
+└── entregables_finales/                 # Archivos finales del proyecto
+    ├── informes_pdf/                   # Carpeta para informes consolidados
+    ├── Anexo de Prompts - Generación del Dataset  (NovaConecta).pdf # Registro detallado de prompts de IA
+    └── DefinicionEmpresaFicticia_NovaConecta.pdf                    # Documento de definición de la empresa
 ```
 
 ---
 
-## 🛠️ Requisitos e Instalación
+## Requisitos e Instalación
 
 ### Bloque A (Java)
-* Requiere **Java Development Kit (JDK) 11** o superior.
-* Para compilar y ejecutar cualquiera de los módulos, navega a la carpeta correspondiente e inicia la clase `Main`:
+* Requiere **Java Development Kit (JDK) 11** o superior instalado en el sistema.
+
+* **Módulo de Búsqueda (Informe 1 - Solucionador de 8-Puzzle)**:
+  Este módulo está diseñado intencionalmente de forma portátil utilizando estrictamente caracteres ASCII plano (evitando tildes y símbolos Unicode) para funcionar sin dependencias en cualquier codificación del terminal. Aun así, se recomienda compilar indicando el charset por uniformidad:
   ```bash
   cd bloque_a_java/informe_1_busqueda/src
-  javac Main.java
+  
+  # Compilar forzando codificación UTF-8 (opcional pero recomendado)
+  javac -encoding UTF-8 Main.java State.java SearchNode.java SearchAlgorithms.java
+  
+  # Ejecutar la aplicación interactiva
   java Main
   ```
 
-### Bloque B (Python)
-* Requiere **Python 3.8+**.
-* Se recomienda crear un entorno virtual para instalar las dependencias:
+* **Módulo de Juegos (Informe 2 - Othello con Poda Alfa-Beta)**:
+  Navega hasta la carpeta del código fuente de juegos, compila forzando UTF-8 y ejecuta:
   ```bash
-  python -m venv venv
-  # En Windows:
-  .\venv\Scripts\activate
-  # Instalar dependencias:
-  pip install -r bloque_b_python/requirements.txt
+  cd bloque_a_java/informe_2_juegos/src
+  
+  # Compilar forzando codificación UTF-8 para admitir símbolos Unicode
+  javac -encoding UTF-8 Main.java Tablero.java AgenteMinimax.java EvaluadorHeuristico.java
+  
+  # Ejecutar el simulador interactivo de Othello
+  java Main
   ```
+  *Características del Othello en consola:*
+  - Agente de inteligencia artificial basado en Minimax optimizado con Poda Alfa-Beta.
+  - Modos de juego interactivos: Humano vs. IA, IA vs. IA (demostración automática).
+  - Interfaz de consola dinámica coloreada con códigos ANSI para mostrar el tablero y simular la animación del volteo de fichas.
+
+---
+
+### Bloque B (Python)
+* Requiere **Python 3.8 o superior** instalado en el sistema.
+
+#### 1. Configuración del Entorno Virtual e Instalación de Dependencias
+Para asegurar que los cuadernos corran correctamente sin conflictos de dependencias, se recomienda crear y activar un entorno virtual e instalar las librerías necesarias ejecutando los siguientes comandos desde la raíz del proyecto:
+
+* **En Windows (PowerShell/CMD):**
+  ```powershell
+  # Crear entorno virtual en la carpeta venv
+  python -m venv venv
+  
+  # Activar el entorno virtual
+  .\venv\Scripts\activate
+  
+  # Instalar librerías de cálculo científico, machine learning, visualización y el servidor de Jupyter
+  pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn joblib faker notebook
+  ```
+
+* **En Unix / macOS:**
+  ```bash
+  # Crear entorno virtual en la carpeta venv
+  python3 -m venv venv
+  
+  # Activar el entorno virtual
+  source venv/bin/activate
+  
+  # Instalar librerías necesarias
+  pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn joblib faker notebook
+  ```
+
+#### 2. Generación del Dataset (Opcional)
+Si deseas volver a generar el dataset sintético de la empresa ficticia **NovaConecta** con las reglas analíticas predefinidas:
+```bash
+cd bloque_b_python/data
+python generar_dataset.py
+```
+*Esto actualizará el archivo `dataset_novaconecta.csv` respetando la semilla fija para reproducibilidad.*
+
+#### 3. Ejecución de los Cuadernos de Jupyter (Notebooks)
+Para revisar y ejecutar paso a paso los modelos y análisis de cada informe del Bloque B:
+1. Activa tu entorno virtual (si no lo está).
+2. Ejecuta el servidor de Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+3. Tu navegador web se abrirá automáticamente. Navega a la carpeta `bloque_b_python/notebooks/` y abre cualquiera de los cuadernos de interés:
+   - **Informe 3 (Modelos de Regresión)**: [Informe_3_Regresion.ipynb](file:///c:/Users/marec/Desktop/Proyecto_gamarra/bloque_b_python/notebooks/Informe_3_Regresion.ipynb) (Modelado y evaluación de consumo y costos).
+   - **Informe 4 (Modelos de Clasificación)**: [Informe_4_Clasificacion.ipynb](file:///c:/Users/marec/Desktop/Proyecto_gamarra/bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb) (Predicción de fuga de clientes con optimización de hiperparámetros e imbalanced-learn).
+   - **Informe 5 (Modelado No Supervisado)**: [Informe_5_Clustering.ipynb](file:///c:/Users/marec/Desktop/Proyecto_gamarra/bloque_b_python/notebooks/Informe_5_Clustering.ipynb) (Segmentación de clientes vía K-Means y DBSCAN).
+   - **Informe 6 (Reducción de Dimensionalidad)**: [Informe_6_Reduccion.ipynb](file:///c:/Users/marec/Desktop/Proyecto_gamarra/bloque_b_python/notebooks/Informe_6_Reduccion.ipynb) (Visualización de clústeres mediante PCA y t-SNE).
