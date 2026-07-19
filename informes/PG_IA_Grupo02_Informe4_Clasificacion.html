@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Informe_4_Clasificacion</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>PG_IA_Grupo02_Informe4_Clasificacion</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7881,7 +7881,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
@@ -7944,7 +7944,7 @@ pandas: 3.0.3
 <h3 id="Localizaci%C3%B3n-robusta-y-carga-del-dataset">Localización robusta y carga del dataset<a class="anchor-link" href="#Localizaci%C3%B3n-robusta-y-carga-del-dataset">¶</a></h3><p>Se buscan rutas relativas compatibles con las formas habituales de ejecución:</p>
 <ul>
 <li>Desde la carpeta raíz del repositorio.</li>
-<li>Desde <code>bloque_b_python/notebooks</code> en Visual Studio Code.</li>
+<li>Desde <code>notebooks</code> en Visual Studio Code.</li>
 <li>Desde una clonación ubicada en <code>/content</code> en Google Colab.</li>
 </ul>
 <p>Solo si no existe una copia local se utiliza la dirección <em>raw</em> del repositorio como respaldo. De esta forma, el notebook no depende de una ruta absoluta específica del equipo del desarrollador.</p>
@@ -7956,7 +7956,7 @@ pandas: 3.0.3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">DATASET_NAME</span> <span class="o">=</span> <span class="s2">"dataset_novaconecta.csv"</span>
@@ -7977,7 +7977,7 @@ pandas: 3.0.3
 <span class="k">if</span> <span class="n">data_source</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
     <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span>
         <span class="s2">"No se encontró dataset_novaconecta.csv. Ejecute el notebook desde la "</span>
-        <span class="s2">"raíz del repositorio o desde bloque_b_python/notebooks. En Colab, clone "</span>
+        <span class="s2">"raíz del repositorio o desde notebooks. En Colab, clone "</span>
         <span class="s2">"primero el repositorio y cambie el directorio de trabajo a su raíz."</span>
     <span class="p">)</span>
 
@@ -8004,7 +8004,7 @@ Dimensiones: 1200 filas x 13 columnas
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8154,7 +8154,7 @@ Dimensiones: 1200 filas x 13 columnas
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Información general del DataFrame:</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
@@ -8203,7 +8203,7 @@ memory usage: 122.0 KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">resumen_columnas</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
@@ -8225,7 +8225,7 @@ memory usage: 122.0 KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8369,7 +8369,7 @@ memory usage: 122.0 KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">resumen_estadistico</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="s2">"all"</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
@@ -8384,7 +8384,7 @@ memory usage: 122.0 KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8612,7 +8612,7 @@ memory usage: 122.0 KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">filas_duplicadas</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">duplicated</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
@@ -8647,7 +8647,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tabla_nulos</span> <span class="o">=</span> <span class="p">(</span>
@@ -8670,7 +8670,7 @@ Identificadores duplicados: 0
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8740,7 +8740,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">distribucion_abandono</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
@@ -8759,7 +8759,7 @@ Identificadores duplicados: 0
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8811,7 +8811,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">conteos</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"abandono"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">reindex</span><span class="p">([</span><span class="s2">"No"</span><span class="p">,</span> <span class="s2">"Si"</span><span class="p">])</span>
@@ -8865,7 +8865,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tasa_plan</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span>
@@ -8885,7 +8885,7 @@ Identificadores duplicados: 0
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8942,7 +8942,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tasa_plan_plot</span> <span class="o">=</span> <span class="p">(</span>
@@ -8990,7 +8990,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">variables_clave</span> <span class="o">=</span> <span class="p">{</span>
@@ -9055,7 +9055,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">media_por_clase</span> <span class="o">=</span> <span class="p">(</span>
@@ -9075,7 +9075,7 @@ Identificadores duplicados: 0
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9135,7 +9135,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">correlation_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span>
@@ -9218,7 +9218,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">clv_por_abandono</span> <span class="o">=</span> <span class="p">(</span>
@@ -9238,7 +9238,7 @@ Identificadores duplicados: 0
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9329,7 +9329,7 @@ Identificadores duplicados: 0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">TARGET</span> <span class="o">=</span> <span class="s2">"abandono"</span>
@@ -9480,7 +9480,7 @@ Columnas excluidas: ['id_cliente', 'nombre_cliente', 'ciudad', 'fecha_registro',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span>
@@ -9513,7 +9513,7 @@ Columnas excluidas: ['id_cliente', 'nombre_cliente', 'ciudad', 'fecha_registro',
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9569,7 +9569,7 @@ Columnas excluidas: ['id_cliente', 'nombre_cliente', 'ciudad', 'fecha_registro',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span> <span class="o">==</span> <span class="mi">960</span><span class="p">,</span> <span class="s2">"El entrenamiento debe contener el 80 </span><span class="si">% d</span><span class="s2">e 1200 registros."</span>
@@ -9629,7 +9629,7 @@ Columnas excluidas: ['id_cliente', 'nombre_cliente', 'ciudad', 'fecha_registro',
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">NUMERIC_FEATURES</span> <span class="o">=</span> <span class="p">[</span>
@@ -9690,7 +9690,7 @@ Variables categóricas: ['plan_contratado']
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">numeric_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span>
@@ -9727,7 +9727,7 @@ Variables categóricas: ['plan_contratado']
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style>#sk-container-id-1 {
   /* Definition of color scheme common for light and dark mode */
@@ -10821,7 +10821,7 @@ forceTheme('sk-container-id-1');</script></body>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">X_train_prepared</span> <span class="o">=</span> <span class="n">preprocessor</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
@@ -10861,7 +10861,7 @@ Características resultantes (9):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">train_median</span> <span class="o">=</span> <span class="n">X_train</span><span class="p">[</span><span class="s2">"uso_datos_gb"</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
@@ -10902,7 +10902,7 @@ Características resultantes (9):
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10964,7 +10964,7 @@ Características resultantes (9):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">learned_median</span><span class="p">,</span> <span class="n">train_median</span><span class="p">),</span> <span class="p">(</span>
@@ -11004,7 +11004,7 @@ El conjunto de prueba no participó en fit, fit_transform ni en el aprendizaje d
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">preview_prepared</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
@@ -11024,7 +11024,7 @@ El conjunto de prueba no participó en fit, fit_transform ni en el aprendizaje d
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -11179,7 +11179,7 @@ El conjunto de prueba no participó en fit, fit_transform ni en el aprendizaje d
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">OrderedDict</span>
@@ -11246,7 +11246,7 @@ El conjunto de prueba no participó en fit, fit_transform ni en el aprendizaje d
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">cv_strategy</span> <span class="o">=</span> <span class="n">StratifiedKFold</span><span class="p">(</span>
@@ -11314,7 +11314,7 @@ Particiones de validación cruzada: 5
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">obtener_puntaje_continuo</span><span class="p">(</span><span class="n">modelo_ajustado</span><span class="p">,</span> <span class="n">X_data</span><span class="p">):</span>
@@ -11393,7 +11393,7 @@ Particiones de validación cruzada: 5
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">resultados_base</span> <span class="o">=</span> <span class="p">[]</span>
@@ -11465,7 +11465,7 @@ Evaluando: Random Forest...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">columnas_comparacion</span> <span class="o">=</span> <span class="p">[</span>
@@ -11498,7 +11498,7 @@ Evaluando: Random Forest...
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -11653,7 +11653,7 @@ Evaluando: Random Forest...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">metricas_cv_grafico</span> <span class="o">=</span> <span class="n">resultados_base_df</span><span class="p">[</span>
@@ -11693,7 +11693,7 @@ Evaluando: Random Forest...
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Persistencia-de-la-tabla">Persistencia de la tabla<a class="anchor-link" href="#Persistencia-de-la-tabla">¶</a></h4><p>Se guarda una copia de las métricas en <code>bloque_b_python/resultados/informe_4/metricas_modelos_base.csv</code> para facilitar la integración y el control de versiones.</p>
+<h4 id="Persistencia-de-la-tabla">Persistencia de la tabla<a class="anchor-link" href="#Persistencia-de-la-tabla">¶</a></h4><p>Se guarda una copia de las métricas en <code>notebooks/resultados/informe_4/metricas_modelos_base.csv</code> para facilitar la integración y el control de versiones.</p>
 </div>
 </div>
 </div>
@@ -11702,7 +11702,7 @@ Evaluando: Random Forest...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">localizar_raiz_repositorio</span><span class="p">():</span>
@@ -11737,7 +11737,7 @@ Evaluando: Random Forest...
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Tabla guardada en: /mnt/data/final_repo/Proyecto_IA-master/bloque_b_python/resultados/informe_4/metricas_modelos_base.csv
+<pre>Tabla guardada en: /mnt/data/final_repo/Proyecto_IA-master/notebooks/resultados/informe_4/metricas_modelos_base.csv
 </pre>
 </div>
 </div>
@@ -11799,7 +11799,7 @@ Evaluando: Random Forest...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">resultados_base_df</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">base_models</span><span class="p">)</span> <span class="o">==</span> <span class="mi">6</span>
@@ -11855,7 +11855,7 @@ No se aplicó SMOTE ni se ejecutó búsqueda de hiperparámetros.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">imblearn.over_sampling</span><span class="w"> </span><span class="kn">import</span> <span class="n">SMOTE</span>
@@ -11896,7 +11896,7 @@ No se aplicó SMOTE ni se ejecutó búsqueda de hiperparámetros.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">distribucion_train_original</span> <span class="o">=</span> <span class="p">(</span>
@@ -12007,7 +12007,7 @@ Modelo de clasificación
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">balance_models</span> <span class="o">=</span> <span class="n">OrderedDict</span><span class="p">({</span>
@@ -12107,7 +12107,7 @@ Modelo de clasificación
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">estrategias_balanceo</span> <span class="o">=</span> <span class="p">[</span>
@@ -12233,7 +12233,7 @@ Evaluando Random Forest — Sin balanceo...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">columnas_balanceo</span> <span class="o">=</span> <span class="p">[</span>
@@ -12266,7 +12266,7 @@ Evaluando Random Forest — Sin balanceo...
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -12428,7 +12428,7 @@ Evaluando Random Forest — Sin balanceo...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">resumen_estrategias</span> <span class="o">=</span> <span class="p">(</span>
@@ -12535,7 +12535,7 @@ Evaluando Random Forest — Sin balanceo...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">metricas_balanceo_plot</span> <span class="o">=</span> <span class="n">resultados_balanceo_df</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span>
@@ -12598,7 +12598,7 @@ Evaluando Random Forest — Sin balanceo...
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">preprocessor_smote_demo</span> <span class="o">=</span> <span class="n">clone</span><span class="p">(</span><span class="n">preprocessor</span><span class="p">)</span>
@@ -12789,7 +12789,7 @@ Observaciones sintéticas con algún valor One-Hot fraccionario: 1
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">balance_metrics_path</span> <span class="o">=</span> <span class="n">results_dir</span> <span class="o">/</span> <span class="s2">"metricas_balanceo.csv"</span>
@@ -12831,7 +12831,7 @@ Observaciones sintéticas con algún valor One-Hot fraccionario: 1
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Tabla de balanceo guardada en: /mnt/data/final_repo/Proyecto_IA-master/bloque_b_python/resultados/informe_4/metricas_balanceo.csv
+<pre>Tabla de balanceo guardada en: /mnt/data/final_repo/Proyecto_IA-master/notebooks/resultados/informe_4/metricas_balanceo.csv
 Las nueve comparaciones utilizaron exclusivamente X_train e y_train.
 El conjunto de prueba no fue remuestreado ni utilizado para seleccionar la estrategia.
 </pre>
@@ -12885,7 +12885,7 @@ El conjunto de prueba no fue remuestreado ni utilizado para seleccionar la estra
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
@@ -12916,7 +12916,7 @@ El conjunto de prueba no fue remuestreado ni utilizado para seleccionar la estra
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">tuning_candidates</span> <span class="o">=</span> <span class="n">OrderedDict</span><span class="p">({</span>
@@ -12976,7 +12976,7 @@ El conjunto de prueba no fue remuestreado ni utilizado para seleccionar la estra
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -13043,7 +13043,7 @@ El conjunto de prueba no fue remuestreado ni utilizado para seleccionar la estra
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">construir_pipeline_smote</span><span class="p">(</span><span class="n">estimador</span><span class="p">):</span>
@@ -13116,7 +13116,7 @@ El conjunto de prueba no fue remuestreado ni utilizado para seleccionar la estra
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">gc</span>
@@ -13230,7 +13230,7 @@ Búsquedas completadas.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">cv_columns_optimized</span> <span class="o">=</span> <span class="p">[</span>
@@ -13261,7 +13261,7 @@ Búsquedas completadas.
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -13360,7 +13360,7 @@ Búsquedas completadas.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">base_unbalanced_lookup</span> <span class="o">=</span> <span class="p">(</span>
@@ -13408,7 +13408,7 @@ Búsquedas completadas.
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -13487,7 +13487,7 @@ Búsquedas completadas.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">test_columns_optimized</span> <span class="o">=</span> <span class="p">[</span>
@@ -13513,7 +13513,7 @@ Búsquedas completadas.
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -13597,7 +13597,7 @@ Búsquedas completadas.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">overfitting_table</span> <span class="o">=</span> <span class="n">optimized_results_df</span><span class="p">[</span>
@@ -13623,7 +13623,7 @@ Búsquedas completadas.
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -13707,7 +13707,7 @@ Búsquedas completadas.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">selected_model_name</span> <span class="o">=</span> <span class="n">optimized_results_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">"Modelo"</span><span class="p">]</span>
@@ -13753,7 +13753,7 @@ Mejores parámetros: {'model__C': 1, 'model__gamma': 0.01, 'model__kernel': 'rbf
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">final_metrics_path</span> <span class="o">=</span> <span class="n">results_dir</span> <span class="o">/</span> <span class="s2">"metricas_modelos_finales.csv"</span>
@@ -13798,9 +13798,9 @@ Mejores parámetros: {'model__C': 1, 'model__gamma': 0.01, 'model__kernel': 'rbf
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Métricas finales: /mnt/data/final_repo/Proyecto_IA-master/bloque_b_python/resultados/informe_4/metricas_modelos_finales.csv
-Mejores parámetros: /mnt/data/final_repo/Proyecto_IA-master/bloque_b_python/resultados/informe_4/mejores_parametros.json
-Modelo seleccionado: /mnt/data/final_repo/Proyecto_IA-master/bloque_b_python/resultados/informe_4/mejor_modelo_clasificacion.joblib
+<pre>Métricas finales: /mnt/data/final_repo/Proyecto_IA-master/notebooks/resultados/informe_4/metricas_modelos_finales.csv
+Mejores parámetros: /mnt/data/final_repo/Proyecto_IA-master/notebooks/resultados/informe_4/mejores_parametros.json
+Modelo seleccionado: /mnt/data/final_repo/Proyecto_IA-master/notebooks/resultados/informe_4/mejor_modelo_clasificacion.joblib
 </pre>
 </div>
 </div>
@@ -13830,7 +13830,7 @@ Modelo seleccionado: /mnt/data/final_repo/Proyecto_IA-master/bloque_b_python/res
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">optimized_searches</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span>
@@ -13917,7 +13917,7 @@ El conjunto de prueba se evaluó una sola vez por modelo después de la búsqued
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.inspection</span><span class="w"> </span><span class="kn">import</span> <span class="n">permutation_importance</span>
@@ -13967,7 +13967,7 @@ El conjunto de prueba se evaluó una sola vez por modelo después de la búsqued
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -14029,7 +14029,7 @@ El conjunto de prueba se evaluó una sola vez por modelo después de la búsqued
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">disp</span> <span class="o">=</span> <span class="n">ConfusionMatrixDisplay</span><span class="p">(</span>
@@ -14096,7 +14096,7 @@ Verdaderos positivos (TP): 66
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Classification report del modelo ganador:</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
@@ -14211,7 +14211,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">fpr</span><span class="p">,</span> <span class="n">tpr</span><span class="p">,</span> <span class="n">thresholds</span> <span class="o">=</span> <span class="n">roc_curve</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_score_final</span><span class="p">)</span>
@@ -14272,7 +14272,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">permutation_result</span> <span class="o">=</span> <span class="n">permutation_importance</span><span class="p">(</span>
@@ -14436,7 +14436,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">base_final_comparison</span> <span class="o">=</span> <span class="n">resultados_base_df</span><span class="p">[</span>
@@ -14744,8 +14744,8 @@ weighted avg     0.7264    0.7125    0.7159       240
 <h3 id="Reproducibilidad-e-instrucciones-de-ejecuci%C3%B3n">Reproducibilidad e instrucciones de ejecución<a class="anchor-link" href="#Reproducibilidad-e-instrucciones-de-ejecuci%C3%B3n">¶</a></h3><h4 id="Ejecuci%C3%B3n-en-Visual-Studio-Code">Ejecución en Visual Studio Code<a class="anchor-link" href="#Ejecuci%C3%B3n-en-Visual-Studio-Code">¶</a></h4><ol>
 <li>Abrir la raíz del repositorio en VS Code.</li>
 <li>Crear y activar un entorno virtual.</li>
-<li>Instalar las dependencias de <code>bloque_b_python/requirements.txt</code>.</li>
-<li>Abrir <code>bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb</code>.</li>
+<li>Instalar las dependencias de <code>requirements.txt</code>.</li>
+<li>Abrir <code>notebooks/Informe_4_Clasificacion.ipynb</code>.</li>
 <li>Seleccionar el intérprete del entorno virtual como kernel.</li>
 <li>Ejecutar <strong>Restart Kernel and Run All</strong>.</li>
 </ol>
@@ -14764,7 +14764,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">platform</span>
@@ -14810,7 +14810,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -14903,7 +14903,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Persistencia de los resultados finales adicionales.</span>
@@ -15117,7 +15117,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Auditoría técnica final superada.
 El test no participó en GridSearchCV ni en la selección del modelo ganador.
-Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_repo/Proyecto_IA-master/bloque_b_python/resultados/informe_4
+Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_repo/Proyecto_IA-master/notebooks/resultados/informe_4
 </pre>
 </div>
 </div>
@@ -15143,47 +15143,189 @@ Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_re
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Anexo-de-prompts">Anexo de prompts<a class="anchor-link" href="#Anexo-de-prompts">¶</a></h2><p>El desarrollo del Informe 4 se documentó mediante seis prompts principales:</p>
-<table>
+<h2 id="Anexo-%E2%80%94-Registro-de-Prompts-(Informe-4)">Anexo — Registro de Prompts (Informe 4)<a class="anchor-link" href="#Anexo-%E2%80%94-Registro-de-Prompts-(Informe-4)">¶</a></h2><table>
 <thead>
 <tr>
-<th>N.°</th>
-<th>Etapa documentada</th>
+<th style="text-align:left">Campo</th>
+<th style="text-align:left">Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>P-01</td>
-<td>Auditoría técnica del dataset y diseño metodológico</td>
+<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">P-10</td>
 </tr>
 <tr>
-<td>P-02</td>
-<td>EDA, selección de variables y preprocesamiento</td>
+<td style="text-align:left"><strong>Objetivo</strong></td>
+<td style="text-align:left">Desarrollar el Informe 3 completo: generar el notebook ejecutable con el código del EDA, el preprocesamiento y los modelos de regresión.</td>
 </tr>
 <tr>
-<td>P-03</td>
-<td>Entrenamiento y comparación de modelos base</td>
+<td style="text-align:left"><strong>Herramienta</strong></td>
+<td style="text-align:left">Claude Code — Claude Fable 5 (Anthropic)</td>
 </tr>
 <tr>
-<td>P-04</td>
-<td>Análisis del desbalance y comparación de estrategias</td>
+<td style="text-align:left"><strong>Texto del prompt</strong></td>
+<td style="text-align:left">Actúa como un Data Scientist Senior. Necesito estructurar un Jupyter Notebook ejecutable en Python para la fase de análisis exploratorio (EDA) y modelado predictivo del caso NovaConecta. El notebook debe contener: un bloque en Markdown con el contexto de negocio; un bloque de carga para el archivo <code>dataset_novaconecta.csv</code> que implemente manejo de excepciones (try-except) para soportar ejecución tanto en entorno local como en Google Colab sin modificar el código; un análisis exploratorio (EDA) que ejecute detección de nulos, identificación de outliers mediante la regla de 1.5x IQR, gráficos de distribución y matriz de correlaciones; un flujo de preprocesamiento estricto encapsulado en un Pipeline de scikit-learn que aplique imputación por la mediana, winsorización y One-Hot Encoding; una división de datos (split 80/20, random_state=42) donde la estandarización (StandardScaler) se ajuste exclusivamente sobre el conjunto de entrenamiento para evitar cualquier fuga de datos (data leakage); la instanciación y entrenamiento de los siguientes modelos: Regresión Lineal (Simple y Múltiple), Regresión Polinómica (con búsqueda del grado óptimo por validación cruzada), Ridge, Lasso y Gradient Boosting; un bloque de evaluación que calcule MSE, RMSE y R² mediante validación cruzada de 5-folds, consolide las métricas en un DataFrame comparativo y grafique los residuos del mejor modelo. Asegúrate de que el código sea modular.</td>
 </tr>
 <tr>
-<td>P-05</td>
-<td>Ajuste de hiperparámetros y selección del modelo</td>
+<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">La IA generó el notebook <code>Informe_3_Regresion.ipynb</code> y lo ejecutó completo sin errores: 25 nulos imputados, 8 outliers winsorizados, mejor modelo Regresión Polinómica grado 2.</td>
 </tr>
 <tr>
-<td>P-06</td>
-<td>Evaluación final, interpretabilidad y auditoría de calidad</td>
+<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Verificado con ejecución completa tipo "Restart &amp; Run All". Observación del QA atendida: el prompt solicita explícitamente la generación del código del notebook.</td>
 </tr>
 </tbody>
 </table>
-<p>El texto literal de cada prompt, sus resultados y las validaciones realizadas se entregan en los archivos:</p>
-<ul>
-<li><code>entregables_finales/Registro_de_prompts_Aldana_COMPLETADO.xlsx</code></li>
-<li><code>entregables_finales/Registro_Prompts_Aldana.md</code></li>
-</ul>
-<p>Estos registros permiten demostrar cómo se utilizó la inteligencia artificial, qué resultados se incorporaron al proyecto y qué comprobaciones técnicas se efectuaron antes de aceptar cada resultado.</p>
+<hr/>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Campo</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">P-02</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Crear la primera parte del notebook con contexto, carga reproducible, EDA orientado a clasificación, selección de variables, split estratificado y pipeline de preprocesamiento sin entrenar modelos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Texto del prompt</strong></td>
+<td style="text-align:left">Continúa el Informe 4 de Clasificación de NovaConecta utilizando las decisiones aprobadas en la auditoría técnica anterior y lo que hay en el nuevo repositorio.<br/><br/>Crea el archivo bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb y desarrolla la primera parte del notebook de manera profesional, documentada y ejecutable en Visual Studio Code y Google Colab.<br/><br/>El notebook debe incluir:<br/><br/>1. Encabezado con universidad, curso, empresa ficticia, integrantes, responsable David Joel Aldana Chavez y objetivo.<br/>2. Descripción del problema de abandono de clientes de NovaConecta.<br/>3. Importación ordenada de librerías.<br/>4. Configuración reproducible con semilla 42.<br/>5. Una forma robusta de localizar dataset_novaconecta.csv mediante rutas relativas, independientemente de si el notebook se ejecuta desde la raíz o desde la carpeta notebooks.<br/>6. Carga del dataset.<br/>7. Dimensiones, tipos, resumen estadístico, duplicados y valores faltantes.<br/>8. Gráficos relevantes para la variable abandono y las principales variables predictoras.<br/>9. Análisis del desbalance de clases.<br/>10. Explicación técnica de por qué valor_vida_cliente produce data leakage.<br/>11. Selección justificada de X e y.<br/>12. Codificación de abandono como No=0 y Si=1.<br/>13. División train/test con test_size=0.20, random_state=42 y stratify=y.<br/>14. Identificación separada de variables numéricas y categóricas.<br/>15. Pipeline con SimpleImputer, OneHotEncoder y el escalador más apropiado.<br/>16. ColumnTransformer para encapsular el preprocesamiento.<br/>17. Verificaciones de que el conjunto de prueba no participa en el ajuste.<br/><br/>No apliques SMOTE todavía y no entrenes los modelos finales en esta etapa.<br/><br/>Utiliza celdas Markdown en español para explicar cada decisión. Evita código duplicado y funciones innecesariamente complejas. Ejecuta todas las celdas creadas y comprueba que no existan errores.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Se creó la primera parte del notebook con la carga de datos, EDA, selección de variables, división 80/20 y preprocesamiento con imputación, One-Hot Encoding y StandardScaler.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Se ejecutó todo sin errores. Se verificó que el preprocesamiento aprendiera solo con los datos de entrenamiento y que el conjunto de prueba quedara separado.</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Campo</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">P-03</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Implementar y comparar seis modelos base mediante pipelines, validación cruzada estratificada y métricas orientadas a detectar abandono.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Texto del prompt</strong></td>
+<td style="text-align:left">Continúa el notebook bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb de NovaConecta.<br/><br/>Implementa una etapa de modelado base utilizando exactamente el mismo train/test y el ColumnTransformer creado anteriormente.<br/><br/>Entrena estos modelos:<br/><br/>1. Regresión Logística.<br/>2. K-Nearest Neighbors.<br/>3. Support Vector Classifier.<br/>4. Árbol de Decisión.<br/>5. Random Forest.<br/>6. AdaBoost o Gradient Boosting como modelo de boosting.<br/><br/>Requisitos técnicos:<br/><br/>- Cada modelo debe estar encapsulado en un Pipeline.<br/>- Mantén random_state=42 en los modelos que lo permitan.<br/>- No utilices SMOTE todavía.<br/>- No ajustes hiperparámetros todavía.<br/>- Utiliza StratifiedKFold de 5 particiones.<br/>- Calcula resultados de validación cruzada solamente con el conjunto de entrenamiento.<br/>- Evalúa en el conjunto de prueba Accuracy, Precision, Recall, F1-Score y ROC-AUC cuando el modelo lo permita.<br/>- Usa zero_division=0 en las métricas cuando corresponda.<br/>- Registra el tiempo de entrenamiento de cada modelo.<br/>- Construye una tabla comparativa ordenada.<br/>- No selecciones un modelo basándote únicamente en Accuracy.<br/>- Analiza especialmente el Recall y F1 de la clase abandono.<br/>- Explica las diferencias entre modelos lineales, basados en distancia, margen, árboles y boosting.<br/>- Guarda opcionalmente la tabla como bloque_b_python/resultados/informe_4/metricas_modelos_base.csv.<br/><br/>No utilices el conjunto de prueba para modificar los hiperparámetros. Las conclusiones de esta etapa deben considerarse preliminares.<br/><br/>Ejecuta las nuevas celdas y verifica que el notebook funcione de principio a fin.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Se entrenaron seis modelos base: Regresión Logística, KNN, SVC, Árbol de Decisión, Random Forest y AdaBoost. La Regresión Logística obtuvo el mejor F1 de validación cruzada: 0.6755.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Se comprobó que todos los modelos usaran el mismo entrenamiento, prueba y pipeline. No se aplicó balanceo ni ajuste de parámetros en esta etapa.</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Campo</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">P-04</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Comparar sin balanceo, class_weight='balanced' y SMOTE, garantizando que el balanceo ocurra únicamente dentro del entrenamiento y de cada fold.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Texto del prompt</strong></td>
+<td style="text-align:left">Estoy analizando si el desbalance de la variable <code>abandono</code> afecta el rendimiento de los modelos.<br/><br/>Quiero comparar tres alternativas: trabajar con las clases originales, usar <code>class_weight='balanced'</code> y aplicar SMOTE. ¿Cómo debería realizar esta comparación con Regresión Logística, SVC y Random Forest usando <code>StratifiedKFold</code> de 5 particiones?<br/><br/>SMOTE debe usar <code>random_state=42</code> y ejecutarse dentro de un pipeline de <code>imbalanced-learn</code>, después del preprocesamiento y solamente sobre el entrenamiento de cada fold.<br/><br/>Oriéntame sobre cómo comparar Precision, Recall, F1 y ROC-AUC, y cómo interpretar el costo de falsos positivos y falsos negativos para decidir qué estrategia conviene conservar."Continúa el Informe 4 de Clasificación de NovaConecta y analiza rigurosamente el desbalance de la variable abandono.<br/><br/>No asumas que SMOTE es automáticamente beneficioso. Compara al menos estas estrategias:<br/><br/>1. Sin balanceo.<br/>2. class_weight='balanced' en los modelos que lo soporten.<br/>3. SMOTE aplicado correctamente dentro de un Pipeline de imbalanced-learn.<br/><br/>Requisitos:<br/><br/>- Utiliza únicamente los datos de entrenamiento para las comparaciones.<br/>- Aplica SMOTE después del preprocesamiento y nunca antes de train_test_split.<br/>- No apliques SMOTE al conjunto de prueba.<br/>- Asegúrate de que SMOTE se ejecute dentro de cada partición de validación cruzada para evitar data leakage.<br/>- Utiliza StratifiedKFold con 5 particiones.<br/>- Compara F1, Recall, Precision y ROC-AUC.<br/>- Muestra la distribución de clases original y la distribución generada por SMOTE en el entrenamiento.<br/>- Evalúa las estrategias con los modelos más apropiados, como Regresión Logística, SVC y Random Forest.<br/>- Analiza el costo de falsos positivos y falsos negativos en el contexto de NovaConecta.<br/>- Determina qué estrategia de balanceo se utilizará para el ajuste de hiperparámetros.<br/>- Justifica la decisión con resultados reales y no solamente con teoría.<br/>- Actualiza la tabla comparativa del notebook.<br/><br/>Ejecuta todo el notebook para verificar que los pipelines sean compatibles y que no exista fuga de información.<br/><br/>Al finalizar proporciona:<br/><br/>- Tabla comparativa de estrategias.<br/>- Decisión final sobre balanceo.<br/>- Justificación de negocio.<br/>- Cambios introducidos en el notebook.<br/><br/>Requisito adicional de reproducibilidad:<br/>- Instancia SMOTE con <code>random_state=42</code> o <code>random_state=SEED</code> en todos los pipelines y demostraciones para obtener resultados repetibles."</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Se compararon tres estrategias: sin balanceo, <code>class_weight</code> y SMOTE. SMOTE obtuvo el mejor F1 y Recall promedio, por lo que se eligió para la optimización.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Se verificó que SMOTE se aplicara solo dentro del entrenamiento y de cada fold. El conjunto de prueba no fue balanceado ni usado para elegir la estrategia.</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Campo</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">P-05</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Optimizar los tres modelos más prometedores mediante GridSearchCV, seleccionar el ganador por validación cruzada y evaluar los modelos optimizados sin usar el test durante la búsqueda.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Texto del prompt</strong></td>
+<td style="text-align:left">Continúa el notebook Informe_4_Clasificacion.ipynb utilizando los resultados reales de los modelos base y del análisis de balanceo.<br/><br/>Selecciona los tres modelos más prometedores según la validación cruzada del conjunto de entrenamiento. Entre ellos debe existir al menos un modelo de ensamble o boosting.<br/><br/>Realiza ajuste de hiperparámetros utilizando GridSearchCV o RandomizedSearchCV.<br/><br/>Requisitos:<br/><br/>1. El ajuste debe realizarse sobre pipelines completos que incluyan preprocesamiento y la estrategia de balanceo elegida.<br/>2. Utiliza StratifiedKFold de 5 particiones.<br/>3. Mantén el conjunto de prueba completamente separado durante la búsqueda.<br/>4. Define espacios de hiperparámetros razonables y justificados.<br/>5. Utiliza F1 como métrica principal de optimización, considerando también Recall, Precision, Accuracy y ROC-AUC.<br/>6. Evita búsquedas excesivamente grandes que no aporten valor.<br/>7. Muestra los mejores parámetros y la mejor puntuación de validación cruzada.<br/>8. Compara cada modelo optimizado con su versión base.<br/>9. Evalúa una sola vez los modelos optimizados en el conjunto de prueba.<br/>10. Construye la tabla comparativa definitiva.<br/>11. Selecciona el mejor modelo considerando rendimiento, estabilidad, costo de errores e interpretabilidad.<br/>12. Guarda opcionalmente:<br/>- metricas_modelos_finales.csv<br/>- mejores_parametros.json<br/>- mejor_modelo_clasificacion.joblib<br/><br/>No selecciones el modelo basándote repetidamente en el conjunto de prueba. No inventes resultados y reporta cualquier señal de sobreajuste.<br/><br/>Al finalizar proporciona:<br/><br/>- Mejores parámetros reales.<br/>- Resultados de validación cruzada.<br/>- Resultados finales del test.<br/>- Justificación del modelo seleccionado.<br/>- Lista de archivos creados o modificados.<br/><br/>Utiliza estos espacios de búsqueda controlados:<br/>- Regresión Logística: <code>C=[0.01, 0.1, 1, 10]</code> y <code>solver=['liblinear', 'lbfgs']</code>.<br/>- SVC: <code>C=[0.1, 1, 10, 30]</code>, <code>gamma=['scale', 0.01, 0.1]</code> y <code>kernel=['rbf']</code>.<br/>- Random Forest: <code>n_estimators=[100, 200]</code>, <code>max_depth=[5, 10]</code>, <code>min_samples_leaf=[2]</code> y <code>max_features=['sqrt']</code>.<br/>No amplíes estos rangos sin una justificación técnica.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Se optimizaron Regresión Logística, SVC y Random Forest con GridSearchCV. SVC obtuvo el mejor F1 de validación cruzada: 0.7006, con <code>C=1</code>, <code>gamma=0.01</code> y kernel RBF.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Se comprobó que GridSearchCV utilizara solo los datos de entrenamiento. El modelo ganador se eligió por validación cruzada, no por los resultados del test.</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<p>| Campo | Descripción |
+| :--- | :--- |
+| <strong>N°</strong> | P-06 |
+| <strong>Objetivo del prompt</strong> | Completar la evaluación final, interpretabilidad, conclusiones y auditoría de calidad del notebook, verificando el cumplimiento integral de la rúbrica. |
+| <strong>Herramienta / modelo de IA</strong> | ChatGPT — GPT-5.6 Thinking |
+| <strong>Texto del prompt</strong> | Realiza la revisión final del notebook bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb de NovaConecta como ingeniero senior de Machine Learning y auditor de calidad.<br/><br/>Completa y verifica:<br/><br/>1. Matriz de confusión del mejor modelo.<br/>2. Classification report.<br/>3. Accuracy, Precision, Recall y F1-Score.<br/>4. ROC-AUC y curva ROC, si corresponde.<br/>5. Interpretación detallada de verdaderos positivos, falsos positivos, falsos negativos y verdaderos negativos.<br/>6. Análisis del costo empresarial de los falsos negativos.<br/>7. Importancia de variables mediante coeficientes, feature_importances_ o permutation importance, según el modelo elegido.<br/>8. Interpretación de las variables más influyentes.<br/>9. Comparación final de todos los modelos.<br/>10. Justificación del modelo ganador.<br/>11. Recomendaciones concretas para que NovaConecta reduzca el abandono.<br/>12. Limitaciones del dataset sintético y del modelo.<br/>13. Conclusiones técnicas y de negocio.<br/>14. Información de versiones, semilla y reproducibilidad.<br/>15. Instrucciones breves para ejecutar el notebook.<br/><br/>Después realiza una auditoría completa:<br/><br/>- Comprueba que no se utilice valor_vida_cliente como predictor.<br/>- Comprueba que no exista data leakage.<br/>- Comprueba que train y test se separen antes del preprocesamiento.<br/>- Comprueba que SMOTE se aplique solamente al entrenamiento.<br/>- Comprueba que GridSearchCV no utilice el test.<br/>- Comprueba que todas las rutas sean relativas.<br/>- Comprueba que todas las celdas se ejecuten en orden.<br/>- Elimina código duplicado, variables sin usar y salidas innecesarias.<br/>- Ejecuta Restart Kernel and Run All.<br/>- Verifica el cumplimiento de cada criterio de la rúbrica del Informe 4.<br/><br/>No inventes métricas, cambios ni validaciones que no se hayan realizado.<br/><br/>Requisito de interpretabilidad:<br/>- Calcula <code>permutation_importance</code> con <code>scoring='f1'</code>, <code>random_state=42</code> o <code>random_state=SEED</code>, para que la importancia de variables sea coherente con la métrica usada para seleccionar el modelo. |
+| <strong>Resultado / cómo se usó</strong> | Se completó la evaluación final con matriz de confusión, métricas, curva ROC, importancia de variables, conclusiones y recomendaciones. El SVC obtuvo F1 de 0.6567 y Recall de 0.7174 en test. |
+| <strong>Validación / ajuste del equipo</strong> | Se ejecutó todo el notebook desde cero y sin errores. Se verificó que no hubiera fuga de datos, que SMOTE y GridSearchCV usaran solo entrenamiento y que se cumpliera la rúbrica. ||</p>
 </div>
 </div>
 </div>
