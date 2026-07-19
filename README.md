@@ -27,7 +27,7 @@ El proyecto está estructurado en dos bloques principales:
 El repositorio está organizado de la siguiente manera:
 
 ```text
-Proyecto_IA/
+grupo02-proyecto-ia/
 ├── README.md                           # Presentación del proyecto, roles y guías de ejecución
 ├── .gitignore                          # Exclusión de binarios de Java y entornos virtuales de Python
 ├── requirements.txt                    # Dependencias de Python del proyecto
