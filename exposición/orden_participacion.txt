@@ -1,0 +1,7 @@
+# ORDEN DE PARTICIPACIÓN - GRUPO 2
+#
+# Formato:
+# MM:SS–MM:SS — Apellidos y Nombres
+#
+# Ejemplo:
+# 00:00–04:45 — Kallpa De La Cruz Meza, Angel Luis

@@ -1,0 +1,1201 @@
+id_cliente,nombre_cliente,ciudad,fecha_registro,edad,plan_contratado,antiguedad_meses,uso_datos_gb,num_llamadas_soporte,cargo_mensual,satisfaccion_cliente,valor_vida_cliente,abandono
+NC-00001,Albano Llopis Hierro,Alicante,2025-08-30,56,Basico,10,16.4,4,30.13,4,327.42,Si
+NC-00002,Buenaventura de Bonet,Badajoz,2024-09-15,69,Estandar,22,48.2,1,45.18,8,1077.65,Si
+NC-00003,Ileana Antón-Andrés,Valencia,2023-12-30,46,Estandar,30,51.0,2,59.5,6,2510.68,No
+NC-00004,César Guerrero Vazquez,Palencia,2021-12-12,32,Estandar,55,31.4,1,63.76,8,4299.52,No
+NC-00005,Alba Mar Flor Rivas,Jaén,2022-10-21,60,Estandar,44,44.3,2,59.46,7,3321.44,No
+NC-00006,Jacobo del Agudo,Huesca,2024-07-19,25,Basico,23,19.7,3,35.55,6,1242.95,No
+NC-00007,Paco Rocamora Nieto,Melilla,2023-12-18,38,Estandar,31,30.1,4,62.7,6,2664.55,No
+NC-00008,Casemiro Garrido-Navarro,Jaén,2025-06-03,56,Premium,13,119.7,0,95.2,9,2336.57,No
+NC-00009,Arturo Pinto Caballero,Melilla,2022-12-16,36,Basico,43,21.6,0,29.56,9,1276.76,Si
+NC-00010,Soraya Núñez Lamas,Huelva,2022-11-29,40,Estandar,43,66.3,2,62.4,6,3430.52,No
+NC-00011,Pánfilo Segovia Casanovas,Madrid,2026-02-05,28,Basico,5,15.9,1,32.48,7,519.88,No
+NC-00012,Ani Marcos Pardo,Pontevedra,2023-12-21,28,Estandar,30,,6,59.51,4,1758.34,Si
+NC-00013,Celia Baños-Arroyo,Málaga,2023-02-04,41,Estandar,41,48.3,3,60.31,6,3197.4,No
+NC-00014,Rolando del Bernal,León,2023-01-13,70,Estandar,42,48.0,1,56.06,7,2321.73,Si
+NC-00015,Toribio de Pinto,Ceuta,2022-11-06,53,Basico,44,19.5,3,35.7,8,2009.9,No
+NC-00016,Javi Patiño-Cánovas,Málaga,2022-12-01,57,Estandar,43,47.8,2,62.78,8,3421.04,No
+NC-00017,Felicidad Gallego Lasa,Castellón,2023-07-27,41,Basico,35,14.6,1,24.78,8,1172.34,No
+NC-00018,Marco Donoso Hierro,Cádiz,2022-07-16,20,Basico,48,19.9,4,30.04,4,1767.88,No
+NC-00019,Jerónimo Pino Lerma,Huesca,2021-11-22,39,Basico,55,10.7,3,31.54,7,2078.78,No
+NC-00020,Constanza del Barba,Sevilla,2024-03-27,70,Basico,27,15.0,1,28.83,7,1053.5,No
+NC-00021,Segismundo de Moles,La Rioja,2026-06-06,19,Estandar,1,55.6,6,63.75,4,823.94,No
+NC-00022,Edelmira Batalla Galván,Toledo,2022-08-14,41,Estandar,47,27.5,2,57.42,6,3431.4,No
+NC-00023,Valentina Miranda-Garcia,Lugo,2025-04-17,61,Estandar,15,33.2,0,59.17,10,1639.51,No
+NC-00024,Gertrudis Segarra Clavero,Lugo,2023-10-05,47,Basico,33,17.7,2,29.77,7,1349.37,No
+NC-00025,Buenaventura Huerta-Jódar,Palencia,2024-09-08,55,Premium,22,97.9,3,84.82,8,2823.85,No
+NC-00026,Inés Pujol-Paredes,Segovia,2023-02-11,19,Estandar,41,,3,47.87,6,2562.43,No
+NC-00027,Bruno del Bou,Albacete,2023-04-16,38,Basico,39,13.3,4,34.28,7,1755.05,No
+NC-00028,Tito Canals Coronado,Alicante,2026-04-30,50,Premium,2,66.4,0,92.97,8,173.74,Si
+NC-00029,Ruy Roca Bartolomé,Ourense,2021-11-02,29,Premium,56,109.6,2,98.15,5,6710.42,No
+NC-00030,Francisca Solé Ángel,Barcelona,2024-03-28,39,Basico,27,14.0,2,32.07,5,1269.19,No
+NC-00031,Leonel Alberdi-Carbó,Ourense,2024-06-20,61,Basico,24,22.2,2,33.29,8,1257.29,No
+NC-00032,Pili del Nieto,Almería,2022-10-20,42,Premium,44,91.6,1,99.01,7,5502.39,No
+NC-00033,Eugenio Royo Cruz,Córdoba,2024-09-18,66,Estandar,21,37.8,3,61.0,5,1241.18,Si
+NC-00034,Abril Lago Valle,Melilla,2025-05-11,44,Basico,14,13.7,4,36.57,7,477.21,Si
+NC-00035,José Luis Camino Martín,Pontevedra,2026-02-19,59,Estandar,4,37.6,2,59.62,8,945.37,No
+NC-00036,María Fernanda Flor,Toledo,2022-12-05,45,Premium,43,,1,92.72,9,5147.25,No
+NC-00037,Glauco Cuéllar Abascal,Ávila,2026-01-30,33,Estandar,5,65.1,2,62.48,5,293.69,Si
+NC-00038,Etelvina Laura Aliaga Caparrós,León,2024-02-09,32,Estandar,29,36.6,7,54.48,4,1561.85,Si
+NC-00039,Valeria Meléndez Heras,Lugo,2022-07-30,64,Premium,47,83.9,2,91.49,7,5410.43,No
+NC-00040,Dionisio Bermúdez Boada,Ceuta,2021-10-03,68,Basico,57,15.3,1,32.42,9,2262.27,No
+NC-00041,Sabina Bayón Casas,Pontevedra,2024-12-25,61,Basico,18,19.4,2,32.76,8,915.7,No
+NC-00042,Narciso Talavera Dalmau,Zamora,2025-10-16,72,Estandar,9,25.8,1,57.05,8,1229.24,No
+NC-00043,Juan Luis Rocha-Galán,Salamanca,2022-10-12,69,Premium,45,99.1,6,87.97,5,4994.63,No
+NC-00044,Priscila de Mesa,Cáceres,2025-06-10,74,Basico,13,11.7,2,34.35,8,855.68,No
+NC-00045,Nazaret Perea Ríos,Lleida,2024-04-07,20,Estandar,27,45.5,2,63.72,8,2527.63,No
+NC-00046,Jennifer Carrillo,Ceuta,2022-11-14,54,Estandar,44,35.1,4,66.73,5,3730.39,No
+NC-00047,Daniel de Neira,Jaén,2021-07-31,68,Estandar,59,17.0,4,58.91,5,4136.65,No
+NC-00048,Macario Grau Giménez,Badajoz,2026-03-10,24,Estandar,4,43.7,0,59.38,7,193.3,Si
+NC-00049,Andrés Felipe Barral Granados,Cantabria,2025-11-10,38,Premium,8,97.2,3,89.65,5,716.33,Si
+NC-00050,Víctor Angulo Murillo,Burgos,2024-05-12,26,Estandar,26,34.2,5,65.88,5,1702.85,Si
+NC-00051,José Ángel Gárate Lopez,Cádiz,2024-01-22,56,Estandar,29,33.6,1,59.6,8,1730.18,Si
+NC-00052,Clotilde Catalán Suárez,Salamanca,2025-07-29,35,Basico,11,9.8,5,31.95,4,339.41,Si
+NC-00053,Ruben del Ramírez,Zamora,2024-01-04,21,Estandar,30,47.7,3,58.5,7,2494.24,No
+NC-00054,Asdrubal Caballero,Ávila,2026-06-04,42,Basico,1,18.5,1,30.26,10,50.0,Si
+NC-00055,Felicidad Roda Reig,Sevilla,2022-10-17,31,Basico,45,11.5,1,34.59,7,1918.74,No
+NC-00056,Teresa Balaguer Cabello,Pontevedra,2026-05-09,67,Estandar,2,34.6,1,53.35,7,771.4,No
+NC-00057,Heriberto Nicolau Canales,Vizcaya,2025-04-21,26,Basico,14,14.7,1,39.6,7,1086.79,No
+NC-00058,Clemente de Sanabria,Melilla,2024-06-04,43,Basico,25,24.1,3,39.45,6,1464.3,No
+NC-00059,Héctor Español Lopez,Huesca,2022-07-01,70,Estandar,48,45.5,1,57.78,8,3473.78,No
+NC-00060,Diana Benet Salazar,Tarragona,2025-08-14,19,Basico,11,11.2,1,26.8,7,271.4,Si
+NC-00061,Ariel de Alcolea,Ceuta,2021-11-19,37,Basico,55,16.2,6,21.54,4,1435.91,No
+NC-00062,Renato Guzmán Delgado,Zamora,2022-09-24,45,Estandar,45,26.2,2,51.36,7,2326.29,Si
+NC-00063,Julieta Teruel García,Huelva,2026-03-25,64,Estandar,3,47.2,3,63.37,6,224.06,Si
+NC-00064,Yaiza Barral Cózar,Las Palmas,2022-07-16,24,Basico,48,21.7,2,33.75,9,2038.38,No
+NC-00065,Abril Portero Lara,Córdoba,2024-03-01,61,Premium,28,123.6,1,99.83,7,4047.74,No
+NC-00066,Eloísa Rocha Torrecilla,Vizcaya,2021-10-03,25,Estandar,57,47.3,2,50.5,6,3487.45,No
+NC-00067,Claudio Martin Gelabert,Ávila,2024-12-16,64,Estandar,19,34.2,3,56.44,7,1038.71,Si
+NC-00068,Luis Miguel Barrera Mir,Pontevedra,2023-06-02,52,Estandar,37,27.0,2,64.54,7,3129.67,No
+NC-00069,Amador Tapia Valverde,Córdoba,2025-05-03,31,Premium,14,62.0,1,90.72,7,1307.11,Si
+NC-00070,Camila Barberá,Álava,2024-08-01,34,Estandar,23,11.9,4,49.83,6,1176.3,Si
+NC-00071,Anita Estevez,Ourense,2022-05-01,53,Estandar,50,46.9,2,59.13,6,3616.72,No
+NC-00072,Manuel Bayo Gutierrez,Melilla,2024-04-26,67,Estandar,26,39.0,5,55.04,4,1424.75,Si
+NC-00073,Azeneth Hoz Ariño,Jaén,2022-01-04,57,Basico,54,18.6,1,33.53,6,2207.78,No
+NC-00074,Anita Hortensia Yáñez Molina,Tarragona,2023-03-16,21,Basico,40,20.7,1,32.17,8,1650.29,No
+NC-00075,Cristian Miralles-Gómez,La Rioja,2026-07-04,19,Estandar,1,41.0,1,61.82,6,50.0,Si
+NC-00076,Hector Castro-Marín,Badajoz,2026-01-08,23,Estandar,6,41.5,3,53.06,5,295.15,Si
+NC-00077,Estela Belmonte Agustí,Las Palmas,2023-06-08,71,Estandar,37,35.4,1,56.3,8,2730.1,No
+NC-00078,María Ángeles Cabo Beltrán,Córdoba,2023-11-28,59,Basico,31,13.6,2,36.81,6,1541.24,No
+NC-00079,Clotilde del Cazorla,Ourense,2023-03-18,21,Estandar,40,47.3,2,52.96,7,2778.79,No
+NC-00080,Vera Bayona Hidalgo,Salamanca,2021-09-26,71,Basico,57,14.3,3,26.41,6,1830.78,No
+NC-00081,Elodia Cruz Ríos,Soria,2022-04-03,46,Estandar,51,36.8,3,59.68,6,3745.92,No
+NC-00082,Ofelia del Ángel,Valladolid,2026-02-14,35,Estandar,5,39.8,1,60.41,7,964.85,No
+NC-00083,Nazario Marí Calleja,La Rioja,2025-05-01,43,Estandar,14,48.9,1,57.45,8,1484.73,No
+NC-00084,Eligio Carlos Campo,Cádiz,2022-04-15,61,Estandar,51,,5,56.92,5,3601.59,No
+NC-00085,Calixta del Luján,Navarra,2025-11-24,51,Estandar,7,39.3,2,61.6,7,1148.32,No
+NC-00086,Clementina Paca Novoa Frutos,Córdoba,2024-11-24,27,Basico,19,,5,35.85,4,646.65,Si
+NC-00087,José Antonio Torres-Iglesias,Ourense,2023-03-14,53,Estandar,40,51.6,2,54.81,8,2188.71,Si
+NC-00088,Arturo Roda Lloret,Vizcaya,2025-09-18,31,Basico,9,14.0,0,33.22,7,309.03,Si
+NC-00089,Abel Múgica Castrillo,Valencia,2024-03-31,48,Estandar,27,32.8,1,65.84,8,2507.76,No
+NC-00090,Cecilio Sala-Roma,Sevilla,2025-11-23,65,Estandar,7,35.2,3,57.94,6,1141.48,No
+NC-00091,Adelia de Benet,Valencia,2022-01-08,32,Estandar,54,50.5,3,54.65,6,3569.43,No
+NC-00092,Leandro Araujo Peiró,León,2024-08-12,25,Estandar,23,60.3,5,55.4,4,1261.52,Si
+NC-00093,Mamen Colomer-Ropero,Badajoz,2024-12-04,31,Premium,19,63.7,2,90.57,5,1756.27,Si
+NC-00094,Alfonso Mendez Pastor,Málaga,2022-10-20,40,Premium,44,68.1,2,96.99,8,5435.2,No
+NC-00095,Vinicio Pallarès Gallo,Zamora,2025-03-07,74,Basico,16,14.3,1,31.23,9,907.32,No
+NC-00096,Nazario de Otero,Zaragoza,2024-09-08,57,Basico,22,15.4,3,32.49,5,761.39,Si
+NC-00097,Verónica del Cortes,Cáceres,2024-10-29,38,Basico,20,18.1,3,26.83,7,814.77,No
+NC-00098,Toni de Elorza,Santa Cruz de Tenerife,2024-09-18,33,Basico,21,11.4,4,36.06,6,784.32,Si
+NC-00099,Aitana Escobar Márquez,Zaragoza,2021-08-24,62,Estandar,58,29.4,5,52.21,4,3694.46,No
+NC-00100,Rosario Hurtado Lasa,Burgos,2023-12-19,35,Premium,30,92.8,0,91.76,9,3842.65,No
+NC-00101,Rufino Campoy Piñeiro,Pontevedra,2024-06-23,64,Basico,24,14.0,0,34.55,8,1234.91,No
+NC-00102,Timoteo Sosa Girón,Ávila,2024-07-13,70,Basico,24,18.7,5,21.67,6,722.73,No
+NC-00103,Sebastian Seguí,Córdoba,2024-03-01,41,Basico,28,16.9,0,32.56,9,935.11,Si
+NC-00104,Encarnación Goñi Gisbert,Huesca,2025-05-02,43,Estandar,14,45.6,5,54.36,5,1337.31,No
+NC-00105,Narciso Ferrando Pujadas,Pontevedra,2026-04-26,42,Estandar,2,39.0,5,58.98,5,147.02,Si
+NC-00106,Eligia Baños Lorenzo,Toledo,2022-04-16,62,Basico,51,24.4,3,30.68,7,1890.31,No
+NC-00107,Miguela Vergara Pulido,La Coruña,2023-05-19,58,Premium,38,73.2,0,102.85,8,5184.22,No
+NC-00108,Eusebia de Carlos,Teruel,2025-04-28,46,Estandar,14,46.1,0,57.64,8,1510.53,No
+NC-00109,Chuy Lara-Arenas,Vizcaya,2025-01-29,32,Basico,17,9.9,3,40.2,6,713.67,Si
+NC-00110,Marc Rovira Ojeda,Santa Cruz de Tenerife,2025-04-22,62,Estandar,14,29.3,2,60.86,8,1557.98,No
+NC-00111,Isa Vidal Carlos,León,2023-12-31,18,Estandar,30,33.9,4,54.38,6,1591.4,Si
+NC-00112,Ximena Falcón Iñiguez,Cantabria,2022-12-08,42,Basico,43,21.5,2,33.8,8,1806.09,No
+NC-00113,Paulino Rubio Abellán,Cantabria,2025-02-23,24,Basico,16,16.1,1,30.09,6,875.26,No
+NC-00114,Ángela Figueras,Zamora,2025-01-24,26,Basico,17,12.6,4,32.47,5,961.52,No
+NC-00115,Irene Becerra Murillo,Salamanca,2022-09-24,41,Basico,45,16.5,0,28.08,8,1621.51,No
+NC-00116,Estefanía Narcisa Casanovas Mas,Soria,2026-07-16,18,Premium,1,90.7,0,102.52,7,111.26,Si
+NC-00117,Esmeralda Real,Huesca,2022-04-11,61,Premium,51,80.2,1,97.65,8,6168.27,No
+NC-00118,Graciana Marqués Castejón,Segovia,2022-10-07,25,Basico,45,9.4,2,31.1,5,1763.95,No
+NC-00119,Humberto Pinilla,Cáceres,2023-04-24,41,Basico,38,20.8,1,40.73,9,2047.61,No
+NC-00120,Mario Mascaró Ramis,Cuenca,2024-02-15,28,Basico,29,15.8,5,31.95,6,900.84,Si
+NC-00121,Serafina de Mateu,Huelva,2025-07-31,68,Basico,11,23.7,5,37.86,4,406.18,Si
+NC-00122,Cruz Ildefonso Montserrat Sola,La Coruña,2026-01-05,34,Premium,6,108.8,3,96.07,6,667.72,Si
+NC-00123,Isaura García Vicente,Melilla,2024-05-25,25,Basico,25,17.2,3,33.69,7,1247.7,No
+NC-00124,Rosalina Doménech Blazquez,Valencia,2022-02-08,52,Basico,53,13.3,3,30.92,6,1950.65,No
+NC-00125,José Ángel Natanael Naranjo Bueno,Ávila,2024-09-27,52,Basico,21,10.6,5,31.54,5,650.08,Si
+NC-00126,Nicodemo del Gomila,Toledo,2022-04-18,50,Estandar,51,37.8,2,59.63,6,3724.96,No
+NC-00127,Candelario Amat,Huelva,2021-08-07,22,Basico,59,10.5,1,27.7,7,1971.48,No
+NC-00128,Donato Talavera Beltran,Ceuta,2025-01-10,59,Estandar,18,46.5,0,57.64,9,1702.52,No
+NC-00129,Herminia Ferreras Plana,Lleida,2023-11-14,56,Basico,32,21.5,0,31.07,9,987.89,Si
+NC-00130,Gloria Hervás Coloma,Ourense,2025-01-25,58,Estandar,17,37.4,3,59.89,4,995.93,Si
+NC-00131,Victoriano Campillo Rodríguez,Córdoba,2023-01-12,45,Estandar,42,49.4,1,59.79,9,3234.58,No
+NC-00132,Chus del Ayllón,La Rioja,2026-04-09,24,Basico,3,12.2,5,37.09,4,537.53,No
+NC-00133,Diana de Sastre,Navarra,2025-06-22,26,Basico,12,13.8,2,35.62,8,865.59,No
+NC-00134,Salvador Sobrino Molins,Málaga,2026-05-17,25,Premium,2,73.7,3,91.39,7,241.24,Si
+NC-00135,María José Vargas Roldan,Guipúzcoa,2022-09-16,29,Premium,46,47.3,6,96.64,3,4410.81,Si
+NC-00136,Itziar de Taboada,Zaragoza,2023-03-29,51,Estandar,39,39.6,0,68.33,10,2686.59,Si
+NC-00137,Dora Huertas Lluch,Murcia,2023-02-15,50,Estandar,41,41.3,0,48.91,8,2518.65,No
+NC-00138,Julieta Haro,Tarragona,2024-10-16,65,Premium,21,111.3,0,100.79,9,3319.09,No
+NC-00139,Isidro Berenguer-Macias,Jaén,2024-01-03,72,Estandar,30,48.0,2,56.34,6,2373.15,No
+NC-00140,Elías del Montenegro,Vizcaya,2026-04-03,40,Basico,3,18.2,3,35.82,6,85.02,Si
+NC-00141,Anita de Contreras,Valladolid,2025-09-19,41,Premium,9,70.5,1,98.24,6,830.54,Si
+NC-00142,Gregorio de Gargallo,Vizcaya,2021-11-26,54,Basico,55,16.8,1,27.3,8,1827.96,No
+NC-00143,Hipólito Ramón Muro,Soria,2024-02-11,52,Estandar,29,55.8,2,51.32,8,1534.24,Si
+NC-00144,Josefa del Barrios,Palencia,2026-07-10,61,Basico,1,16.5,1,35.83,9,461.4,No
+NC-00145,Sigfrido Rivera,Lugo,2024-02-17,57,Basico,29,22.3,2,32.91,6,1366.07,No
+NC-00146,Yolanda Aller Pintor,Córdoba,2025-09-30,39,Basico,9,,3,23.97,7,249.54,Si
+NC-00147,Adelaida Ortiz Martín,Jaén,2026-04-20,44,Estandar,2,37.3,3,71.38,6,216.9,Si
+NC-00148,Tamara Rius Giménez,Soria,2025-06-26,52,Basico,12,,2,34.34,8,380.51,Si
+NC-00149,Constanza Llamas Ruano,Zaragoza,2023-06-15,18,Basico,37,12.0,3,34.55,5,1249.88,Si
+NC-00150,Albina Porcel Navarrete,La Rioja,2021-10-09,52,Basico,57,8.9,2,37.72,5,2141.27,Si
+NC-00151,Paloma Dalmau Solsona,Melilla,2021-07-25,54,Estandar,59,34.8,4,55.58,6,3964.64,No
+NC-00152,María Amores Prada,Tarragona,2022-11-08,64,Premium,44,114.2,5,97.07,4,4201.46,Si
+NC-00153,Marcela Amores-Blanes,Ciudad,2023-10-12,31,Estandar,33,18.0,2,50.2,7,2278.61,No
+NC-00154,Bernarda Serrano Espada,Ávila,2024-02-05,20,Estandar,29,29.6,2,219.68,7,2256.17,No
+NC-00155,Eladio Pinilla Morán,Soria,2025-07-25,18,Premium,11,87.5,0,95.68,8,1036.46,Si
+NC-00156,Javi Morillo,Asturias,2022-08-07,22,Estandar,47,31.2,3,49.79,7,2950.38,No
+NC-00157,Pía Pinilla Lobo,Lugo,2023-12-28,43,Basico,30,12.9,3,28.11,4,869.99,Si
+NC-00158,Dolores Bilbao Sosa,Huelva,2025-02-03,72,Basico,17,13.0,1,26.66,9,803.98,No
+NC-00159,Reinaldo Azorin Olmo,Ourense,2023-01-26,31,Basico,41,14.0,0,32.11,8,1702.27,No
+NC-00160,Moreno de Arjona,Cádiz,2025-09-23,56,Basico,9,12.1,1,34.08,9,725.46,No
+NC-00161,Duilio Flores Almagro,Madrid,2023-08-17,44,Basico,35,11.8,1,34.89,7,1648.48,No
+NC-00162,Calista Dafne Cases Sáenz,Ciudad,2021-10-14,26,Estandar,57,49.3,1,64.92,7,4516.42,No
+NC-00163,Lope Gibert Sola,Córdoba,2022-07-23,32,Basico,47,19.2,2,38.78,7,2299.46,No
+NC-00164,Rodolfo Peinado-Diez,Ceuta,2023-11-26,32,Estandar,31,26.2,4,60.66,6,1899.82,Si
+NC-00165,María Dolores Piedad Carbó Céspedes,Ciudad,2025-09-26,43,Estandar,9,12.4,2,65.68,6,617.9,Si
+NC-00166,Baltasar Luis Miguel Amigó Mesa,Burgos,2022-02-10,59,Basico,53,19.3,3,32.53,7,2173.21,No
+NC-00167,Nicolasa Perez-Puente,Baleares,2024-08-14,30,Premium,23,65.4,2,90.67,6,3155.88,No
+NC-00168,Anselmo Herrero,Soria,2026-06-27,68,Estandar,1,42.1,5,62.25,4,111.02,Si
+NC-00169,Pablo Mata Carrillo,Salamanca,2025-08-18,49,Basico,11,,6,29.79,6,759.3,No
+NC-00170,Ricarda Armengol-Olivera,Valladolid,2026-05-10,56,Estandar,2,53.0,3,69.56,6,123.46,Si
+NC-00171,Inés del Bayón,Lugo,2025-04-02,66,Estandar,15,65.4,2,67.19,7,1807.63,No
+NC-00172,Miriam Nogueira,Salamanca,2023-09-27,69,Estandar,33,41.8,2,62.93,5,2063.84,Si
+NC-00173,Teobaldo Rivera Trillo,Madrid,2025-08-05,49,Estandar,11,39.1,3,59.57,7,674.98,Si
+NC-00174,Inocencio Paredes Segura,Madrid,2022-07-24,21,Estandar,47,36.8,0,56.64,10,3285.91,No
+NC-00175,Isaac Echeverría Vélez,Valladolid,2024-09-19,47,Estandar,21,47.8,1,63.29,7,2073.59,No
+NC-00176,Mario Tomás-Sola,La Coruña,2025-11-26,54,Basico,7,17.3,4,26.09,7,487.5,No
+NC-00177,Sara Ledesma Mora,Valladolid,2026-06-09,40,Basico,1,19.0,2,39.57,7,503.58,No
+NC-00178,Severo de Lorenzo,Almería,2021-09-10,56,Basico,58,12.5,1,30.36,8,2114.07,No
+NC-00179,Daniela Sobrino Pinilla,Lugo,2023-10-02,62,Estandar,33,43.4,1,60.87,9,2724.47,No
+NC-00180,Albina Urrutia Morcillo,Málaga,2022-12-05,32,Basico,43,12.8,2,26.73,7,1493.47,No
+NC-00181,Jose Francisco Garay Pacheco,La Coruña,2026-06-29,60,Premium,1,68.8,3,95.49,5,111.64,Si
+NC-00182,Francisco Losa-Llorente,Lleida,2022-01-15,46,Estandar,54,39.6,1,56.69,8,3792.64,No
+NC-00183,Adelina de Boada,Tarragona,2022-10-15,53,Premium,45,71.5,2,95.4,7,5461.2,No
+NC-00184,Plácido del Torres,Guadalajara,2024-04-06,30,Premium,27,113.5,5,100.14,5,2670.85,Si
+NC-00185,Purificación de Tamayo,Álava,2025-06-19,49,Premium,12,72.8,0,89.04,8,2131.86,No
+NC-00186,Jacinta Alemany Buendía,Jaén,2022-09-11,24,Premium,46,97.3,5,89.11,3,4090.77,Si
+NC-00187,Dan Hermenegildo Hervia Medina,Guadalajara,2024-08-01,68,Basico,23,12.6,2,38.92,10,1369.86,No
+NC-00188,Flor Sáenz-Núñez,Salamanca,2022-12-07,39,Estandar,43,42.8,1,58.32,7,3240.4,No
+NC-00189,Petrona Muro Ortiz,Cádiz,2021-12-29,45,Basico,54,12.9,1,32.41,8,2144.64,No
+NC-00190,Elba Medina Iglesias,Ciudad,2023-11-12,19,Basico,32,10.0,3,33.43,7,1476.57,No
+NC-00191,Benito de Moles,Lugo,2024-08-13,59,Estandar,23,44.8,2,53.21,8,1862.65,No
+NC-00192,Ramiro Esteve Feliu,Huesca,2025-02-10,62,Estandar,17,37.6,1,61.07,7,1795.35,No
+NC-00193,Rafael Tomé,Madrid,2024-07-28,74,Basico,23,16.1,2,32.11,5,721.46,Si
+NC-00194,Porfirio Zamorano-Luna,Castellón,2021-12-16,70,Estandar,55,35.7,4,55.35,5,3000.54,Si
+NC-00195,Sigfrido Ferrera Marti,Tarragona,2024-01-04,23,Premium,30,63.4,2,85.56,7,3612.86,No
+NC-00196,Geraldo de Mate,Huesca,2024-01-10,45,Estandar,30,50.8,2,63.11,7,1904.56,Si
+NC-00197,Paulino Castañeda Lledó,Cuenca,2026-01-18,45,Estandar,5,47.4,3,65.38,7,366.6,Si
+NC-00198,Amando Manzano Cases,Cádiz,2022-03-13,61,Premium,52,78.7,2,93.76,7,5927.8,No
+NC-00199,Aroa Alberola Luís,Ourense,2025-11-30,61,Premium,7,91.4,3,86.97,7,605.78,Si
+NC-00200,Julia Saez Niño,Badajoz,2023-03-12,37,Estandar,40,50.4,3,54.75,5,2850.2,No
+NC-00201,Amancio Iriarte Tejedor,Zaragoza,2023-02-07,47,Premium,41,80.9,2,90.93,5,3682.8,Si
+NC-00202,Segismundo Bas Pérez,Navarra,2022-05-07,28,Premium,50,84.0,3,101.22,6,6273.04,No
+NC-00203,Angelina Baeza Cordero,Jaén,2022-12-19,72,Premium,42,94.9,4,93.26,4,3952.53,Si
+NC-00204,Santiago Mateu Blázquez,Burgos,2026-03-03,45,Basico,4,13.2,2,28.98,6,178.5,Si
+NC-00205,Benigno del Gonzalez,Lugo,2024-04-15,42,Basico,27,18.4,0,23.47,10,944.8,No
+NC-00206,Fortunata Sanjuan,Cádiz,2024-03-26,56,Basico,27,14.3,3,28.15,7,1088.12,No
+NC-00207,Emma Romeu Mayoral,Madrid,2024-02-08,50,Basico,29,11.9,3,25.03,6,763.72,Si
+NC-00208,María Teresa Barrena-Cabezas,Santa Cruz de Tenerife,2023-11-08,18,Estandar,32,46.1,2,54.59,7,2429.3,No
+NC-00209,Matías Galván,Zamora,2024-08-17,74,Estandar,23,28.6,4,58.46,5,1330.05,Si
+NC-00210,Natalio Bertrán-Crespo,Granada,2022-05-11,44,Premium,50,130.3,4,96.02,6,5935.79,No
+NC-00211,Chema de Crespi,Navarra,2026-02-02,74,Basico,5,21.3,4,40.63,4,198.09,Si
+NC-00212,Hernando Sanjuan Soriano,La Coruña,2026-06-24,69,Premium,1,100.3,4,100.42,3,68.89,Si
+NC-00213,Alcides David Maldonado Luna,Tarragona,2024-07-14,30,Estandar,24,44.3,2,56.39,6,2020.72,No
+NC-00214,Andrea Guillen Lamas,Almería,2022-10-07,58,Estandar,45,43.8,1,54.8,8,3138.2,No
+NC-00215,Nadia Figuerola-Rodríguez,Córdoba,2021-08-27,20,Premium,58,80.2,0,99.93,10,7026.26,No
+NC-00216,Lalo Gomila Company,Santa Cruz de Tenerife,2022-09-16,56,Estandar,46,43.0,4,67.6,6,3098.23,Si
+NC-00217,Severiano Cisneros-Bellido,León,2025-12-13,23,Basico,7,,3,20.16,7,424.69,No
+NC-00218,Celestino Meléndez Malo,Córdoba,2023-12-09,25,Premium,31,100.1,0,95.47,8,4124.71,No
+NC-00219,Beatriz Solís Mateu,Huesca,2024-09-18,44,Basico,21,18.5,0,30.59,7,1030.34,No
+NC-00220,Elena Vall Uribe,Huelva,2025-09-01,26,Basico,10,13.5,7,34.6,4,318.43,Si
+NC-00221,Anita Ariño Rosales,La Rioja,2025-01-18,54,Premium,17,78.1,2,102.52,8,1797.07,Si
+NC-00222,María Del Carmen Ibáñez Amigó,Huelva,2024-06-09,50,Basico,25,10.2,8,28.6,2,731.6,Si
+NC-00223,Darío Almansa Leon,Ourense,2022-12-06,68,Estandar,43,54.6,0,50.16,8,2748.82,No
+NC-00224,Almudena Díez-Sosa,Vizcaya,2022-06-01,59,Basico,49,12.9,2,34.19,7,2070.32,No
+NC-00225,Modesta Salamanca,Huelva,2023-05-25,61,Premium,37,86.0,0,100.55,9,4917.64,No
+NC-00226,Cipriano Ruano-Téllez,Soria,2022-11-10,41,Basico,44,16.2,1,30.1,8,1655.05,No
+NC-00227,Joel Oliveras Real,Vizcaya,2025-10-28,32,Premium,8,95.6,6,91.03,4,757.89,Si
+NC-00228,Estrella Calvo Cuevas,Ávila,2023-06-04,71,Estandar,37,47.5,1,57.56,8,2792.96,No
+NC-00229,Guiomar Valbuena Maldonado,Salamanca,2023-02-23,49,Basico,40,13.5,2,35.6,7,1859.89,No
+NC-00230,Ruth Arco Sanz,Lleida,2026-04-18,49,Estandar,3,28.6,1,55.59,8,153.27,Si
+NC-00231,Fausto Iniesta Morales,Cáceres,2026-01-06,41,Premium,6,63.7,1,93.01,7,578.18,Si
+NC-00232,Rolando Quintero Vilar,La Rioja,2026-01-26,58,Estandar,5,34.2,5,58.56,6,317.0,Si
+NC-00233,Nando Sevilla Reyes,Asturias,2026-03-26,69,Basico,3,11.2,5,30.74,6,72.9,Si
+NC-00234,Ciríaco Villegas Pardo,Cáceres,2022-07-07,66,Estandar,48,37.0,3,62.21,5,2985.06,Si
+NC-00235,Prudencia Leticia Salamanca Aznar,Ceuta,2025-02-03,66,Estandar,17,53.1,2,57.92,6,941.34,Si
+NC-00236,Eliseo Castro,Guadalajara,2025-06-17,69,Estandar,13,36.2,2,56.47,7,785.13,Si
+NC-00237,Isidoro Valerio Tormo Carrión,Teruel,2022-03-12,29,Estandar,52,36.2,5,62.61,5,3287.76,Si
+NC-00238,Maxi Heras Cuadrado,Pontevedra,2022-07-15,56,Basico,48,14.9,4,26.56,6,1551.73,No
+NC-00239,Leoncio Adrián Raya Buendía,Cuenca,2022-08-29,19,Basico,46,13.4,4,26.94,5,1536.51,No
+NC-00240,Sosimo de Serrano,Vizcaya,2021-09-09,20,Estandar,58,39.3,3,52.63,7,3680.06,No
+NC-00241,Moisés Correa Valentín,Valencia,2025-08-15,66,Basico,11,,3,35.97,6,396.83,Si
+NC-00242,José Manuel Patricio Llano Ribes,La Rioja,2024-07-03,54,Basico,24,18.5,4,31.32,6,1106.94,No
+NC-00243,Jovita Hervás Saura,Cádiz,2024-03-12,66,Premium,28,110.1,5,89.44,5,3543.25,No
+NC-00244,Blanca del Farré,Barcelona,2024-08-17,73,Estandar,23,60.6,0,65.33,10,2298.4,No
+NC-00245,Liliana Piedad Cerezo Baños,Sevilla,2022-09-22,34,Estandar,45,45.7,1,56.79,7,3289.21,No
+NC-00246,Rolando Ribera-Nieto,Valencia,2025-04-21,66,Premium,14,134.7,4,94.11,5,1319.18,Si
+NC-00247,Débora Acedo,Castellón,2025-12-29,19,Estandar,6,32.2,1,57.24,6,1021.57,No
+NC-00248,Primitivo Eustaquio Tovar Comas,La Coruña,2024-06-14,19,Premium,25,131.8,1,105.57,9,3894.18,No
+NC-00249,Lupita Tomé Ochoa,Badajoz,2023-01-04,45,Estandar,42,36.2,1,56.65,6,2346.4,Si
+NC-00250,Mamen Pi Sarabia,Lugo,2024-02-19,71,Basico,28,13.9,4,34.27,7,1350.64,No
+NC-00251,Tomasa Fabregat Haro,Albacete,2021-10-15,40,Basico,57,14.5,3,35.09,6,2455.29,No
+NC-00252,Fátima Guillen-Reig,Melilla,2022-07-21,54,Estandar,47,37.8,3,61.0,6,3536.87,No
+NC-00253,Federico Suárez Piquer,Badajoz,2023-06-08,49,Estandar,37,40.9,2,65.45,7,3209.15,No
+NC-00254,Narcisa Cornejo Valbuena,Salamanca,2022-08-21,50,Basico,46,12.7,2,27.73,7,1609.18,No
+NC-00255,Bernardino Vallés Mármol,Ávila,2022-10-03,18,Basico,45,18.3,2,26.61,8,1520.32,No
+NC-00256,Ulises Sacristán Cabo,Granada,2023-06-21,36,Basico,36,12.8,3,25.97,5,956.74,Si
+NC-00257,Zaida Saura,Ciudad,2024-02-28,19,Basico,28,17.6,2,31.04,6,870.95,Si
+NC-00258,Poncio Cobos Redondo,León,2022-08-11,70,Estandar,47,55.3,3,55.79,5,3277.99,No
+NC-00259,Anselmo Soria Landa,Barcelona,2023-04-30,61,Basico,38,13.6,3,32.1,7,1585.3,No
+NC-00260,Matilde Puga Bernat,Albacete,2022-08-26,43,Estandar,46,47.9,3,60.17,6,3528.81,No
+NC-00261,Tamara Pinto Moliner,Sevilla,2022-03-19,49,Estandar,52,45.6,1,64.65,8,4168.83,No
+NC-00262,Trini Araujo Bayona,Guadalajara,2025-02-26,23,Estandar,16,62.5,3,62.71,6,1089.69,Si
+NC-00263,Maximiano del Gordillo,Lleida,2022-06-30,49,Premium,48,79.9,2,90.91,8,5446.17,No
+NC-00264,Isaac Cabello Cabrera,Navarra,2022-03-16,72,Basico,52,18.2,1,33.87,7,2148.53,No
+NC-00265,Carina Marí Andres,Barcelona,2021-09-14,21,Estandar,58,23.7,0,52.22,9,3669.0,No
+NC-00266,Fermín Barba Marcos,Palencia,2025-08-30,72,Basico,10,13.0,1,31.11,9,697.29,No
+NC-00267,Florentina Rosa Coello,Santa Cruz de Tenerife,2025-03-18,28,Basico,16,16.4,2,33.24,8,949.81,No
+NC-00268,Juan Manuel del Escolano,Melilla,2021-11-27,73,Premium,55,117.9,0,97.44,7,5384.61,Si
+NC-00269,Chucho Bermúdez Piñeiro,Huelva,2023-03-20,34,Basico,39,10.1,1,33.09,7,1706.39,No
+NC-00270,Nilda Dalila Valenciano Clemente,Murcia,2022-06-17,55,Basico,49,18.1,1,28.59,8,1776.24,No
+NC-00271,Jerónimo del Segura,Zaragoza,2021-10-27,41,Estandar,56,39.4,1,64.7,7,4435.84,No
+NC-00272,Nazario Agustí-Sola,León,2025-11-29,22,Basico,7,8.9,2,40.0,7,316.78,Si
+NC-00273,Nilo Leandro Cruz Benavent,Huesca,2022-01-18,69,Premium,53,93.6,0,86.35,9,5544.91,No
+NC-00274,Fabiola Martínez Rodrigo,Córdoba,2025-07-14,51,Basico,12,21.8,2,26.1,7,633.37,No
+NC-00275,Javier Matas-Flor,Granada,2022-07-22,23,Premium,47,67.6,0,91.98,8,5399.12,No
+NC-00276,Tamara Tomas Campillo,Álava,2023-09-12,39,Estandar,34,38.9,2,57.61,7,2681.72,No
+NC-00277,Graciano del Marqués,Huelva,2021-11-29,28,Estandar,55,30.1,4,67.49,6,4453.36,No
+NC-00278,Aitor Severino Priego Llobet,Lugo,2022-02-08,65,Premium,53,80.6,0,94.16,5,6164.48,No
+NC-00279,Lorenzo Avilés Valdés,Tarragona,2024-02-10,33,Basico,29,20.7,3,39.03,6,1105.93,Si
+NC-00280,Román Salomón Grau Ortuño,Valladolid,2021-08-18,50,Premium,59,84.6,3,83.21,5,4876.57,Si
+NC-00281,Maximino de Iglesia,Granada,2022-05-13,26,Basico,50,20.6,3,36.13,7,2250.75,No
+NC-00282,Mauricio Caballero Ariza,Vizcaya,2022-08-06,23,Estandar,47,51.1,0,56.53,8,3324.07,No
+NC-00283,Rufino Isidro Aragonés Patiño,Zaragoza,2023-04-17,33,Basico,39,13.5,1,27.69,8,1465.57,No
+NC-00284,Artemio Marquez Morillo,Pontevedra,2026-07-17,46,Estandar,1,35.0,3,57.26,7,785.27,No
+NC-00285,Carmelita Font Catalán,Zamora,2023-03-31,20,Basico,39,11.4,1,24.02,7,921.45,Si
+NC-00286,Valentina del Valls,Navarra,2023-02-12,37,Premium,41,71.4,4,94.35,5,5031.82,No
+NC-00287,Severo Córdoba-Jimenez,Cantabria,2024-07-14,53,Premium,24,97.1,0,95.66,10,3427.4,No
+NC-00288,Rosenda Marquez Nevado,Navarra,2021-10-16,36,Premium,57,89.6,3,95.29,6,6558.39,No
+NC-00289,Joaquín Benet Chico,La Coruña,2022-04-26,43,Basico,50,12.5,0,35.69,7,2234.21,No
+NC-00290,Tito del Paz,Cáceres,2022-10-13,20,Estandar,45,24.5,1,65.02,7,3749.82,No
+NC-00291,Ruperto Prat Alcalá,Jaén,2023-11-26,36,Estandar,31,41.1,2,57.29,7,2450.24,No
+NC-00292,Julio Casals-Sanz,Córdoba,2026-06-23,37,Basico,1,13.1,0,33.7,9,427.15,No
+NC-00293,Nerea Juárez Piquer,Las Palmas,2024-07-02,49,Basico,24,14.2,5,32.88,4,1192.72,No
+NC-00294,Asunción Guillen Soto,Melilla,2024-07-16,24,Basico,24,16.2,2,33.51,6,777.42,Si
+NC-00295,Martín Mosquera Giralt,Girona,2022-11-28,69,Estandar,43,15.0,2,58.46,7,3262.26,No
+NC-00296,Maximino Simó Matas,La Rioja,2025-10-20,58,Estandar,8,24.7,0,65.42,7,496.25,Si
+NC-00297,Azahar Chaves Arrieta,Asturias,2023-08-08,50,Estandar,35,63.0,2,59.0,8,2754.0,No
+NC-00298,Evaristo Ugarte Carmona,Barcelona,2025-11-02,57,Basico,8,13.0,2,23.67,9,526.42,No
+NC-00299,Desiderio Cerdá Pont,Baleares,2026-05-24,56,Basico,1,4.9,0,27.0,9,357.44,No
+NC-00300,Flora Rius Cortes,Salamanca,2022-02-15,35,Basico,53,9.2,0,34.71,8,2314.46,No
+NC-00301,Morena Cabeza Tovar,Cuenca,2022-05-21,57,Premium,49,139.7,1,99.09,8,6037.91,No
+NC-00302,Griselda Elisa Aparicio Pellicer,Cantabria,2026-06-18,18,Basico,1,12.2,3,28.88,7,451.03,No
+NC-00303,Iván Sales,Albacete,2021-08-30,28,Basico,58,19.6,1,26.58,8,1879.07,No
+NC-00304,Teófilo del Cabezas,Almería,2026-01-16,45,Basico,6,15.5,4,32.66,5,173.39,Si
+NC-00305,Macaria Palmer Barrera,Cádiz,2023-05-23,74,Premium,37,80.3,1,96.25,7,3538.21,Si
+NC-00306,Eliana Falcó Carvajal,Girona,2023-03-05,42,Premium,40,105.5,2,97.08,7,3839.48,Si
+NC-00307,Apolonia Garay Almazán,Barcelona,2023-12-10,67,Estandar,31,16.2,3,55.35,6,2339.62,No
+NC-00308,Rubén Múgica Hervia,Toledo,2023-01-02,40,Estandar,42,25.6,3,58.29,5,2428.39,Si
+NC-00309,Rubén Fuertes Bayona,Ceuta,2026-02-10,48,Estandar,5,35.1,2,59.21,6,266.3,Si
+NC-00310,Claudia de Guijarro,Burgos,2021-07-31,47,Basico,59,9.6,0,31.91,7,2188.27,No
+NC-00311,Remedios Coloma Acedo,Madrid,2022-05-20,59,Premium,49,78.4,4,86.92,5,5327.37,No
+NC-00312,Timoteo Coca-Castillo,Guipúzcoa,2023-05-13,52,Estandar,38,48.5,2,60.84,7,3065.26,No
+NC-00313,Dionisia de Canet,Granada,2025-10-31,24,Estandar,8,41.3,3,56.93,6,1147.85,No
+NC-00314,Blas Alcolea Palma,Huesca,2025-07-31,33,Estandar,11,53.3,3,65.53,6,686.78,Si
+NC-00315,Macario del Alcázar,Tarragona,2024-08-29,43,Estandar,22,42.0,4,59.86,4,1366.32,Si
+NC-00316,Eligio Badía Castañeda,Guipúzcoa,2023-02-13,65,Estandar,41,49.9,2,64.17,6,2625.62,Si
+NC-00317,Lucila Carballo Bartolomé,Valladolid,2025-04-13,74,Premium,15,88.7,2,92.36,7,1360.4,Si
+NC-00318,Jacinta Paredes Vilanova,Almería,2022-06-16,69,Premium,49,78.2,2,91.49,5,4489.99,Si
+NC-00319,Asunción Sans-Vara,Vizcaya,2023-01-30,66,Estandar,41,54.8,1,67.95,7,3606.61,No
+NC-00320,Marino de Vázquez,Asturias,2024-07-24,19,Estandar,23,32.9,1,60.47,10,2041.37,No
+NC-00321,Jenaro Modesto Anguita Barrera,Cádiz,2024-10-09,18,Basico,21,16.4,3,28.07,5,588.54,Si
+NC-00322,Soraya Querol Roldan,Córdoba,2025-02-24,65,Estandar,16,47.7,2,64.25,6,1031.62,Si
+NC-00323,Jose Luis Salcedo Beltrán,Álava,2023-05-14,29,Basico,38,18.4,1,29.17,6,1447.14,No
+NC-00324,Felipe Colomer Bastida,Vizcaya,2025-12-01,22,Estandar,7,28.3,4,58.96,5,373.08,Si
+NC-00325,Emigdio Morcillo Piquer,Jaén,2023-06-24,54,Premium,36,111.0,3,105.28,8,5014.68,No
+NC-00326,Luisa Emilia Santiago Vega,Ciudad,2025-01-04,49,Estandar,18,30.2,4,50.86,6,1541.22,No
+NC-00327,Irene Ariel Carbó Garrido,Cantabria,2022-07-03,72,Estandar,48,48.1,2,58.93,6,3558.65,No
+NC-00328,Jennifer Gracia Riba,Valencia,2024-03-20,26,Basico,27,17.1,4,33.75,8,1302.81,No
+NC-00329,Sarita Santana Pujadas,Melilla,2022-08-06,58,Basico,47,18.3,2,35.65,5,2114.82,No
+NC-00330,Pastora Bustamante Milla,Lugo,2025-07-04,52,Estandar,12,27.9,2,51.58,7,605.22,Si
+NC-00331,Estefanía Jara Perelló,Soria,2022-06-25,36,Basico,48,17.4,1,24.06,8,1418.0,No
+NC-00332,Olegario Sánchez Bautista,Guadalajara,2025-12-18,65,Basico,7,19.3,4,37.38,5,268.09,Si
+NC-00333,Severo Blázquez Buendía,Santa Cruz de Tenerife,2022-09-13,33,Basico,46,15.8,1,27.98,9,1588.37,No
+NC-00334,Ariadna Peralta Castillo,Valencia,2025-10-05,20,Estandar,9,31.8,4,54.37,4,546.14,Si
+NC-00335,América del Carvajal,Córdoba,2024-08-13,37,Estandar,23,49.2,3,67.67,6,1513.28,Si
+NC-00336,Felicidad Rocha Aznar,Santa Cruz de Tenerife,2023-12-30,41,Basico,30,15.5,5,31.9,5,965.51,Si
+NC-00337,Marcelo Fabricio Ortiz Calleja,Cantabria,2026-04-13,71,Estandar,3,23.3,1,57.71,7,177.64,Si
+NC-00338,Lilia Garcia-Cortes,Almería,2021-11-21,73,Estandar,55,31.0,1,57.2,10,3834.24,No
+NC-00339,Consuelo Campoy Ordóñez,Baleares,2022-03-30,50,Estandar,51,34.7,1,52.35,7,2714.35,Si
+NC-00340,Flor de Lopez,Santa Cruz de Tenerife,2024-05-02,41,Estandar,26,55.1,5,63.89,4,1580.55,Si
+NC-00341,Coral Romeu-Amo,Guadalajara,2025-09-28,69,Basico,9,20.3,2,34.08,6,319.07,Si
+NC-00342,Áurea Máxima Lastra Andres,Cáceres,2022-07-12,28,Estandar,48,53.3,2,61.17,7,3662.0,No
+NC-00343,Elías Mendizábal Nicolás,Palencia,2024-10-25,66,Estandar,20,42.3,2,58.65,9,1894.32,No
+NC-00344,Adelaida Escudero Clemente,La Coruña,2023-12-16,25,Premium,31,108.3,9,94.37,1,2927.11,Si
+NC-00345,Máxima Pérez-Baños,Álava,2025-06-06,53,Estandar,13,28.6,0,62.42,9,1558.25,No
+NC-00346,Raimundo Anglada Bravo,Palencia,2024-03-13,55,Basico,28,15.0,3,30.79,7,1195.38,No
+NC-00347,Concepción Peñalver,Tarragona,2025-04-27,57,Basico,14,16.8,0,31.36,9,795.17,No
+NC-00348,Jenny Nogueira Criado,Huesca,2023-06-19,37,Estandar,36,29.3,1,60.58,7,2274.83,Si
+NC-00349,Esperanza Morata Blazquez,Ciudad,2026-04-03,52,Premium,3,94.2,1,95.46,8,1449.69,No
+NC-00350,Casemiro Criado Ayala,Madrid,2025-01-03,65,Estandar,18,,1,68.9,7,1271.78,Si
+NC-00351,Elías Salazar Rodrigo,Soria,2024-01-06,42,Estandar,30,45.6,4,50.75,5,2120.94,No
+NC-00352,María Dolores Salamanca Ribas,Valladolid,2025-03-08,52,Estandar,16,49.2,3,61.42,7,1694.09,No
+NC-00353,Cándido Vila-Carbonell,Almería,2023-02-24,42,Estandar,40,15.5,3,212.08,6,2144.09,Si
+NC-00354,Irene Cantero Luque,Segovia,2022-02-19,46,Basico,52,21.2,2,27.41,8,1697.13,No
+NC-00355,Lara Águila-Mendez,Tarragona,2025-08-03,35,Premium,11,86.3,2,91.34,6,985.22,Si
+NC-00356,Damián Prats Ballesteros,Barcelona,2024-09-01,63,Basico,22,11.9,3,31.46,5,681.48,Si
+NC-00357,Cristian Mata Galván,Ceuta,2023-01-26,35,Estandar,41,38.3,2,59.33,3,2460.88,Si
+NC-00358,Roberto Jaume Mancebo,Navarra,2021-08-26,19,Premium,58,60.3,0,83.44,6,5853.21,No
+NC-00359,Azeneth Aguilera Valencia,Zaragoza,2025-09-22,71,Basico,9,19.2,5,29.21,3,248.7,Si
+NC-00360,Carmelita Castelló Pinto,Toledo,2022-06-09,52,Basico,49,13.7,2,32.78,7,2010.65,No
+NC-00361,Ofelia de Vall,Albacete,2024-11-30,33,Basico,19,12.0,2,26.82,6,500.49,Si
+NC-00362,Serafina del Bello,Huelva,2025-04-08,58,Premium,15,86.6,5,88.09,2,1353.45,Si
+NC-00363,Tere Arnal Rubio,Córdoba,2025-12-27,53,Basico,6,19.5,1,20.67,8,379.14,No
+NC-00364,Jeremías Bermejo Millán,Madrid,2022-04-08,50,Basico,51,15.5,3,28.23,5,1830.58,No
+NC-00365,Inés Quiroga-Rios,Navarra,2022-07-23,21,Basico,47,9.4,1,25.19,8,1477.88,No
+NC-00366,Baudelio Hermenegildo Almansa Morcillo,Murcia,2022-10-06,50,Basico,45,16.9,2,26.77,8,1562.65,No
+NC-00367,Salvador Seguí Paredes,Cantabria,2024-11-25,31,Basico,19,11.3,2,29.77,8,925.58,No
+NC-00368,Isaías Camacho Hervia,Murcia,2024-12-13,38,Estandar,19,18.4,6,53.84,1,1002.04,Si
+NC-00369,Marita Pérez Zamora,Guadalajara,2022-05-30,65,Estandar,49,55.0,3,54.67,6,3412.92,No
+NC-00370,Hector Menéndez Nicolás,Cuenca,2022-12-24,37,Basico,42,16.8,5,21.1,5,925.49,Si
+NC-00371,Flavio de Benito,Asturias,2022-02-04,73,Basico,53,14.7,3,32.98,5,1754.97,Si
+NC-00372,Melisa Carbonell,León,2024-08-21,25,Basico,22,13.6,0,35.12,7,1217.06,No
+NC-00373,Lina Ferrera,Córdoba,2023-03-28,24,Basico,39,20.6,4,30.08,5,1140.66,Si
+NC-00374,Felicia Coloma Guzman,Lleida,2024-06-04,20,Estandar,25,70.9,1,60.76,9,2216.72,No
+NC-00375,Camilo Jaén Figueroa,Vizcaya,2023-04-01,34,Estandar,39,44.5,3,59.46,3,2352.36,Si
+NC-00376,Marcial Coronado Benet,Toledo,2024-12-25,50,Basico,18,10.9,0,38.98,8,1169.54,No
+NC-00377,Rolando Uribe Simó,Albacete,2022-08-03,65,Estandar,47,38.5,1,51.01,8,2392.8,Si
+NC-00378,Pía Sanchez-Moraleda,Vizcaya,2023-07-11,29,Basico,36,16.7,0,29.6,10,1412.16,No
+NC-00379,Bárbara Sabater Bayo,Guadalajara,2025-02-26,68,Premium,16,43.0,3,80.69,5,2263.88,No
+NC-00380,Isaura Mateo Llobet,Sevilla,2025-10-15,39,Estandar,9,43.3,1,61.14,10,1276.31,No
+NC-00381,Amor Ortiz-Vera,Cantabria,2023-11-30,72,Estandar,31,44.4,2,58.72,5,2464.0,No
+NC-00382,Fabián Serrano Sans,Vizcaya,2026-06-29,39,Basico,1,20.3,3,33.04,4,75.52,Si
+NC-00383,Ambrosio Peinado Madrid,Salamanca,2023-11-13,63,Premium,32,114.4,2,97.21,7,3107.4,Si
+NC-00384,Mohamed Bosch Vendrell,Guadalajara,2024-12-12,47,Basico,19,15.4,6,36.49,1,748.26,Si
+NC-00385,Joaquina Armengol Sandoval,Segovia,2024-07-28,55,Basico,23,21.1,4,34.8,6,1165.13,No
+NC-00386,Modesta Fabra-Montoya,Baleares,2025-08-04,55,Basico,11,23.1,3,36.46,6,785.6,No
+NC-00387,Juanita Leyre Contreras Barrio,Melilla,2024-12-25,62,Basico,18,15.1,1,26.18,7,777.14,No
+NC-00388,Aroa Nuñez Blasco,Alicante,2025-08-31,68,Premium,10,98.4,3,100.81,5,1037.43,Si
+NC-00389,Mireia Duque,Cádiz,2025-11-22,71,Estandar,7,22.3,2,53.62,6,338.75,Si
+NC-00390,Duilio Río Saavedra,Cantabria,2023-12-01,25,Basico,31,9.2,1,27.6,8,1149.05,No
+NC-00391,Lourdes Cuenca,Madrid,2022-10-18,44,Estandar,45,31.6,2,59.51,7,3403.23,No
+NC-00392,Florencia Luna Ponce,Badajoz,2025-05-30,44,Premium,13,81.1,0,94.62,8,1220.67,Si
+NC-00393,Remedios Neira Badía,Ourense,2022-06-18,51,Premium,49,68.1,2,86.45,6,5289.77,No
+NC-00394,Ana Sofía Murcia Busquets,Sevilla,2022-08-01,38,Estandar,47,39.6,5,58.09,5,2721.38,Si
+NC-00395,Nidia del Luz,Melilla,2023-09-04,47,Premium,34,81.7,3,100.61,7,4639.61,No
+NC-00396,Porfirio Conesa-Mínguez,Almería,2025-09-15,50,Premium,10,111.4,2,88.8,6,928.98,Si
+NC-00397,Lupe Cid Olmo,Ceuta,2025-10-09,45,Estandar,9,35.3,1,65.96,8,1348.63,No
+NC-00398,Nacio Paco Pou Castelló,Álava,2023-07-05,64,Basico,36,5.9,1,29.38,7,1445.78,No
+NC-00399,Olga Anselma Menendez Peñas,Segovia,2022-09-09,50,Basico,46,15.5,0,19.86,7,1100.76,No
+NC-00400,Ruth Castell Zurita,Ávila,2021-10-18,22,Premium,57,89.7,0,87.14,9,6030.94,No
+NC-00401,Mohamed Roda Verdugo,Zaragoza,2022-05-23,65,Basico,49,11.6,4,26.34,5,1333.24,Si
+NC-00402,Agustina Pareja Mendizábal,Huesca,2021-12-29,36,Premium,54,91.9,0,91.07,9,5994.9,No
+NC-00403,Custodio Noguera Torre,Huesca,2022-02-14,21,Basico,53,10.7,4,30.55,7,2005.09,No
+NC-00404,Daniel Cervantes,Salamanca,2025-10-12,52,Basico,9,16.3,2,18.11,8,365.7,No
+NC-00405,Antonio Marqués Cadenas,Melilla,2021-10-09,66,Basico,57,25.5,2,33.48,8,2327.68,No
+NC-00406,Regina Zurita,Toledo,2023-01-25,34,Basico,41,7.8,4,25.5,2,977.75,Si
+NC-00407,Natalio Navarro Castro,Granada,2024-10-18,61,Premium,20,79.7,1,99.92,8,2003.26,Si
+NC-00408,Florina Calista Cámara Escrivá,Castellón,2024-04-28,45,Premium,26,76.5,2,91.3,7,3481.26,No
+NC-00409,Rufina Yaiza Daza Río,Badajoz,2022-11-04,47,Premium,44,81.3,3,97.84,4,4345.3,Si
+NC-00410,Hernán Pastor Gámez,Murcia,2024-02-13,46,Estandar,29,50.2,4,65.57,5,2716.13,No
+NC-00411,María Jesús López Sanchez,Cantabria,2022-05-13,63,Basico,50,17.2,5,37.14,4,2297.84,No
+NC-00412,Juanito de Mendoza,Melilla,2022-03-12,70,Estandar,52,48.5,1,57.02,9,3657.32,No
+NC-00413,Yaiza Ferrera Pedro,Ourense,2025-12-19,23,Estandar,6,40.3,1,56.13,7,966.96,No
+NC-00414,Isabela Serrano-Luján,Navarra,2025-09-24,52,Estandar,9,26.8,2,56.56,6,558.36,Si
+NC-00415,Lidia Álamo Riquelme,Valencia,2025-07-04,58,Basico,12,10.5,1,34.23,7,842.25,No
+NC-00416,Sebastian Flores Chacón,Vizcaya,2023-04-06,54,Estandar,39,47.5,4,57.2,7,2861.37,No
+NC-00417,Amancio Terrón-Pera,Soria,2024-01-16,41,Estandar,30,41.7,5,58.57,5,2467.32,No
+NC-00418,Aroa de López,Tarragona,2025-10-11,46,Premium,9,115.2,2,97.89,8,2065.36,No
+NC-00419,Rico Cueto Llamas,Badajoz,2025-09-18,66,Premium,9,95.9,1,90.07,5,787.41,Si
+NC-00420,Yolanda Vilanova Colom,Zamora,2025-11-02,63,Estandar,8,28.2,3,52.98,5,426.75,Si
+NC-00421,Apolonia Girona Sanmartín,Navarra,2023-10-08,70,Estandar,33,34.8,1,57.69,9,2569.82,No
+NC-00422,Íngrid Amor Ribera,Málaga,2026-02-27,48,Estandar,4,,1,59.43,6,195.58,Si
+NC-00423,Hector Vallés Pereira,Sevilla,2024-06-19,52,Basico,24,17.8,1,33.95,7,1203.8,No
+NC-00424,Guadalupe de Perera,Murcia,2026-02-21,50,Premium,4,107.1,4,99.07,7,401.43,Si
+NC-00425,Alberto del Cabeza,Huelva,2026-03-12,69,Premium,4,69.0,2,86.4,6,373.45,Si
+NC-00426,Rosa María Coll Cervantes,Navarra,2021-09-10,38,Estandar,58,28.0,1,53.74,6,3763.89,No
+NC-00427,Eric Sureda Chamorro,Huesca,2021-10-24,49,Basico,56,14.2,0,26.57,9,1834.9,No
+NC-00428,Jacinta Adadia Bernad,Valladolid,2025-03-16,40,Basico,16,20.8,2,39.14,5,1115.38,No
+NC-00429,Eduardo Garriga Conde,Toledo,2022-07-23,50,Estandar,47,33.1,3,57.71,7,3373.83,No
+NC-00430,Pascuala del Cantero,Pontevedra,2024-10-21,20,Basico,20,16.8,0,31.76,8,654.43,Si
+NC-00431,Diego Eutropio Carro Asenjo,Ourense,2025-05-16,35,Premium,14,99.1,2,95.2,5,1352.86,Si
+NC-00432,Hugo del Barros,Jaén,2024-03-21,42,Basico,27,18.0,2,28.22,7,1152.83,No
+NC-00433,Silvio Valero Alegre,Huesca,2024-09-29,59,Basico,21,21.7,1,39.99,7,1331.99,No
+NC-00434,Maricela Herranz,León,2025-04-22,48,Premium,14,121.2,2,99.18,7,1351.48,Si
+NC-00435,Esteban Román Abellán,Álava,2025-06-15,71,Estandar,13,34.1,3,58.61,7,1448.63,No
+NC-00436,Feliciana Dalila Riera Exposito,Girona,2021-11-06,20,Basico,56,6.6,6,25.13,4,1653.26,No
+NC-00437,Juan Francisco Palomo Bauzà,Melilla,2021-10-28,57,Basico,56,12.3,4,25.42,4,1743.87,No
+NC-00438,Macaria Vera,Granada,2023-01-18,63,Basico,41,15.3,1,29.99,9,1639.09,No
+NC-00439,Manola Almagro,Granada,2026-04-12,41,Estandar,3,36.4,2,55.14,6,93.69,Si
+NC-00440,Trinidad Soriano Arranz,Castellón,2024-02-14,67,Basico,29,22.9,0,26.95,8,1155.84,No
+NC-00441,Florentina Izaguirre Alegre,Albacete,2022-12-09,49,Estandar,43,40.2,3,57.17,6,3159.27,No
+NC-00442,Rocío Bauzà Ochoa,Navarra,2025-09-21,64,Premium,9,103.1,3,94.23,4,1946.53,No
+NC-00443,Quique de Márquez,Badajoz,2025-03-17,39,Basico,16,15.9,3,32.3,7,524.5,Si
+NC-00444,Alfredo Ortuño Nevado,Lleida,2022-09-08,40,Premium,46,83.1,2,90.79,7,4145.01,Si
+NC-00445,Severo Sobrino Tejero,Burgos,2024-03-14,19,Premium,28,51.5,0,85.11,9,3417.61,No
+NC-00446,Santiago Cepeda Barroso,Córdoba,2024-11-07,44,Basico,20,14.7,3,26.61,6,853.42,No
+NC-00447,Alicia Marcos Fortuny,Palencia,2025-09-09,59,Premium,10,155.1,2,106.57,8,2354.42,No
+NC-00448,Ruy Flores Arnaiz,Ceuta,2022-06-22,19,Estandar,48,27.6,3,51.5,7,3062.43,No
+NC-00449,Úrsula Menéndez Villalba,Zaragoza,2026-05-20,43,Premium,1,53.7,3,92.19,6,68.99,Si
+NC-00450,Sabina Sáenz Isern,Ávila,2025-09-19,34,Estandar,9,59.4,1,63.54,9,586.91,Si
+NC-00451,Renato Feijoo Macias,Ourense,2026-04-03,57,Estandar,3,47.4,0,59.13,9,162.31,Si
+NC-00452,Tere Asenjo Mármol,Toledo,2026-02-17,50,Estandar,5,41.9,5,68.03,4,344.62,Si
+NC-00453,Bernabé Pedro-Rueda,Toledo,2026-05-30,26,Premium,1,117.3,1,99.24,7,112.83,Si
+NC-00454,Perlita Sabater Pomares,Zamora,2025-07-16,60,Estandar,12,31.7,2,67.38,6,801.89,Si
+NC-00455,Cayetana Valderrama Valencia,Cádiz,2025-08-04,71,Estandar,11,38.9,5,55.63,5,1314.14,No
+NC-00456,Ángela Vives Lasa,Tarragona,2026-04-29,65,Premium,2,109.1,1,92.74,9,179.91,Si
+NC-00457,Prudencio Rodriguez Bermúdez,Pontevedra,2022-11-15,56,Basico,44,23.4,1,34.98,8,1952.41,No
+NC-00458,María Cristina Escribano Marin,Alicante,2025-11-08,46,Basico,8,10.3,5,29.72,5,218.81,Si
+NC-00459,Aroa Bernal Mosquera,Ávila,2022-01-07,59,Basico,54,20.1,5,40.44,5,2700.24,No
+NC-00460,Ezequiel Jacinto Rojas Diaz,Vizcaya,2024-11-14,72,Basico,20,16.5,4,33.36,7,645.98,Si
+NC-00461,Felicia Salvador Arnal,Huelva,2023-10-14,43,Basico,33,15.7,2,26.35,7,1223.38,No
+NC-00462,María Luisa Royo Llobet,La Rioja,2025-10-01,52,Premium,9,89.8,0,85.3,8,772.59,Si
+NC-00463,Anselmo Ramis Parra,Vizcaya,2024-10-03,67,Basico,21,9.5,1,30.56,9,1088.94,No
+NC-00464,Rosario Cuesta,Valencia,2024-07-17,42,Estandar,24,49.6,5,59.51,5,2122.55,No
+NC-00465,Calixto Ríos Arana,Santa Cruz de Tenerife,2023-12-18,41,Basico,31,11.9,3,32.76,4,1053.82,Si
+NC-00466,Anastasio Guzman Pazos,Almería,2024-04-08,30,Premium,27,68.4,0,97.89,9,3833.02,No
+NC-00467,Fátima Antúnez Corral,Melilla,2022-01-24,24,Premium,53,107.7,1,101.17,8,6560.64,No
+NC-00468,Flora Peral Saldaña,Guadalajara,2021-10-13,74,Estandar,57,47.9,1,56.9,8,3941.81,No
+NC-00469,Luciano Cervantes Ávila,Guadalajara,2021-12-05,53,Premium,55,91.6,3,87.69,5,4837.2,Si
+NC-00470,Gisela Miralles Lopez,Burgos,2022-08-20,62,Basico,46,19.3,5,25.76,5,1175.0,Si
+NC-00471,Baudelio de Estrada,Soria,2024-08-29,37,Premium,22,118.5,2,93.17,7,2062.59,Si
+NC-00472,Lorenza Pombo Carranza,León,2024-07-05,18,Basico,24,20.2,1,30.19,7,759.46,Si
+NC-00473,Roldán Juliá-Salmerón,Ceuta,2026-07-06,25,Premium,1,79.4,1,94.47,7,1243.45,No
+NC-00474,Mariano Machado,Girona,2021-10-09,63,Basico,57,19.1,4,27.91,6,1913.21,No
+NC-00475,Chus Casado Cerdá,Burgos,2024-06-12,33,Estandar,25,42.1,3,60.61,5,1500.98,Si
+NC-00476,Jaime Duque Salgado,Guipúzcoa,2024-10-12,31,Estandar,21,57.3,3,62.54,6,2061.2,No
+NC-00477,Sandalio Montenegro Olivera,Lugo,2022-05-16,29,Basico,50,14.5,2,32.17,6,2027.91,No
+NC-00478,Leonardo Manrique Marín,Navarra,2025-03-09,68,Basico,16,13.6,1,25.72,10,697.55,No
+NC-00479,Pelayo Dávila Pardo,Córdoba,2024-06-24,40,Basico,24,12.5,0,33.59,9,1221.0,No
+NC-00480,Consuelo Carrión,La Coruña,2024-08-01,32,Basico,23,15.8,4,41.99,5,918.9,Si
+NC-00481,Ruy Chamorro,Vizcaya,2025-01-17,45,Estandar,18,44.7,5,60.7,4,1110.44,Si
+NC-00482,Ruperto del Amo,Valladolid,2024-07-13,51,Basico,24,16.9,3,16.92,5,428.63,Si
+NC-00483,Manola Peinado Solsona,Lugo,2022-01-09,19,Basico,54,16.4,0,37.84,9,2558.27,No
+NC-00484,Belén de Bastida,Madrid,2023-08-15,49,Basico,35,17.7,3,113.04,7,1355.98,No
+NC-00485,Heliodoro Plinio Tejero Zaragoza,Segovia,2023-08-26,40,Premium,34,85.5,5,104.88,3,3553.88,Si
+NC-00486,Rebeca Recio Benavent,Navarra,2023-07-16,39,Basico,36,11.5,3,31.73,6,1477.0,No
+NC-00487,Federico Benavent Sandoval,Ciudad,2024-03-13,68,Basico,28,11.2,2,22.7,7,923.43,No
+NC-00488,Nieves Villar Ocaña,Cuenca,2022-04-07,42,Basico,51,18.9,2,21.57,9,1349.09,No
+NC-00489,Valentín Espada Castelló,Guadalajara,2022-02-06,39,Basico,53,16.9,2,39.39,6,2570.37,No
+NC-00490,Lidia Baquero Casanova,Baleares,2024-02-20,39,Premium,28,52.9,4,95.82,6,2661.35,Si
+NC-00491,Calista Mateu,Las Palmas,2022-07-08,66,Basico,48,19.4,1,43.07,9,2579.0,No
+NC-00492,Cecilio Mora Gomis,Huelva,2024-05-31,69,Basico,25,22.5,1,32.3,7,1144.1,No
+NC-00493,Lorenza Luz Bermúdez,Guadalajara,2022-12-27,59,Estandar,42,32.8,1,58.0,7,3100.61,No
+NC-00494,Clímaco Llobet-Casares,Pontevedra,2021-09-17,23,Estandar,58,43.4,5,57.43,5,3295.32,Si
+NC-00495,Marino Juanito Bueno Valverde,Vizcaya,2026-02-14,32,Basico,5,13.1,4,28.02,4,166.28,Si
+NC-00496,Manu Correa Donoso,Cáceres,2024-04-26,71,Estandar,26,46.3,1,57.67,8,2166.64,No
+NC-00497,Pacífica Xiomara Nebot Armengol,Salamanca,2021-11-11,60,Premium,56,66.7,4,92.76,3,5235.9,Si
+NC-00498,Apolinar Arroyo Landa,Salamanca,2025-06-18,54,Basico,13,14.7,6,27.25,5,329.73,Si
+NC-00499,Rodolfo Riera,León,2025-02-19,50,Estandar,16,49.8,2,51.63,7,1508.52,No
+NC-00500,Micaela Ale Valenciano Manjón,Ceuta,2026-05-17,25,Estandar,2,52.4,1,61.04,7,63.61,Si
+NC-00501,Jose Antonio Donato Ramis Martorell,Soria,2025-12-03,70,Estandar,7,44.3,2,55.1,6,1059.63,No
+NC-00502,Angelina Barreda Cruz,Burgos,2025-02-15,61,Basico,17,13.6,3,15.16,5,258.88,Si
+NC-00503,Herminia Tomé Sobrino,Baleares,2023-10-24,61,Basico,32,8.6,4,33.62,7,1442.94,No
+NC-00504,Francisco Cobo,Ciudad,2021-09-19,22,Premium,57,74.8,3,86.94,6,4939.05,Si
+NC-00505,Tere Montaña Ojeda,Girona,2025-07-16,56,Premium,12,80.6,2,96.37,10,2305.04,No
+NC-00506,Belén Pellicer Villa,Guipúzcoa,2026-07-18,21,Estandar,1,33.0,3,61.49,5,68.98,Si
+NC-00507,Ascensión del Herranz,Granada,2021-09-25,23,Basico,57,15.2,1,32.94,7,2244.77,No
+NC-00508,Azucena Lastra Sancho,Lugo,2024-03-27,62,Estandar,27,36.6,1,71.14,7,2787.22,No
+NC-00509,Calisto de Ayuso,Guipúzcoa,2024-10-03,49,Estandar,21,41.7,1,58.48,7,1933.43,No
+NC-00510,Gregorio Toni Ripoll Hurtado,Valencia,2026-05-25,69,Basico,1,19.8,4,30.55,7,53.93,Si
+NC-00511,Santos Morán Milla,Castellón,2024-11-11,47,Basico,20,13.4,2,34.76,8,1086.45,No
+NC-00512,Rico Cuervo,Navarra,2024-04-14,64,Premium,27,62.3,1,90.95,6,3534.77,No
+NC-00513,Lola Solera Valenzuela,Salamanca,2026-05-31,52,Basico,1,12.2,3,37.02,7,524.52,No
+NC-00514,Jose Ramón Aitor Bosch Pozuelo,Tarragona,2022-05-17,72,Premium,50,101.7,1,88.83,8,5480.28,No
+NC-00515,Jesusa Hernando,Jaén,2025-09-12,57,Basico,10,17.7,2,25.51,8,519.45,No
+NC-00516,Lupe Osorio,Córdoba,2022-05-24,69,Basico,49,16.6,0,35.49,8,2145.96,No
+NC-00517,Amador Lucena Uría,Almería,2023-04-18,33,Basico,39,20.2,0,26.2,8,1282.92,No
+NC-00518,Vera Soledad Sosa Macias,Cantabria,2024-05-26,30,Estandar,25,38.1,2,61.86,7,2339.01,No
+NC-00519,Adelia de Rosa,Almería,2025-10-08,67,Premium,9,131.0,2,99.95,6,891.07,Si
+NC-00520,Valero Lamas Paz,Segovia,2025-10-27,59,Basico,8,18.3,7,28.36,4,218.69,Si
+NC-00521,Flavia Arrieta Pérez,Asturias,2024-06-06,47,Premium,25,,3,90.79,5,3381.51,No
+NC-00522,Lucas Ferreras Pareja,Sevilla,2022-12-17,36,Estandar,43,58.0,3,54.63,4,2327.32,Si
+NC-00523,Elvira de Pomares,Sevilla,2024-02-03,34,Premium,29,74.7,5,87.47,3,2530.15,Si
+NC-00524,Javiera Losa,Badajoz,2024-08-19,73,Basico,22,10.9,3,29.9,5,994.04,No
+NC-00525,Nieves María Jesús Carrera Castells,Girona,2025-04-02,36,Premium,15,100.5,1,95.44,7,1378.95,Si
+NC-00526,Haroldo Perea Nicolau,Ceuta,2023-04-05,45,Estandar,39,22.6,3,55.74,6,2844.26,No
+NC-00527,Flavia de Flor,Málaga,2025-10-08,72,Basico,9,12.2,0,33.39,9,731.96,No
+NC-00528,Liliana Gracia Vall Arjona,Guadalajara,2022-03-09,43,Basico,52,21.2,5,34.06,5,2182.22,No
+NC-00529,Alejo Cerro Mínguez,Pontevedra,2026-02-06,54,Premium,5,101.1,3,102.76,5,1774.51,No
+NC-00530,Lorenza Saura Company,Cádiz,2023-05-14,43,Premium,38,106.2,5,95.14,4,4724.13,No
+NC-00531,Virginia Lola Chaves Mosquera,Málaga,2023-12-27,70,Basico,30,12.4,2,37.21,9,1540.2,No
+NC-00532,Esther Candelas Pozo Martínez,Navarra,2023-10-19,40,Estandar,32,24.6,1,62.06,9,1947.09,Si
+NC-00533,Evangelina Vendrell-Vergara,Alicante,2021-12-12,26,Premium,55,104.1,3,106.88,6,7171.96,No
+NC-00534,Laura del Taboada,Melilla,2024-01-27,29,Premium,29,108.6,0,95.22,9,3894.49,No
+NC-00535,Gerónimo Muñoz Canals,Guipúzcoa,2026-06-03,70,Premium,1,107.7,3,93.67,4,83.02,Si
+NC-00536,Marisela Mena Amor,La Coruña,2024-12-18,18,Estandar,18,42.1,3,65.5,5,1985.07,No
+NC-00537,Juana Dulce Goñi Aznar,Albacete,2023-06-19,18,Basico,36,11.1,8,33.04,2,1175.25,Si
+NC-00538,Julia Donaire-Zamora,Soria,2022-04-29,64,Basico,50,24.8,4,38.89,5,2443.57,No
+NC-00539,Remedios Sol Pinto Coloma,Huelva,2026-06-18,51,Basico,1,16.9,0,35.27,7,50.0,Si
+NC-00540,Alcides de Farré,Ciudad,2022-05-08,49,Estandar,50,38.3,1,48.3,8,2983.62,No
+NC-00541,Isidro Mir Riquelme,Zaragoza,2024-05-29,71,Estandar,25,38.3,4,60.71,7,2199.72,No
+NC-00542,Hilario Frías Reguera,Santa Cruz de Tenerife,2023-11-14,65,Basico,32,15.6,7,33.12,3,1477.18,No
+NC-00543,Remedios Soto,Jaén,2022-02-11,42,Premium,53,111.4,4,96.81,5,6301.14,No
+NC-00544,Patricio Cervera Villena,Navarra,2026-05-12,57,Estandar,2,41.9,3,58.53,6,126.99,Si
+NC-00545,Lisandro Morcillo,Ceuta,2026-01-22,62,Estandar,5,48.6,3,51.9,6,893.19,No
+NC-00546,Lucila Peñas Mir,Guipúzcoa,2025-08-02,70,Estandar,11,41.5,1,63.52,8,1445.09,No
+NC-00547,Jeremías Noriega Pablo,Sevilla,2025-03-05,18,Estandar,16,38.9,2,60.76,5,967.62,Si
+NC-00548,Marcos Tomé-Fernandez,Ávila,2023-04-30,33,Basico,38,17.6,3,37.27,4,1402.5,Si
+NC-00549,Emilio del Gomila,Melilla,2024-07-01,56,Basico,24,17.4,4,24.05,4,903.3,No
+NC-00550,Rogelio Ernesto Galan Torrijos,La Rioja,2022-03-13,22,Basico,52,14.3,2,33.97,8,2165.83,No
+NC-00551,Julia Oller Llanos,Ourense,2024-02-10,39,Basico,29,12.0,4,30.03,6,852.29,Si
+NC-00552,Benjamín Luciano Pino Prat,Las Palmas,2025-11-01,46,Estandar,8,43.4,2,60.06,7,520.04,Si
+NC-00553,Reina Coll Manrique,Pontevedra,2024-02-04,72,Estandar,29,40.8,3,57.96,8,2412.66,No
+NC-00554,Ernesto Bermúdez Olivares,León,2025-03-24,20,Basico,15,12.8,4,34.0,4,517.09,Si
+NC-00555,Morena Jerez Tello,Castellón,2026-02-19,29,Estandar,4,31.6,4,57.35,6,225.5,Si
+NC-00556,Cosme Linares,Palencia,2024-03-17,43,Basico,28,16.6,4,26.4,5,1044.61,No
+NC-00557,Obdulia del Cervantes,Barcelona,2023-03-31,33,Premium,39,101.0,1,95.53,7,4870.71,No
+NC-00558,Mario Heras Herrera,Tarragona,2025-01-25,68,Premium,17,82.8,4,92.21,5,1541.33,Si
+NC-00559,Nicanor Gonzalez Guerrero,Las Palmas,2024-12-18,54,Basico,18,12.7,1,30.85,8,569.8,Si
+NC-00560,Aureliano Reyes Murillo,Segovia,2023-09-06,39,Estandar,34,31.7,5,42.23,4,1992.16,No
+NC-00561,Armida Cervantes Adadia,Guadalajara,2025-12-05,74,Basico,7,16.5,2,35.06,8,683.02,No
+NC-00562,Áurea de Ramírez,Navarra,2025-05-26,46,Estandar,13,32.0,3,56.63,6,1382.65,No
+NC-00563,Judith Flores Madrigal,Cádiz,2026-03-15,31,Estandar,4,62.4,1,54.5,7,231.65,Si
+NC-00564,Eloísa Barranco Borrás,Burgos,2023-01-30,45,Basico,41,13.4,2,35.95,7,1911.19,No
+NC-00565,Cristina Arcos-Díez,Valladolid,2021-09-13,22,Estandar,58,15.7,4,59.75,5,4195.89,No
+NC-00566,Vera Echeverría Arce,La Rioja,2025-12-07,64,Basico,7,14.9,1,29.85,7,542.56,No
+NC-00567,Rocío Valbuena Estrada,Granada,2023-02-17,66,Basico,41,14.7,7,25.71,2,1054.21,Si
+NC-00568,Urbano Alejo Agullo Martín,Valencia,2026-06-14,47,Estandar,1,51.1,1,61.0,7,87.49,Si
+NC-00569,María Cristina Campo-Naranjo,Burgos,2025-10-15,63,Basico,9,16.2,3,32.24,7,644.94,No
+NC-00570,Javi Miguel Ángel Zamora Uribe,Badajoz,2023-05-10,69,Estandar,38,31.7,5,251.16,7,3126.03,No
+NC-00571,Teodoro Varela Solé,Cádiz,2025-07-08,22,Basico,12,13.9,3,29.17,6,341.4,Si
+NC-00572,Clemente Capdevila-Muro,Valladolid,2023-10-28,29,Premium,32,96.5,2,100.62,5,3249.79,Si
+NC-00573,Pío Segarra Jimenez,Pontevedra,2026-01-28,33,Basico,5,6.3,3,27.93,6,509.23,No
+NC-00574,Adrián Navas Marquez,Pontevedra,2025-03-26,43,Estandar,15,,1,53.61,8,1390.02,No
+NC-00575,Nereida Ferrando-Echevarría,Ceuta,2026-05-11,43,Estandar,2,31.7,3,52.51,5,134.95,Si
+NC-00576,Tatiana Micaela Ramirez Roma,Huelva,2022-01-20,65,Basico,53,20.7,2,31.76,6,2099.77,No
+NC-00577,Eugenia Bolaños,Tarragona,2025-12-26,38,Premium,6,97.8,2,94.45,7,600.14,Si
+NC-00578,Nayara Bustos Esteban,Barcelona,2023-04-02,56,Estandar,39,46.3,2,61.27,7,3108.88,No
+NC-00579,Jorge Morales Hurtado,Teruel,2024-08-22,53,Estandar,22,51.5,0,59.7,7,2022.91,No
+NC-00580,Eladio Pla Gutiérrez,Cádiz,2025-06-23,50,Estandar,12,45.7,3,64.46,5,726.5,Si
+NC-00581,Primitiva Lasa Murcia,Madrid,2022-10-20,47,Premium,44,103.5,2,94.04,8,4074.91,Si
+NC-00582,Lupe Porfirio Alberdi Jurado,Barcelona,2023-08-03,54,Premium,35,,1,83.69,8,3922.58,No
+NC-00583,Nydia Guzman Barrios,Cantabria,2022-10-28,40,Estandar,44,43.7,3,58.76,5,3292.85,No
+NC-00584,Joan Melero Cuesta,Alicante,2024-02-05,27,Estandar,29,34.1,2,48.38,5,1988.88,No
+NC-00585,Noelia Valverde Mercader,Valladolid,2025-03-31,71,Basico,15,13.6,6,32.72,4,515.43,Si
+NC-00586,Miguel Marquez Pedrero,Cuenca,2025-01-12,22,Basico,18,22.9,1,37.58,8,1219.23,No
+NC-00587,Consuela Constanza Cañellas Tejera,Ceuta,2024-04-03,53,Estandar,27,31.9,3,53.26,6,1426.14,Si
+NC-00588,Javi Pereira Ricart,Valladolid,2022-02-03,51,Basico,53,15.6,3,38.65,7,2480.58,No
+NC-00589,Zaira del Gil,Asturias,2023-04-11,69,Estandar,39,41.1,2,63.32,6,3245.7,No
+NC-00590,Noé de Zaragoza,León,2025-01-19,48,Basico,17,13.8,3,37.41,6,642.64,Si
+NC-00591,Lucía Pardo Bermejo,Tarragona,2023-10-25,27,Basico,32,17.1,2,32.66,6,1419.8,No
+NC-00592,Aurelia Barrio-Vega,Lleida,2023-12-26,36,Estandar,30,45.9,2,54.63,6,2321.79,No
+NC-00593,Luciano Conde,Las Palmas,2022-11-28,49,Premium,43,71.5,1,96.05,8,5258.39,No
+NC-00594,Fernando Viña Sala,Vizcaya,2023-09-22,18,Basico,33,15.4,2,28.42,7,934.0,Si
+NC-00595,Noé Fuertes Torrijos,Pontevedra,2023-07-21,73,Estandar,35,29.2,2,58.51,5,2045.72,Si
+NC-00596,Vinicio Vicens Salinas,Toledo,2024-12-29,22,Premium,18,105.8,3,94.72,6,1676.53,Si
+NC-00597,Javi Catalán Vilanova,La Coruña,2023-07-28,62,Basico,35,15.7,1,37.19,7,1696.64,No
+NC-00598,Jessica Barco Sevilla,Melilla,2022-07-05,21,Premium,48,91.6,2,97.81,7,4701.45,Si
+NC-00599,Porfirio Aitor Priego Iñiguez,León,2022-10-26,33,Basico,44,17.6,1,31.36,7,1797.22,No
+NC-00600,Ramón Gibert Beltran,Alicante,2023-03-06,41,Basico,40,13.9,1,21.63,7,1153.59,No
+NC-00601,Héctor Ocaña Bartolomé,Melilla,2021-10-12,33,Premium,57,108.3,1,92.65,8,6423.68,No
+NC-00602,América de Suarez,Valencia,2023-08-20,72,Basico,34,11.2,1,34.64,7,1569.47,No
+NC-00603,Eric Rebollo Escolano,Navarra,2024-03-08,19,Estandar,28,54.1,4,61.81,5,2478.82,No
+NC-00604,Rodolfo Rivera Perelló,Melilla,2025-06-29,66,Premium,12,79.0,2,85.38,5,981.84,Si
+NC-00605,Jacinta Pina Peña,Cantabria,2025-09-03,45,Basico,10,8.2,3,21.79,6,484.45,No
+NC-00606,Néstor Cañas Oliveras,León,2026-04-22,49,Estandar,2,36.7,0,59.65,8,876.76,No
+NC-00607,Chuy Pozo Ángel,Granada,2025-04-03,44,Premium,15,81.2,1,87.83,7,2414.01,No
+NC-00608,Prudencio Gisbert Acevedo,Lleida,2025-02-18,37,Basico,16,13.7,2,26.57,7,804.87,No
+NC-00609,Eustaquio Sierra Rodrigo,Las Palmas,2021-11-09,41,Premium,56,94.6,2,97.82,7,6681.44,No
+NC-00610,Fortunata de Huertas,Salamanca,2023-04-06,29,Estandar,39,51.0,6,66.11,4,3385.88,No
+NC-00611,Fanny Cortina Llorens,Tarragona,2022-11-25,67,Estandar,43,38.1,4,55.06,5,3054.54,No
+NC-00612,Urbano Carbajo,Lleida,2023-11-12,52,Estandar,32,33.1,4,58.09,5,2576.38,No
+NC-00613,Sandalio Rius Alcázar,Ávila,2022-09-14,50,Basico,46,10.5,3,30.68,7,1755.22,No
+NC-00614,Cristian de Cabrero,Cádiz,2021-10-16,50,Premium,57,80.6,3,92.24,6,5212.22,Si
+NC-00615,Alexandra Itziar Atienza Hierro,La Coruña,2023-09-28,68,Premium,33,52.2,2,90.42,5,3010.34,Si
+NC-00616,Herberto Ródenas Guillén,Guadalajara,2023-11-28,60,Estandar,31,32.7,4,62.05,6,1986.35,Si
+NC-00617,Concha de Chaves,Albacete,2026-03-24,54,Estandar,3,52.4,3,56.87,7,198.33,Si
+NC-00618,Ema Guillén,Lleida,2023-01-15,29,Estandar,42,31.8,2,50.55,7,2673.04,No
+NC-00619,Esther Montes-Gálvez,Lleida,2021-11-26,20,Estandar,55,46.3,2,68.08,7,4545.78,No
+NC-00620,Urbano Calixto Vázquez Giner,Córdoba,2025-09-04,18,Estandar,10,27.7,0,63.22,6,626.3,Si
+NC-00621,Emperatriz Llopis Barrera,Tarragona,2021-09-17,50,Estandar,58,57.7,2,55.25,6,3148.82,Si
+NC-00622,Marta de Roldán,Teruel,2022-01-05,57,Estandar,54,58.4,3,61.52,7,4019.01,No
+NC-00623,Leocadia de Ocaña,Ávila,2022-04-04,27,Estandar,51,45.9,5,64.64,4,4071.21,No
+NC-00624,Roberta Zamorano Montalbán,Teruel,2024-03-19,60,Estandar,27,59.9,2,64.74,7,2532.71,No
+NC-00625,Guadalupe Company Marín,Santa Cruz de Tenerife,2024-01-29,61,Basico,29,16.4,0,33.95,8,1362.37,No
+NC-00626,Catalina Sáenz Hernando,Ávila,2022-01-31,46,Basico,53,18.1,3,30.96,7,1969.71,No
+NC-00627,Eutimio de Sierra,Toledo,2025-01-02,30,Basico,18,20.0,2,40.64,7,1255.0,No
+NC-00628,Lisandro Rey Riera,Jaén,2024-08-20,29,Estandar,22,41.8,2,60.28,7,2038.04,No
+NC-00629,Luisa de Pont,Alicante,2022-04-24,48,Estandar,50,24.5,2,54.88,6,3395.38,No
+NC-00630,Edu de Murillo,Guipúzcoa,2024-12-02,63,Estandar,19,47.9,6,64.15,4,1202.45,Si
+NC-00631,Íñigo Sandoval Peláez,Cáceres,2022-09-27,19,Estandar,45,35.3,0,59.01,10,3340.43,No
+NC-00632,Julio Farré Aznar,Cádiz,2023-07-21,68,Estandar,35,36.0,0,60.35,9,2875.53,No
+NC-00633,Gonzalo Ariza-Beltran,La Rioja,2022-06-30,67,Basico,48,16.2,3,32.64,6,1932.01,No
+NC-00634,Samu Gaya,Granada,2026-05-26,52,Estandar,1,45.7,7,62.05,1,67.44,Si
+NC-00635,Claudia Méndez Mateo,Girona,2025-10-19,40,Estandar,8,41.5,1,54.26,7,1085.46,No
+NC-00636,Curro Falcón Carpio,Baleares,2022-07-27,34,Premium,47,102.7,1,88.01,9,5134.14,No
+NC-00637,Zoraida Herrera Fuente,Cantabria,2025-12-25,43,Basico,6,12.2,4,38.39,7,698.25,No
+NC-00638,Zoraida Heras Montoya,Salamanca,2026-06-25,25,Basico,1,14.8,3,32.73,7,379.17,No
+NC-00639,Goyo Joan Palomar Mendez,Álava,2026-01-04,46,Basico,6,18.4,1,35.69,7,661.48,No
+NC-00640,Geraldo Vilalta-Valencia,Madrid,2023-09-08,43,Basico,34,22.1,2,23.41,7,1041.27,No
+NC-00641,Ariel Soria Montero,Murcia,2025-10-07,27,Estandar,9,61.3,5,66.46,5,613.8,Si
+NC-00642,Gil Milla,Pontevedra,2022-04-24,43,Basico,50,16.7,2,29.06,8,1788.83,No
+NC-00643,Amalia Giralt Coello,Ciudad,2023-07-27,51,Estandar,35,48.4,3,55.81,6,2602.84,No
+NC-00644,Eladio Rios Marquez,Palencia,2022-08-01,68,Estandar,47,59.8,2,60.66,8,3585.26,No
+NC-00645,Clímaco Murcia Grau,Lleida,2024-03-17,58,Basico,28,12.3,4,26.34,5,693.36,Si
+NC-00646,Mariana Hoyos Valera,León,2024-05-06,24,Basico,26,17.5,3,31.74,6,1204.04,No
+NC-00647,Morena del Jiménez,Pontevedra,2026-07-07,21,Basico,1,18.1,2,31.13,7,54.6,Si
+NC-00648,Paloma Trujillo Serna,Ciudad,2024-11-10,70,Basico,20,20.8,1,37.38,8,778.88,Si
+NC-00649,Quique Ortuño Dominguez,Salamanca,2023-07-21,67,Basico,35,10.5,1,38.62,9,1801.26,No
+NC-00650,Plácido Torres Espejo,Almería,2025-02-20,62,Premium,16,71.2,4,99.53,6,1582.98,Si
+NC-00651,Miguela de Zamora,Burgos,2023-05-26,28,Basico,37,15.1,2,20.19,6,944.55,No
+NC-00652,Simón Benavente Atienza,Segovia,2022-10-09,46,Premium,45,97.6,2,90.08,5,4031.08,Si
+NC-00653,Hilario Cervantes Guardia,Alicante,2022-06-14,73,Basico,49,19.5,0,20.58,10,1208.58,No
+NC-00654,Paulino Corbacho Agullo,Alicante,2023-01-13,53,Premium,42,100.4,0,89.07,8,3754.14,Si
+NC-00655,José Antonio Sarmiento,Guipúzcoa,2023-05-14,42,Estandar,38,38.5,2,55.6,7,2805.27,No
+NC-00656,América Tomas Torrents,Almería,2023-11-17,38,Estandar,32,44.2,1,61.47,8,1953.41,Si
+NC-00657,Abraham Reina Albero,La Rioja,2025-04-13,74,Estandar,15,43.0,4,56.7,7,1499.15,No
+NC-00658,Juan Manuel Llobet Madrid,Cáceres,2025-01-06,53,Estandar,18,57.5,3,58.29,6,1058.47,Si
+NC-00659,José Ros Escobar,Salamanca,2023-09-16,27,Estandar,34,41.7,0,60.08,10,2737.64,No
+NC-00660,Ángel Bárcena Zamora,Lleida,2022-01-07,54,Estandar,54,36.2,4,50.07,6,3324.78,No
+NC-00661,Dionisio Fernandez Zurita,Alicante,2025-09-18,26,Estandar,9,44.5,4,55.26,4,1218.52,No
+NC-00662,Saturnino Pablo-Lastra,Vizcaya,2026-01-30,41,Basico,5,15.8,2,29.06,6,118.77,Si
+NC-00663,Ani Perea Ramis,Guadalajara,2024-09-24,52,Basico,21,8.7,1,29.86,7,963.13,No
+NC-00664,Marcia Hervia Gonzalez,Jaén,2022-07-03,66,Estandar,48,39.8,0,59.36,9,3517.81,No
+NC-00665,Octavio Severiano Berrocal Angulo,Valladolid,2024-03-27,52,Estandar,27,39.0,4,66.4,6,1797.18,Si
+NC-00666,Hermenegildo Pinilla Pi,Navarra,2026-03-09,65,Estandar,4,34.6,3,63.0,6,254.34,Si
+NC-00667,Juanita de Agustí,Girona,2025-02-23,53,Estandar,16,,2,56.19,6,890.92,Si
+NC-00668,Ariel Valero Roura,Barcelona,2025-08-01,35,Premium,11,74.3,4,91.12,4,1002.8,Si
+NC-00669,Marcia Bustos Álvarez,Tarragona,2023-08-22,66,Basico,34,16.8,3,30.03,7,1350.07,No
+NC-00670,Darío Galván Talavera,Guipúzcoa,2023-11-27,56,Basico,31,14.4,1,28.87,7,1191.51,No
+NC-00671,Alonso Benavente-Lozano,Melilla,2022-10-11,49,Basico,45,15.4,0,32.9,9,1852.53,No
+NC-00672,Marcela de Escobar,Tarragona,2024-08-18,41,Estandar,23,44.1,1,50.11,10,1696.38,No
+NC-00673,Adriana Galan Cobos,Salamanca,2025-08-02,40,Premium,11,63.8,3,95.78,5,1027.04,Si
+NC-00674,Áurea Benítez Martínez,Badajoz,2024-09-02,49,Basico,22,15.8,5,40.05,3,890.39,Si
+NC-00675,Lope Hernandez Porcel,Lugo,2024-03-01,54,Estandar,28,62.9,0,59.94,7,2399.39,No
+NC-00676,Eusebia del Chaves,Las Palmas,2021-09-21,29,Basico,57,8.8,2,29.43,10,1977.46,No
+NC-00677,Josué Oliva Baeza,Córdoba,2021-11-03,66,Estandar,56,39.4,6,59.73,4,3376.36,Si
+NC-00678,Isaías Guerra Benitez,Barcelona,2022-01-03,72,Estandar,54,51.2,2,65.22,6,4298.68,No
+NC-00679,María Del Carmen Puente Morera,Melilla,2023-08-01,30,Basico,35,16.2,3,30.0,6,1371.02,No
+NC-00680,Maximiliano Llano Sanjuan,Madrid,2023-09-11,40,Estandar,34,46.9,1,64.36,7,2949.63,No
+NC-00681,Corona Pagès Perez,Salamanca,2026-03-31,42,Basico,3,5.5,5,32.99,3,81.48,Si
+NC-00682,Cayetana Pinto Boada,Teruel,2024-10-25,52,Basico,20,17.4,4,43.55,6,844.97,Si
+NC-00683,Emiliana Rosalva Hoz Beltrán,Cantabria,2024-03-04,58,Basico,28,12.0,0,29.56,9,1206.78,No
+NC-00684,Eloy Correa Pinto,Baleares,2024-08-18,47,Basico,23,16.2,1,21.74,9,727.71,No
+NC-00685,Rafael Porras Moliner,Lleida,2022-08-01,34,Basico,47,14.9,3,24.33,6,1441.01,No
+NC-00686,Ascensión Bravo Adadia,Valencia,2026-02-03,66,Estandar,5,62.8,1,61.34,8,1002.54,No
+NC-00687,Iván Geraldo Lerma Calatayud,Zaragoza,2023-07-22,37,Estandar,35,45.5,1,64.69,5,3039.32,No
+NC-00688,Armando Exposito Rosa,La Rioja,2025-04-22,65,Estandar,14,38.9,3,55.63,7,1454.34,No
+NC-00689,Manuela Vila Raya,Guipúzcoa,2024-11-05,42,Basico,20,9.0,3,29.75,5,603.02,Si
+NC-00690,Albert Borrás Otero,Navarra,2021-08-11,39,Estandar,59,41.2,0,62.54,8,4442.76,No
+NC-00691,Araceli del Plaza,Álava,2024-11-19,30,Basico,19,18.3,5,27.0,4,505.83,Si
+NC-00692,Esteban Riba Pons,Tarragona,2023-09-19,36,Basico,33,14.7,1,28.41,6,1246.53,No
+NC-00693,Primitivo Herrero Vázquez,Córdoba,2024-02-07,66,Premium,29,79.9,3,87.15,5,2495.77,Si
+NC-00694,Octavio Pintor Doménech,Granada,2022-04-24,53,Basico,50,12.7,2,37.16,6,2312.88,No
+NC-00695,Eloy Mascaró Ledesma,Málaga,2023-07-19,29,Estandar,36,45.4,3,67.25,6,3190.16,No
+NC-00696,Blanca Barroso Diego,Vizcaya,2024-01-28,58,Estandar,29,47.6,3,51.86,4,1459.22,Si
+NC-00697,Eliana Robledo Marí,Baleares,2023-05-02,36,Basico,38,20.4,1,31.33,9,1609.39,No
+NC-00698,Ricarda Benítez Paniagua,Guipúzcoa,2022-11-27,29,Basico,43,11.0,2,38.14,7,1632.23,Si
+NC-00699,Duilio Valcárcel-Ferrán,Toledo,2025-04-11,26,Basico,15,17.1,1,33.7,7,928.95,No
+NC-00700,Ascensión Cerdá Mayo,Cádiz,2024-03-29,24,Premium,27,87.6,2,91.31,6,2491.57,Si
+NC-00701,Hector Márquez Pinto,Guipúzcoa,2024-12-31,45,Basico,18,14.6,0,23.73,10,713.43,No
+NC-00702,Isabela Nadal Ros,Soria,2021-10-31,31,Basico,56,16.6,1,37.42,8,2533.26,No
+NC-00703,Bernarda Emperatriz Montes Font,Lugo,2023-11-16,48,Basico,32,16.6,3,33.46,5,1461.45,No
+NC-00704,Estefanía Elías Puig,Segovia,2022-03-23,69,Estandar,51,45.3,3,52.17,6,3334.95,No
+NC-00705,Emelina Tudela Herrera,Lugo,2025-09-22,36,Basico,9,10.8,2,37.03,6,760.87,No
+NC-00706,Florina Lozano Pozo,Santa Cruz de Tenerife,2025-07-20,64,Basico,11,12.0,0,23.2,8,538.89,No
+NC-00707,Aurora Folch Escolano,Murcia,2025-01-21,33,Estandar,17,54.9,3,59.39,6,1742.63,No
+NC-00708,Alba del Gallego,Lleida,2024-05-16,70,Premium,26,85.6,4,92.24,6,2405.76,Si
+NC-00709,Rosalva Manuel Bayón,Valencia,2025-02-19,22,Basico,16,16.2,3,39.71,8,1144.41,No
+NC-00710,Nerea Valera Chaparro,Melilla,2022-05-25,52,Basico,49,19.2,0,30.61,10,1855.61,No
+NC-00711,Dionisio Edmundo Correa Rocha,Ourense,2022-11-28,29,Basico,43,16.9,1,30.37,8,1690.55,No
+NC-00712,Angelina Sanchez Tello,Navarra,2023-10-06,42,Estandar,33,45.5,4,52.73,8,2319.01,No
+NC-00713,Gracia Velázquez-Ripoll,Castellón,2025-11-07,69,Basico,8,18.6,2,28.66,8,613.61,No
+NC-00714,Alicia del Blázquez,Zaragoza,2022-02-09,38,Estandar,53,18.8,1,52.79,7,3465.04,No
+NC-00715,Rodrigo Hurtado Padilla,Asturias,2024-07-15,53,Estandar,24,35.1,3,54.68,6,1303.19,Si
+NC-00716,Moisés Arregui Pulido,Cuenca,2025-02-14,70,Estandar,17,44.7,2,59.5,6,1024.67,Si
+NC-00717,Rosalinda Ros Camacho,Guipúzcoa,2026-03-15,40,Basico,4,20.6,1,19.89,7,106.29,Si
+NC-00718,Augusto Jordán Girona,Santa Cruz de Tenerife,2024-04-28,33,Premium,26,91.3,2,86.58,5,2219.95,Si
+NC-00719,Piedad Villena,Ourense,2025-05-26,74,Estandar,13,31.6,1,57.6,7,744.46,Si
+NC-00720,Marisa de Salinas,Cádiz,2021-10-10,56,Estandar,57,31.8,3,58.79,7,4017.34,No
+NC-00721,Genoveva Sierra Vall,Zamora,2021-12-26,62,Basico,54,18.5,0,30.68,10,2059.03,No
+NC-00722,Francisco Jose Amat Tolosa,Teruel,2023-02-08,70,Premium,41,85.6,3,93.36,4,3852.44,Si
+NC-00723,Eusebio Ricart Boada,Teruel,2025-04-25,59,Basico,14,15.0,4,29.45,5,403.87,Si
+NC-00724,Severo Cifuentes Olivé,Cuenca,2022-09-13,56,Basico,46,17.5,1,31.66,8,1824.37,No
+NC-00725,Francisco Javier Javier Gabaldón Vázquez,Ávila,2021-07-27,31,Basico,59,3.4,2,32.51,7,2303.74,No
+NC-00726,Febe Tamayo Cabanillas,Ciudad,2024-12-13,48,Estandar,19,60.0,2,63.14,7,1172.74,Si
+NC-00727,Palmira Santamaria Montaña,León,2023-03-31,22,Basico,39,12.1,0,27.77,8,1411.05,No
+NC-00728,Eutimio Arribas Cardona,Castellón,2024-02-22,52,Basico,28,16.0,4,36.18,7,1416.07,No
+NC-00729,Teobaldo Novoa Canales,Cádiz,2024-03-18,40,Basico,28,8.2,1,31.61,8,1291.35,No
+NC-00730,Raimundo Hervás Villalobos,Huesca,2026-06-10,46,Basico,1,13.3,5,37.49,5,71.6,Si
+NC-00731,Leoncio Cuesta Muro,Vizcaya,2022-03-30,60,Estandar,51,52.4,3,67.4,6,3465.76,Si
+NC-00732,Inmaculada del Guardiola,Ávila,2022-06-27,28,Estandar,48,20.8,4,49.87,5,2956.37,No
+NC-00733,Mayte Espinosa Estrada,Málaga,2022-11-20,35,Basico,43,19.5,1,27.65,6,1514.5,No
+NC-00734,Gertrudis Andres Figueroa,Zaragoza,2023-09-01,64,Estandar,34,37.3,1,62.8,7,2152.74,Si
+NC-00735,Martina Román Porcel,Málaga,2025-12-08,29,Estandar,7,44.9,2,51.17,7,381.25,Si
+NC-00736,Pastor Garmendia Fuster,Cantabria,2022-08-26,26,Basico,46,17.6,0,38.86,9,2198.71,No
+NC-00737,Renato Barros-Cal,Lugo,2025-01-12,27,Basico,18,16.8,1,29.96,10,921.01,No
+NC-00738,Cayetana del Moreno,Vizcaya,2024-04-05,61,Premium,27,72.7,5,95.15,4,3673.55,No
+NC-00739,Jenaro Carbonell,Burgos,2025-05-20,34,Estandar,13,36.4,1,58.06,6,1446.88,No
+NC-00740,Nico Tovar-Álamo,Melilla,2025-08-12,55,Basico,11,9.2,2,23.96,9,588.8,No
+NC-00741,María Pont Poza,Castellón,2022-09-05,24,Estandar,46,44.9,6,64.77,5,3013.08,Si
+NC-00742,Aurora Oliveras-Ortiz,Lleida,2023-10-05,63,Basico,33,21.8,3,45.93,5,2106.63,No
+NC-00743,María Pilar Duque Martorell,Teruel,2023-01-07,30,Estandar,42,21.8,5,54.6,5,2261.21,Si
+NC-00744,Marta Anselma Cañete Millán,Álava,2024-04-30,57,Basico,26,12.0,5,29.59,6,744.76,Si
+NC-00745,Dimas Mayoral Caro,Alicante,2023-12-10,59,Basico,31,14.3,2,18.18,7,764.86,No
+NC-00746,Glauco Cid Vicente,Guipúzcoa,2023-03-27,26,Basico,39,15.7,5,38.33,5,1950.44,No
+NC-00747,Hortensia Cervera Pla,Alicante,2022-04-06,67,Premium,51,107.6,2,100.32,6,5122.82,Si
+NC-00748,Cayetana Torrecilla Duran,Melilla,2025-01-25,44,Estandar,17,38.5,2,50.18,7,1493.54,No
+NC-00749,Carina del Malo,Albacete,2024-09-02,19,Basico,22,13.7,4,21.05,5,435.24,Si
+NC-00750,Ciro Miranda Sanmartín,Santa Cruz de Tenerife,2023-02-03,22,Basico,41,19.4,1,22.19,5,1157.2,No
+NC-00751,Amelia Teresita Palomar Agustí,Guadalajara,2024-11-21,46,Estandar,19,46.6,4,62.89,5,1237.62,Si
+NC-00752,Bernarda Ferrero Plana,Cantabria,2024-10-02,54,Basico,21,17.2,2,35.44,5,1134.75,No
+NC-00753,Ligia del Rebollo,Cuenca,2026-05-25,55,Basico,1,15.5,4,26.93,7,371.9,No
+NC-00754,Herminia Saldaña Torres,Vizcaya,2023-06-15,36,Premium,37,109.7,3,98.47,4,3640.73,Si
+NC-00755,Ariel Anguita Giménez,Sevilla,2021-09-20,25,Basico,57,12.4,2,32.03,5,1837.35,Si
+NC-00756,Alcides Emigdio Gomila Malo,Cuenca,2021-09-27,65,Estandar,57,32.1,3,56.37,4,3188.75,Si
+NC-00757,Rosario Sebastián Valbuena,Cáceres,2026-04-18,62,Premium,3,104.9,1,100.34,7,322.24,Si
+NC-00758,Lina de Carbonell,Baleares,2023-06-28,18,Basico,36,8.5,1,24.83,8,1172.21,No
+NC-00759,Roldán Pedraza-Arnaiz,Salamanca,2022-04-20,39,Basico,50,15.4,4,37.28,4,1821.41,Si
+NC-00760,Magdalena Gil Rodríguez,Castellón,2025-06-23,69,Basico,12,13.7,2,27.73,6,679.92,No
+NC-00761,Quirino Huertas Martorell,Navarra,2023-03-25,34,Premium,39,61.9,2,100.1,6,5030.01,No
+NC-00762,Jafet Jódar Olivé,Cuenca,2023-10-09,24,Premium,33,71.4,1,87.11,8,3902.91,No
+NC-00763,Isidoro Carpio Gálvez,Teruel,2022-12-24,42,Estandar,42,38.9,3,57.13,5,2408.19,Si
+NC-00764,Santiago Orozco,Ourense,2021-12-19,62,Basico,54,19.1,5,32.2,5,1761.53,Si
+NC-00765,Melania Inés Daza Chaparro,Cáceres,2024-12-14,21,Estandar,19,33.5,2,58.61,5,1150.39,Si
+NC-00766,Santos Gabaldón,Granada,2025-03-11,53,Premium,16,114.3,2,98.88,7,2821.97,No
+NC-00767,Lucas Orozco Lucas,Murcia,2023-10-04,23,Estandar,33,40.6,3,52.63,7,2412.5,No
+NC-00768,Lupita Carla Morales Marco,Almería,2022-10-24,48,Premium,44,116.2,1,96.43,8,5405.83,No
+NC-00769,Luciano Eliseo Vilar Bustos,Albacete,2022-04-20,36,Premium,50,77.9,0,93.48,9,4707.77,Si
+NC-00770,Remigio Reina Barranco,Soria,2024-09-03,61,Estandar,22,39.5,4,56.31,6,1919.82,No
+NC-00771,Toribio Castañeda-Cazorla,Badajoz,2022-12-28,71,Estandar,42,43.7,4,61.39,7,3335.64,No
+NC-00772,Camilo del Huertas,Almería,2026-05-15,56,Basico,2,14.3,4,24.7,6,50.0,Si
+NC-00773,Laura Cisneros Leiva,Las Palmas,2022-07-17,44,Basico,48,18.8,1,30.25,10,1828.86,No
+NC-00774,Florina Sans Benet,Cádiz,2021-08-30,27,Estandar,58,17.9,3,53.02,5,3697.2,No
+NC-00775,Heriberto Villalba Lobo,Salamanca,2026-01-06,43,Basico,6,24.7,1,30.85,8,550.09,No
+NC-00776,Jenny Torrents Morán,Granada,2025-03-30,36,Premium,15,107.2,1,102.96,7,2793.88,No
+NC-00777,Abril Buendía-Sedano,Cantabria,2025-05-27,56,Premium,13,86.5,2,100.98,5,1375.48,Si
+NC-00778,Susanita Barroso Puga,Valladolid,2025-09-30,20,Estandar,9,34.5,4,64.8,3,595.04,Si
+NC-00779,Iker Galán,Ourense,2022-07-21,62,Basico,47,11.5,4,28.84,6,1355.13,Si
+NC-00780,Edelmira Moraleda Luque,Ávila,2023-06-15,30,Basico,37,17.6,2,36.3,6,1318.15,Si
+NC-00781,Maite Castrillo Toro,Badajoz,2023-04-10,67,Basico,39,19.0,3,32.46,6,1682.35,No
+NC-00782,Virginia Atienza Arteaga,Granada,2023-03-02,45,Estandar,40,38.4,6,59.07,5,2352.74,Si
+NC-00783,Matías Segura Alegre,Lugo,2023-10-23,37,Estandar,32,51.1,2,59.72,7,2638.9,No
+NC-00784,Timoteo Cruz Sainz,Ceuta,2023-12-29,45,Premium,30,71.9,0,100.98,10,4262.22,No
+NC-00785,Abigaíl Roman Francisco,Salamanca,2025-09-30,25,Basico,9,10.7,3,37.9,6,833.82,No
+NC-00786,Valero Matas Cuenca,Huesca,2024-10-17,58,Premium,21,126.3,0,101.35,9,3369.82,No
+NC-00787,Arturo Palomo-Ibáñez,Cádiz,2022-08-26,56,Premium,46,101.8,1,94.33,7,4302.48,Si
+NC-00788,Gilberto Dalmau Azorin,Zamora,2025-03-19,18,Basico,16,20.6,0,32.26,8,851.76,No
+NC-00789,Maura Mayoral Guillén,Lleida,2023-04-20,20,Premium,38,72.9,6,94.94,4,3628.76,Si
+NC-00790,Morena Bou Bustamante,Albacete,2023-05-18,30,Basico,38,11.3,0,28.52,8,1428.58,No
+NC-00791,Custodio Tapia Bermejo,Lugo,2023-12-14,45,Basico,31,13.6,7,36.05,4,1129.29,Si
+NC-00792,Manu Gonzalo Vives,Huelva,2023-02-26,74,Estandar,40,31.8,2,53.57,6,2837.23,No
+NC-00793,Adelia Aguiló Nuñez,Lleida,2025-02-06,66,Basico,17,17.8,4,33.74,5,959.96,No
+NC-00794,Tito Roca Catalán,Girona,2023-01-29,42,Estandar,41,32.5,5,46.8,4,1957.54,Si
+NC-00795,Andrea Granados Piñol,Pontevedra,2025-01-07,73,Estandar,18,28.3,1,55.08,9,1634.2,No
+NC-00796,Pío Calatayud Calderón,Málaga,2022-10-14,50,Estandar,45,41.4,3,69.53,5,4010.17,No
+NC-00797,Flor Martínez Cerro,La Coruña,2021-10-15,55,Basico,57,9.8,1,36.16,9,2517.56,No
+NC-00798,Remedios Cañas Clavero,Guadalajara,2024-01-05,70,Estandar,30,22.0,2,64.88,6,1901.19,Si
+NC-00799,Juan Manuel Aguirre Córdoba,Zamora,2023-10-09,23,Estandar,33,41.3,0,55.79,9,2498.03,No
+NC-00800,Felicia Garcés Cordero,Murcia,2023-07-19,61,Estandar,36,22.5,4,57.77,5,2830.43,No
+NC-00801,María Manuela Salas Gaya,La Coruña,2025-05-19,62,Basico,14,18.1,2,38.22,8,588.79,Si
+NC-00802,Vidal Cabrera Chaves,Ciudad,2023-08-28,49,Basico,34,9.4,4,34.11,5,1177.87,Si
+NC-00803,Macario Plana Ortega,Navarra,2024-09-08,62,Estandar,22,17.6,3,59.3,5,1315.23,Si
+NC-00804,Estela Chaves Huguet,Lugo,2026-07-03,64,Basico,1,13.8,0,39.53,7,50.0,Si
+NC-00805,Mohamed Blasco-Hurtado,Asturias,2025-06-10,38,Estandar,13,41.4,3,53.94,6,1361.61,No
+NC-00806,María Carmen del Amor,Castellón,2022-04-10,33,Estandar,51,44.9,2,58.57,7,2982.85,Si
+NC-00807,Cristian Juan Antonio Vergara Fabregat,Zamora,2021-08-19,71,Estandar,58,41.7,0,50.4,9,3564.33,No
+NC-00808,Emiliana Ballester Heras,Ourense,2025-07-13,38,Estandar,12,29.4,4,52.46,5,646.86,Si
+NC-00809,Gabriela Capdevila Hernando,Murcia,2022-09-04,28,Premium,46,104.3,1,100.8,7,4607.84,Si
+NC-00810,Merche Belda Álvarez,Cádiz,2024-04-17,54,Premium,27,109.2,2,91.33,6,2485.56,Si
+NC-00811,Geraldo Moliner Catalán,Valencia,2024-12-04,53,Premium,19,65.9,3,95.27,5,1815.08,Si
+NC-00812,Teodora Rivero Pavón,Baleares,2023-05-08,52,Premium,38,,0,101.93,8,5087.13,No
+NC-00813,Nilda de Sotelo,Guadalajara,2024-10-21,36,Basico,20,13.9,4,30.5,6,666.96,Si
+NC-00814,Adán Bauzà Alcalá,León,2025-02-22,37,Basico,16,15.9,2,34.19,9,960.43,No
+NC-00815,Cándido Ariño-Barrena,Granada,2023-09-22,74,Estandar,33,38.0,3,62.52,6,2754.69,No
+NC-00816,Lilia Macías Vallejo,Asturias,2022-03-01,35,Basico,52,14.7,1,25.36,8,1615.8,No
+NC-00817,Ileana Quesada Blanca,Soria,2022-05-10,64,Estandar,50,46.4,4,56.56,5,3536.52,No
+NC-00818,Lupita de Lobato,Guadalajara,2026-04-13,58,Basico,3,10.5,2,26.03,7,50.3,Si
+NC-00819,Fabián Bermúdez Vidal,Segovia,2022-01-16,66,Estandar,54,47.4,2,57.06,7,3794.75,No
+NC-00820,Sancho Cortés,Ávila,2021-12-26,31,Estandar,54,51.4,4,63.72,5,4175.59,No
+NC-00821,Eugenia del Batalla,Barcelona,2024-05-17,32,Estandar,26,56.3,2,57.65,7,2230.8,No
+NC-00822,Paco Isaías Gómez Barco,Valladolid,2023-07-17,48,Estandar,36,18.6,1,56.68,9,2703.46,No
+NC-00823,Armando del Carmona,Sevilla,2025-07-20,18,Premium,11,86.3,1,88.42,7,962.07,Si
+NC-00824,María José Ballesteros Mendoza,León,2024-07-22,70,Basico,23,7.1,2,36.84,7,834.54,Si
+NC-00825,Benito Alberola Cervantes,Jaén,2021-12-06,71,Premium,55,41.3,5,86.4,2,4769.92,Si
+NC-00826,Ceferino Valderrama Oliver,Cantabria,2021-08-03,71,Basico,59,15.6,3,39.17,6,2836.39,No
+NC-00827,Lorena Jove,Soria,2023-09-14,20,Premium,34,82.0,2,93.5,6,4301.45,No
+NC-00828,Gilberto Castañeda Leiva,Granada,2025-11-01,33,Estandar,8,43.0,1,52.27,8,1045.07,No
+NC-00829,Rogelio Andreu Naranjo,Las Palmas,2024-10-13,40,Basico,21,16.9,3,30.83,6,1000.19,No
+NC-00830,Elena Zabaleta Bartolomé,Ávila,2024-02-12,74,Basico,29,20.0,1,26.69,8,1045.47,No
+NC-00831,Pelayo Benítez-Valderrama,Salamanca,2024-11-25,28,Estandar,19,40.5,2,62.0,6,1163.79,Si
+NC-00832,Lina Palomino Baquero,Barcelona,2024-09-12,29,Basico,22,26.7,1,31.36,8,1028.47,No
+NC-00833,Tecla Diaz Pedro,Almería,2022-09-01,27,Basico,46,16.2,3,32.44,5,1435.62,Si
+NC-00834,Edu Calderon Carlos,Navarra,2026-04-21,49,Estandar,2,58.4,1,58.99,8,823.55,No
+NC-00835,Raimundo de Arregui,Álava,2021-11-22,33,Estandar,55,16.7,1,53.89,7,3594.35,No
+NC-00836,Donato Arteaga Suarez,Baleares,2026-06-25,25,Estandar,1,53.5,2,55.48,8,96.78,Si
+NC-00837,Fátima Conesa Escamilla,Albacete,2023-01-26,55,Premium,41,86.4,3,97.82,5,3984.95,Si
+NC-00838,Leonel Rius Gomez,Las Palmas,2023-10-04,29,Estandar,33,20.5,1,56.18,9,2548.21,No
+NC-00839,Diana Rico Montero,Santa Cruz de Tenerife,2022-12-27,41,Estandar,42,44.2,2,57.85,7,2449.22,Si
+NC-00840,Seve Bermejo-Peralta,Teruel,2025-10-30,45,Basico,8,13.8,1,30.39,6,647.91,No
+NC-00841,José Badía Escobar,La Coruña,2025-09-26,70,Estandar,9,45.8,4,56.19,4,500.18,Si
+NC-00842,Samu de Quero,Las Palmas,2024-06-05,25,Basico,25,19.0,2,30.34,8,1162.15,No
+NC-00843,Valentín Sola Lumbreras,Sevilla,2025-07-11,45,Premium,12,60.2,2,92.05,7,1121.43,Si
+NC-00844,Fernando Armando Saura Aguiló,Lugo,2022-08-31,53,Premium,46,110.3,4,90.86,4,5304.06,No
+NC-00845,Chus Manzanares Mateu,Cantabria,2022-04-22,43,Estandar,50,40.1,0,54.56,10,3454.54,No
+NC-00846,Daniela Jordana Pedrosa Uriarte,Huesca,2024-03-29,25,Basico,27,20.4,7,38.93,3,1047.41,Si
+NC-00847,Quique Higueras,Burgos,2026-01-20,67,Premium,5,85.9,3,91.78,7,464.02,Si
+NC-00848,Abraham Redondo Alvarez,Sevilla,2025-03-24,45,Estandar,15,35.3,4,55.77,4,825.7,Si
+NC-00849,Kike del Agustí,Barcelona,2022-10-01,45,Basico,45,15.1,3,24.79,6,1459.3,No
+NC-00850,Abigaíl Peñalver Meléndez,Asturias,2023-10-05,54,Basico,33,15.4,3,35.79,7,1688.69,No
+NC-00851,Cristian Gárate Rivas,Burgos,2022-07-16,58,Estandar,48,33.4,7,53.06,3,2568.9,Si
+NC-00852,América Cisneros Losada,Sevilla,2024-03-17,53,Basico,28,13.0,1,31.22,5,825.86,Si
+NC-00853,Alfredo Guardiola Vizcaíno,Barcelona,2021-12-02,44,Premium,55,65.5,0,83.01,8,5535.18,No
+NC-00854,Odalis Perales Sedano,Barcelona,2022-08-19,71,Basico,46,13.3,4,35.42,3,1664.11,Si
+NC-00855,Luis Ángel Bustos Vega,Lleida,2025-10-15,34,Basico,9,17.7,2,37.65,6,304.52,Si
+NC-00856,Melchor Prado Benavides,Salamanca,2023-12-08,26,Premium,31,87.3,0,96.15,7,4116.43,No
+NC-00857,Margarita Barrios-Royo,Lleida,2024-08-11,50,Basico,23,19.0,0,24.23,10,828.98,No
+NC-00858,Diego Manzanares Julián,Navarra,2025-03-15,70,Estandar,16,38.1,1,63.0,9,1761.69,No
+NC-00859,Ángeles Pozo Morera,Jaén,2023-12-14,37,Basico,31,9.3,3,26.79,7,1159.67,No
+NC-00860,Jennifer Llabrés Guillen,Ceuta,2023-10-13,30,Basico,33,17.4,6,25.89,4,797.69,Si
+NC-00861,Cosme Cerdán Canales,Las Palmas,2023-10-15,45,Estandar,33,33.3,1,56.41,8,1815.71,Si
+NC-00862,Balduino Córdoba Sancho,Ourense,2025-12-10,65,Estandar,7,37.7,5,56.75,6,352.14,Si
+NC-00863,Estefanía Ramos Carrillo,Toledo,2024-03-16,46,Estandar,28,52.4,3,57.71,4,1574.36,Si
+NC-00864,Felisa de Sans,Teruel,2025-04-01,30,Estandar,15,28.4,2,64.21,6,1734.15,No
+NC-00865,Jesús Eligio Carretero Botella,La Rioja,2022-12-12,63,Estandar,43,41.6,2,69.22,8,3812.94,No
+NC-00866,Sancho Mayo Arjona,Alicante,2024-03-24,52,Basico,27,14.8,3,24.63,8,990.97,No
+NC-00867,Silvestre Mosquera,Ourense,2025-09-21,23,Basico,9,17.8,3,28.34,7,271.71,Si
+NC-00868,Artemio Hurtado Pagès,Teruel,2022-10-30,35,Premium,44,107.1,3,96.42,5,5382.05,No
+NC-00869,Loida Avilés Martínez,Baleares,2026-04-09,68,Estandar,3,,6,57.32,5,866.7,No
+NC-00870,Sebastián Dávila-Anguita,Tarragona,2025-04-15,22,Estandar,15,36.4,5,60.64,6,941.23,Si
+NC-00871,Tania Santamaria Iborra,Burgos,2021-12-30,64,Basico,54,16.9,3,36.27,7,2387.0,No
+NC-00872,Jerónimo Cal Chaves,Lleida,2023-02-24,42,Basico,40,20.3,2,35.78,5,1851.25,No
+NC-00873,Adolfo Barrio Girón,Melilla,2022-10-22,19,Estandar,44,39.7,2,62.02,7,2700.53,Si
+NC-00874,Conrado Pérez Perales,Ciudad,2022-01-03,27,Premium,54,84.7,4,101.77,5,5471.44,Si
+NC-00875,Lupe Jove Benavides,Santa Cruz de Tenerife,2023-07-02,73,Estandar,36,43.9,4,51.45,5,1872.77,Si
+NC-00876,Anacleto Figueroa Salcedo,Soria,2023-02-07,47,Premium,41,90.8,2,101.48,7,4160.57,Si
+NC-00877,Arturo Mármol Carvajal,Salamanca,2021-11-06,67,Estandar,56,26.6,3,55.6,6,3172.35,Si
+NC-00878,Jerónimo Ayuso Diéguez,Guipúzcoa,2025-07-18,62,Basico,12,16.0,2,35.53,6,406.06,Si
+NC-00879,Iris Prat-Valderrama,Lugo,2023-10-04,22,Basico,33,9.6,1,25.81,9,1184.29,No
+NC-00880,Graciano Roldan Duque,Málaga,2022-12-08,72,Basico,43,16.5,2,27.11,7,1502.64,No
+NC-00881,Clotilde Exposito Llopis,Ourense,2025-07-08,73,Basico,12,11.8,2,34.49,6,825.08,No
+NC-00882,Jacinto Comas-Aramburu,La Rioja,2025-04-03,50,Premium,15,90.7,1,84.43,6,1253.38,Si
+NC-00883,María Teresa María Manuela Hoyos Marquez,Zaragoza,2022-07-13,71,Estandar,48,43.9,3,64.34,5,3878.4,No
+NC-00884,Guiomar Tello Barrera,Girona,2025-10-02,18,Estandar,9,64.5,4,67.75,4,1439.03,No
+NC-00885,Enrique Piñol Cervantes,Alicante,2021-11-21,35,Basico,55,18.0,1,32.69,8,2196.29,No
+NC-00886,Chus Zaragoza Ibañez,Toledo,2025-04-19,49,Basico,14,20.5,4,32.76,6,864.53,No
+NC-00887,Rosalina de Piñeiro,Almería,2024-07-29,64,Basico,23,22.5,4,28.08,6,983.89,No
+NC-00888,Julia Tormo Núñez,Palencia,2026-04-25,66,Basico,2,17.0,2,35.07,6,441.74,No
+NC-00889,Lidia Montoya-Pont,Ourense,2025-09-02,28,Estandar,10,42.9,2,61.03,8,612.83,Si
+NC-00890,Cipriano Amo-Montaña,Sevilla,2025-06-09,38,Basico,13,10.7,6,26.46,5,335.92,Si
+NC-00891,Constanza Ale Lucas Barragán,Zaragoza,2025-09-26,43,Estandar,9,38.8,2,56.92,7,1253.71,No
+NC-00892,Luisa Pallarès Guerrero,Girona,2022-07-02,42,Basico,48,12.1,5,30.41,4,1478.68,Si
+NC-00893,Aureliano Huguet Hernando,Ávila,2022-10-20,39,Basico,44,13.4,3,29.38,6,1651.33,No
+NC-00894,Juanito Barba-Gimenez,Málaga,2022-08-06,44,Basico,47,22.5,3,25.44,9,1514.84,No
+NC-00895,Soraya Pont-Pacheco,Zamora,2024-07-08,66,Estandar,24,41.1,1,62.61,7,1471.95,Si
+NC-00896,Chus Guzmán Monreal,Córdoba,2022-05-04,30,Estandar,50,31.2,3,56.9,6,3509.51,No
+NC-00897,Zaira Anaya Ortiz,Salamanca,2023-04-11,50,Basico,39,20.5,0,32.13,9,1628.59,No
+NC-00898,Marcela Cisneros-Fabra,Cuenca,2023-12-17,51,Basico,31,18.8,3,28.99,7,1258.22,No
+NC-00899,Macarena Mendizábal Echevarría,Álava,2023-01-30,58,Estandar,41,50.1,2,62.39,5,2544.95,Si
+NC-00900,Alma Bosch Barbero,Pontevedra,2022-12-22,52,Basico,42,7.0,0,31.69,10,1696.22,No
+NC-00901,Marcial de Aller,Palencia,2025-11-14,18,Basico,8,22.8,1,38.34,9,734.76,No
+NC-00902,Judith Abascal,Sevilla,2023-11-12,38,Premium,32,78.8,5,95.28,4,3049.71,Si
+NC-00903,África Fortuny Castrillo,Huesca,2026-05-02,65,Estandar,2,47.8,1,58.77,10,827.75,No
+NC-00904,Paca Elías Morales,Córdoba,2026-07-11,72,Basico,1,25.1,3,28.81,8,387.39,No
+NC-00905,Aitor Coloma Cifuentes,Madrid,2023-05-08,23,Premium,38,133.1,2,102.64,8,5111.12,No
+NC-00906,Teo Zorrilla Patiño,Zaragoza,2026-07-05,45,Estandar,1,30.2,2,56.61,8,67.73,Si
+NC-00907,Glauco Priego Cabrero,Guipúzcoa,2021-07-30,34,Basico,59,9.2,4,30.06,7,2103.05,No
+NC-00908,Encarna Mora Cerezo,Burgos,2026-01-07,22,Estandar,6,54.3,4,59.57,5,1065.69,No
+NC-00909,Pío Rueda Torrens,Madrid,2026-05-26,48,Estandar,1,41.4,0,57.13,8,751.74,No
+NC-00910,Carmelita Palacios Godoy,Vizcaya,2023-01-30,22,Basico,41,13.0,1,122.12,7,1610.33,No
+NC-00911,Sabina Echevarría-Pineda,Ciudad,2025-01-31,55,Basico,17,17.5,4,41.38,5,656.6,Si
+NC-00912,Quique Omar Mariño Castejón,Toledo,2022-03-13,20,Basico,52,14.3,4,26.19,5,1632.88,No
+NC-00913,Pánfilo Abellán Posada,Castellón,2023-08-21,70,Estandar,34,47.0,4,55.63,5,2565.61,No
+NC-00914,Alejandra Espada-Monreal,Almería,2025-10-12,40,Basico,9,15.3,8,38.45,4,363.44,Si
+NC-00915,Consuela Micaela Calvet Valderrama,Valladolid,2022-05-06,54,Premium,50,104.4,1,93.57,5,5811.52,No
+NC-00916,Fito Bermejo Gárate,Almería,2024-05-04,70,Estandar,26,31.1,2,55.86,8,2140.79,No
+NC-00917,Esther Diez Borrego,Lleida,2021-10-06,54,Basico,57,20.7,3,37.24,5,2561.14,No
+NC-00918,Itziar Alberdi Lara,Lugo,2023-12-18,27,Estandar,31,47.0,1,52.6,8,2283.95,No
+NC-00919,Edelmiro Bauzà,Lugo,2022-08-01,27,Basico,47,17.6,5,35.87,4,1695.97,Si
+NC-00920,Domitila Campoy Abella,Jaén,2024-11-23,36,Estandar,19,28.8,2,58.11,9,1782.23,No
+NC-00921,Guadalupe Ríos Rivas,Lugo,2024-09-20,34,Estandar,21,57.0,3,63.02,5,2095.09,No
+NC-00922,Vasco Riba Ureña,Burgos,2022-06-12,38,Basico,49,14.9,4,33.72,6,2065.8,No
+NC-00923,Felicia Perez Cadenas,Álava,2024-04-18,31,Estandar,27,47.3,0,56.59,9,2257.18,No
+NC-00924,Rocío Gomis Cánovas,Zaragoza,2022-11-07,26,Basico,44,13.7,3,36.63,5,2092.66,No
+NC-00925,Angelina Aragonés Mariño,Jaén,2021-10-15,63,Basico,57,16.0,0,28.85,9,1987.88,No
+NC-00926,Feliciano Julián Calvo,Melilla,2022-03-26,18,Basico,51,16.2,1,33.66,9,2108.05,No
+NC-00927,Francisco Javier Domínguez Perez,Badajoz,2025-06-16,68,Basico,13,3.7,0,36.56,8,522.05,Si
+NC-00928,Pío Benavides Buendía,Las Palmas,2025-08-16,62,Premium,11,101.6,2,102.05,7,2363.7,No
+NC-00929,Martirio Tolosa Anguita,Guipúzcoa,2025-05-28,30,Basico,13,22.9,1,30.95,8,768.53,No
+NC-00930,Montserrat Cózar Rovira,Cuenca,2023-11-01,21,Basico,32,17.2,2,34.04,8,1438.09,No
+NC-00931,Amando Cadenas Muñoz,Córdoba,2021-08-05,18,Estandar,59,30.4,1,56.24,9,3970.38,No
+NC-00932,Claudio Recio,Lleida,2024-05-06,66,Basico,26,17.6,2,44.28,5,1657.89,No
+NC-00933,Palmira del Lucena,Toledo,2021-12-01,57,Premium,55,111.2,1,100.02,6,6696.95,No
+NC-00934,Diego Atilio Ayala Pozo,Melilla,2025-05-25,49,Estandar,13,45.1,0,59.93,8,1516.81,No
+NC-00935,Malena Tudela-Corral,Soria,2024-04-22,51,Estandar,26,39.3,2,60.49,8,2321.76,No
+NC-00936,Geraldo Acevedo Roma,Guadalajara,2026-05-21,45,Basico,1,14.0,3,33.44,7,479.72,No
+NC-00937,Eugenio Tenorio Flores,Soria,2022-08-23,48,Basico,46,,2,33.58,6,1975.58,No
+NC-00938,Albert Gabaldón Donaire,Asturias,2023-05-05,25,Basico,38,17.8,4,30.58,6,1489.99,No
+NC-00939,Apolinar Jordi Carlos Mendez,La Rioja,2021-12-16,56,Premium,55,61.9,3,89.22,5,6008.64,No
+NC-00940,Jovita Torrijos Landa,Melilla,2023-12-14,43,Basico,31,,1,30.59,9,1367.37,No
+NC-00941,Miguel Ángel Ponce Esteban,Soria,2024-04-17,51,Basico,27,21.4,3,26.44,7,764.39,Si
+NC-00942,Vicenta Pizarro Peiró,Huelva,2022-01-06,71,Premium,54,122.7,0,100.86,7,6620.37,No
+NC-00943,Jacinto Arribas Lago,Toledo,2022-02-22,71,Estandar,52,25.2,0,53.51,8,3418.91,No
+NC-00944,Josefa Lago Gonzalo,Córdoba,2026-03-13,20,Basico,4,10.5,1,25.75,9,131.83,Si
+NC-00945,Lope Barrio-Corbacho,Alicante,2024-10-14,67,Basico,21,13.9,5,31.32,3,622.97,Si
+NC-00946,Aristides Núñez Riba,Salamanca,2022-05-01,29,Premium,50,107.9,4,95.14,5,4705.25,Si
+NC-00947,Corona Barrera-Pombo,Almería,2024-12-08,18,Basico,19,7.7,3,32.02,5,617.8,Si
+NC-00948,Hortensia Taboada,Pontevedra,2023-09-18,71,Estandar,34,39.5,7,56.11,3,1887.47,Si
+NC-00949,Vera Gutiérrez-Tamayo,Teruel,2023-01-22,61,Estandar,41,35.3,3,56.57,6,2270.43,Si
+NC-00950,Aníbal Hector Arana Vallés,Ávila,2023-08-02,22,Basico,35,20.3,3,35.49,8,1704.92,No
+NC-00951,Xiomara Villanueva-Colom,Jaén,2024-12-08,47,Estandar,19,23.2,4,60.48,5,1154.05,Si
+NC-00952,Reyes Sanchez Duran,Baleares,2022-04-21,47,Basico,50,15.4,2,34.49,9,2122.76,No
+NC-00953,Curro Fernández Cases,Córdoba,2021-09-19,74,Basico,57,13.4,3,31.51,5,2145.28,No
+NC-00954,Héctor Bermudez Rozas,Lleida,2023-04-25,34,Estandar,38,54.7,2,61.31,6,3070.74,No
+NC-00955,Sergio Coloma,Santa Cruz de Tenerife,2022-12-06,65,Premium,43,102.0,4,96.35,5,5314.71,No
+NC-00956,Dora Esther Bautista Bonet,Cuenca,2024-11-06,64,Estandar,20,34.1,1,55.13,8,1773.94,No
+NC-00957,Manu Puerta Moreno,Tarragona,2024-12-19,40,Estandar,18,48.5,2,67.22,6,1164.39,Si
+NC-00958,Juan Bautista Sedano-Alberola,Córdoba,2023-12-20,32,Basico,30,13.4,2,38.0,7,1610.31,No
+NC-00959,Maristela Lourdes Rivas Capdevila,Vizcaya,2022-11-08,54,Basico,44,19.0,3,35.87,8,2029.55,No
+NC-00960,Brígida Colomer Cabrera,Cuenca,2022-07-27,38,Basico,47,14.1,2,29.28,7,1717.22,No
+NC-00961,Lope Cabrero Macias,Jaén,2024-01-31,31,Basico,29,19.2,2,34.62,6,1450.61,No
+NC-00962,Vanesa del Reig,Guipúzcoa,2025-09-20,19,Basico,9,16.7,3,36.56,5,742.2,No
+NC-00963,Gregorio Torralba-Suárez,Córdoba,2025-03-22,28,Basico,15,28.0,3,26.68,7,438.92,Si
+NC-00964,Chema Llorens Quintana,Cádiz,2024-03-07,68,Basico,28,14.8,4,39.95,8,1601.97,No
+NC-00965,Martin Querol Arias,Asturias,2022-08-29,56,Basico,46,16.5,3,22.95,6,1316.21,No
+NC-00966,Vilma Muñoz Gámez,Cantabria,2024-08-06,55,Estandar,23,35.2,2,62.04,9,2161.85,No
+NC-00967,Ramón Talavera Leiva,Cádiz,2022-05-12,51,Premium,50,,1,101.28,7,5093.98,Si
+NC-00968,Ainara Nebot Mateo,Badajoz,2024-09-01,55,Basico,22,4.2,2,29.85,7,1022.02,No
+NC-00969,Enrique Tadeo Tur Cabello,Murcia,2025-11-26,67,Premium,7,99.3,4,94.18,4,678.61,Si
+NC-00970,Bonifacio del Salazar,Castellón,2023-03-30,51,Premium,39,116.9,1,100.03,7,5133.77,No
+NC-00971,Edelmira Riera Borrell,León,2025-09-16,35,Basico,10,16.6,2,40.92,6,884.46,No
+NC-00972,Ismael Galván,Badajoz,2025-05-01,47,Estandar,14,26.9,2,56.28,6,791.74,Si
+NC-00973,Perla Tormo Villalonga,Asturias,2024-11-04,32,Estandar,20,32.0,1,54.3,6,1730.87,No
+NC-00974,Samanta Barbero Villalba,Ourense,2025-08-06,44,Estandar,11,15.7,2,54.45,9,1282.86,No
+NC-00975,Anacleto Merino Velázquez,Vizcaya,2023-10-30,68,Basico,32,18.9,1,24.13,9,1050.25,No
+NC-00976,Bernarda Zamora Andres,Albacete,2026-05-02,51,Estandar,2,29.9,4,62.48,5,126.39,Si
+NC-00977,Clemente Font Barco,Burgos,2025-02-21,69,Basico,16,14.9,1,28.92,8,878.63,No
+NC-00978,Alcides del Ayuso,Alicante,2022-04-24,74,Estandar,50,38.5,2,57.81,7,3622.77,No
+NC-00979,Ofelia Flor Lledó,Cuenca,2025-02-19,55,Estandar,16,54.9,1,65.04,7,1790.06,No
+NC-00980,Sandra Simó Vazquez,Tarragona,2024-09-04,50,Estandar,22,40.9,5,57.21,3,1285.68,Si
+NC-00981,Mercedes Casals Anglada,La Coruña,2023-02-16,41,Estandar,41,48.1,3,63.61,7,3391.99,No
+NC-00982,Gilberto del Salmerón,Málaga,2025-03-27,32,Estandar,15,45.5,2,54.36,7,1434.7,No
+NC-00983,Trinidad Sánchez Olmo,Lugo,2025-03-02,47,Basico,16,20.4,2,36.83,7,1027.94,No
+NC-00984,Candelas Jordán Botella,La Coruña,2022-05-02,72,Basico,50,14.0,0,33.11,7,2024.39,No
+NC-00985,Alberto Guadalupe Ayala Cánovas,Murcia,2021-11-20,59,Premium,55,127.4,3,97.3,5,5279.72,Si
+NC-00986,Reyna Gargallo-Giralt,Álava,2025-11-28,68,Basico,7,7.1,3,31.36,5,215.14,Si
+NC-00987,Nilo de Leon,Tarragona,2024-06-13,34,Basico,25,18.4,2,25.41,8,924.99,No
+NC-00988,Loida Almagro Agullo,Baleares,2025-06-27,22,Basico,12,11.5,4,31.69,6,727.53,No
+NC-00989,Zaida Catalán Duran,Guipúzcoa,2023-06-14,46,Basico,37,13.0,2,30.59,9,1498.62,No
+NC-00990,Rosario Adelia Goicoechea Iniesta,La Coruña,2022-11-11,21,Premium,44,101.4,5,88.84,3,3845.34,Si
+NC-00991,Rosenda Encarnación Llopis Roda,Santa Cruz de Tenerife,2025-10-03,27,Estandar,9,45.6,4,56.2,4,507.04,Si
+NC-00992,Tamara Oller Segovia,Huesca,2026-01-11,73,Premium,6,102.1,1,94.56,7,567.82,Si
+NC-00993,César Soler-Matas,Ávila,2026-01-03,34,Estandar,6,26.1,6,54.57,3,347.78,Si
+NC-00994,Sara Puerta,Valladolid,2022-04-04,27,Estandar,51,54.5,3,48.39,7,3000.47,No
+NC-00995,Aroa Aguilera-Vidal,Segovia,2024-01-07,34,Basico,30,11.4,1,36.52,6,1159.78,Si
+NC-00996,Mar Lumbreras Martín,Cádiz,2025-07-11,37,Estandar,12,32.3,2,57.52,5,742.91,Si
+NC-00997,Jose Angel Bartolomé Navarrete,Jaén,2025-04-06,41,Basico,15,17.6,1,20.39,8,282.65,Si
+NC-00998,Miguel Morcillo-Lluch,Granada,2022-03-21,22,Premium,51,84.3,1,104.1,8,6602.09,No
+NC-00999,Nacio Martín-Fabra,Badajoz,2025-08-09,51,Premium,11,96.2,3,100.83,5,1134.84,Si
+NC-01000,Juan Hernandez Barberá,Madrid,2024-02-06,23,Basico,29,6.4,0,28.9,10,1171.72,No
+NC-01001,Graciana Nadia Montenegro Chaves,Santa Cruz de Tenerife,2022-10-22,70,Premium,44,,3,90.36,6,5041.95,No
+NC-01002,Nacio Valencia Marqués,Valencia,2022-08-19,19,Premium,46,94.4,2,96.46,8,5578.74,No
+NC-01003,Wilfredo Riquelme-Quiroga,Barcelona,2024-02-06,30,Estandar,29,34.9,3,59.5,5,2524.29,No
+NC-01004,Paz Aranda Falcó,Cantabria,2023-08-29,60,Basico,34,6.7,2,33.38,5,1175.72,Si
+NC-01005,Paola Girón Tamarit,Toledo,2025-12-29,60,Estandar,6,37.9,1,54.59,8,321.46,Si
+NC-01006,Lilia Marín Domínguez,Madrid,2025-03-07,65,Estandar,16,39.6,5,64.45,5,1027.71,Si
+NC-01007,Carolina del Cabanillas,Asturias,2024-01-22,28,Basico,29,13.5,0,28.98,9,1213.6,No
+NC-01008,Belen Jordán España,Madrid,2026-05-19,68,Basico,2,7.7,6,34.17,3,92.45,Si
+NC-01009,Morena Borrell Girón,Albacete,2021-12-13,64,Estandar,55,55.9,2,56.61,8,3084.84,Si
+NC-01010,Consuelo Melero Rivero,Guipúzcoa,2026-03-25,74,Basico,3,12.4,4,44.48,5,142.37,Si
+NC-01011,Florencia Juliá Mariscal,Guipúzcoa,2022-03-12,40,Estandar,52,37.8,1,62.26,8,3968.06,No
+NC-01012,Susanita Carranza Sosa,La Coruña,2021-12-05,72,Premium,55,41.8,3,103.6,5,5702.57,Si
+NC-01013,Toribio Belda Sureda,Castellón,2025-11-29,33,Premium,7,121.9,0,101.33,8,1923.83,No
+NC-01014,Josué Carretero,Soria,2022-06-17,48,Basico,49,13.1,1,28.5,7,1427.03,Si
+NC-01015,Luisa Martín Reyes,Valencia,2025-11-20,28,Premium,7,92.0,2,98.35,7,1860.6,No
+NC-01016,Trinidad Contreras Cervantes,Asturias,2025-02-27,71,Basico,16,19.5,2,36.45,8,586.75,Si
+NC-01017,Francisco Javier Recio,Valencia,2025-01-21,33,Basico,17,12.3,0,33.1,9,903.56,No
+NC-01018,Virginia Seco-Clemente,Madrid,2022-05-07,25,Estandar,50,49.6,3,63.11,8,3922.53,No
+NC-01019,Tere Escribano Berrocal,Lugo,2025-06-30,21,Basico,12,6.8,4,34.49,6,804.4,No
+NC-01020,Eva Elorza Millán,Ciudad,2026-05-19,57,Basico,2,17.2,2,26.75,8,328.99,No
+NC-01021,Abilio Sans Llanos,Álava,2023-09-13,21,Estandar,34,55.7,2,55.25,7,1912.37,Si
+NC-01022,Ricardo Domingo,Santa Cruz de Tenerife,2024-07-26,73,Basico,23,12.7,5,27.3,6,954.25,No
+NC-01023,Ramona Cuadrado-Tovar,Granada,2023-09-17,42,Basico,34,19.5,1,32.59,6,1045.75,Si
+NC-01024,Berto Roura Román,Lleida,2026-07-11,20,Estandar,1,58.3,3,59.71,6,50.0,Si
+NC-01025,Inés Tejada Pla,Palencia,2022-03-29,49,Estandar,51,37.5,1,53.87,7,3393.96,No
+NC-01026,Alejo Flores Perea,Badajoz,2025-10-29,20,Estandar,8,36.6,1,62.54,8,501.36,Si
+NC-01027,Victor Manuel Montserrat Farré,Madrid,2021-09-06,44,Basico,58,11.4,1,32.56,8,2264.22,No
+NC-01028,Nilo Acosta Ibarra,Asturias,2022-07-06,46,Basico,48,13.0,1,32.14,9,1441.76,Si
+NC-01029,Ovidio del Miguel,Las Palmas,2025-06-25,49,Basico,12,11.7,3,29.88,7,700.56,No
+NC-01030,Aurelio Pla Vaquero,Zaragoza,2023-01-26,67,Basico,41,11.4,1,29.25,8,1582.38,No
+NC-01031,Encarnación Diego-Bas,Guadalajara,2023-02-04,68,Estandar,41,52.0,4,55.99,4,2337.66,Si
+NC-01032,Eustaquio Manso Sarmiento,Soria,2024-11-19,36,Basico,19,11.8,1,35.85,5,1093.13,No
+NC-01033,María Zamora,Guadalajara,2021-12-05,38,Basico,55,16.0,3,28.08,6,1937.86,No
+NC-01034,Irma Cañete Noriega,Valladolid,2022-04-02,22,Estandar,51,40.4,0,60.09,10,3737.16,No
+NC-01035,Felisa Fabra Cózar,Palencia,2025-01-31,35,Estandar,17,55.0,2,68.81,7,1971.19,No
+NC-01036,Agustina Gracia Gomez,Guipúzcoa,2024-01-28,45,Estandar,29,35.0,5,56.84,4,1675.1,Si
+NC-01037,Curro Almeida Vargas,Baleares,2024-03-19,59,Basico,27,16.5,3,36.45,6,1443.57,No
+NC-01038,Bernabé Pazos Arcos,Burgos,2026-07-16,39,Basico,1,18.2,0,34.66,8,450.29,No
+NC-01039,Valentina Jaume Atienza,Cáceres,2025-05-31,38,Basico,13,21.0,4,33.66,6,404.01,Si
+NC-01040,Amanda Nadia Campoy Aller,Navarra,2025-05-15,23,Basico,14,12.9,3,33.44,6,434.51,Si
+NC-01041,Onofre Carmona Riera,León,2023-10-19,18,Estandar,32,33.8,2,57.91,6,1831.35,Si
+NC-01042,Fortunata Casals Iriarte,Palencia,2024-06-12,22,Premium,25,68.8,6,92.05,3,2268.9,Si
+NC-01043,Odalys Coronado Fuertes,Barcelona,2023-02-19,58,Estandar,40,62.4,1,58.5,8,3045.92,No
+NC-01044,Eutropio Rivero Cabrero,Zamora,2023-05-04,29,Estandar,38,53.8,2,60.59,9,3026.73,No
+NC-01045,Elba Cerro,Vizcaya,2023-02-13,43,Basico,41,14.8,3,28.55,6,1135.71,Si
+NC-01046,Selena Calvo Vidal,Albacete,2022-03-18,63,Estandar,52,59.3,0,263.84,8,4210.79,No
+NC-01047,Azahara Elisabet Carbonell Camino,Ávila,2023-10-01,51,Basico,33,14.6,3,22.96,6,953.72,No
+NC-01048,Chita Folch Jódar,Álava,2022-06-13,66,Estandar,49,47.2,2,62.13,6,3054.55,Si
+NC-01049,Cintia Palma,Ávila,2025-03-26,31,Estandar,15,40.1,2,60.69,7,931.85,Si
+NC-01050,Emiliana Cueto Ariza,La Rioja,2026-02-02,43,Basico,5,16.6,1,32.89,10,531.78,No
+NC-01051,Leonor de Terrón,Tarragona,2021-09-11,62,Basico,58,16.2,5,36.74,4,2548.21,No
+NC-01052,Custodia Acedo Alberto,Castellón,2021-08-05,44,Premium,59,81.5,4,91.72,5,6519.86,No
+NC-01053,Wilfredo Cano Uribe,Santa Cruz de Tenerife,2024-11-26,26,Basico,19,19.4,3,33.22,4,1033.01,No
+NC-01054,Artemio Vidal Benavides,Melilla,2022-07-15,43,Basico,48,17.9,1,23.21,8,1415.79,No
+NC-01055,Víctor Jaén Guardia,La Rioja,2021-08-28,74,Basico,58,19.1,1,29.83,9,2064.8,No
+NC-01056,Emiliana Laguna Simó,Cádiz,2023-01-02,64,Estandar,42,43.2,1,63.6,8,3414.58,No
+NC-01057,Aureliano Díaz Ariza,Pontevedra,2025-08-08,74,Estandar,11,30.9,2,51.39,7,1175.35,No
+NC-01058,Geraldo Salvador Milla Rojas,Teruel,2025-06-16,39,Estandar,13,57.1,1,61.51,7,1505.77,No
+NC-01059,Asdrubal Arroyo Agustí,Salamanca,2024-12-27,64,Basico,18,13.9,4,28.0,6,496.73,Si
+NC-01060,Natanael Donaire Mulet,Santa Cruz de Tenerife,2025-09-07,73,Estandar,10,43.6,4,58.81,7,1262.33,No
+NC-01061,Virginia Río Ledesma,Huelva,2024-02-13,47,Basico,29,17.5,2,28.66,6,1187.59,No
+NC-01062,Gilberto Noriega España,Álava,2024-08-11,60,Premium,23,97.1,1,88.47,10,3068.39,No
+NC-01063,Herberto Páez Sastre,Cantabria,2024-11-26,65,Estandar,19,49.2,2,61.85,5,1182.74,Si
+NC-01064,Silvestre Pol-Tejera,Melilla,2024-02-13,34,Basico,29,19.3,4,31.68,5,1342.58,No
+NC-01065,Mirta Diaz Carbajo,Salamanca,2022-04-16,43,Basico,51,14.1,3,34.47,5,2184.46,No
+NC-01066,Pablo Barral Cuervo,Valladolid,2022-08-10,53,Basico,47,21.5,1,36.12,8,2136.36,No
+NC-01067,Horacio Tolosa Ríos,Lleida,2022-09-10,18,Basico,46,13.9,2,37.52,6,2135.25,No
+NC-01068,Marcos Pino Palmer,Cuenca,2021-08-30,25,Basico,58,16.3,5,32.3,4,1915.07,Si
+NC-01069,Albina Tere Castrillo Tomas,Cantabria,2023-03-02,66,Estandar,40,36.1,1,64.95,6,3410.87,No
+NC-01070,Aurelia Reina Saez,Zamora,2022-06-30,52,Estandar,48,33.3,2,53.45,8,3202.31,No
+NC-01071,Amílcar Jurado Miralles,Soria,2021-09-05,69,Basico,58,19.2,3,36.46,6,2540.68,No
+NC-01072,Pastor Zamorano Goicoechea,Madrid,2023-02-22,32,Basico,40,27.5,0,35.05,8,1798.18,No
+NC-01073,Lorenza Zabala Bustos,Cáceres,2021-10-09,64,Basico,57,13.6,2,32.53,7,2298.25,No
+NC-01074,Nadia Ibarra Tirado,Almería,2023-04-29,73,Premium,38,114.3,2,98.65,5,3772.22,Si
+NC-01075,Narcisa Plaza Comas,Girona,2025-08-20,39,Basico,10,13.7,2,26.57,7,242.95,Si
+NC-01076,Violeta de Alberdi,Las Palmas,2022-10-11,31,Estandar,45,39.9,1,53.01,8,3054.55,No
+NC-01077,José Antonio Soria Valcárcel,Guipúzcoa,2023-08-08,43,Premium,35,125.2,4,106.07,5,3752.62,Si
+NC-01078,Anselmo Tur Montes,Alicante,2025-04-01,45,Estandar,15,29.3,3,57.09,7,1540.79,No
+NC-01079,Fito del Ayuso,Valencia,2026-02-15,40,Premium,5,63.2,2,90.41,8,1526.64,No
+NC-01080,Consuelo Pinedo,Murcia,2023-03-03,31,Basico,40,14.7,0,25.96,9,1320.13,No
+NC-01081,Salomé Gutierrez Bermúdez,Cáceres,2022-04-11,41,Premium,51,103.3,2,87.92,6,4505.14,Si
+NC-01082,Isidora Samper Borja,Madrid,2024-02-07,19,Basico,29,16.9,4,31.25,4,893.44,Si
+NC-01083,Itziar Molina Carrera,Asturias,2025-06-26,62,Basico,12,16.4,4,29.93,3,345.11,Si
+NC-01084,Petrona Alemán Calderon,Toledo,2022-10-21,43,Estandar,44,40.3,2,59.04,7,2597.41,Si
+NC-01085,Haydée Araujo Abad,Palencia,2025-07-29,31,Premium,11,105.7,0,96.01,7,2183.69,No
+NC-01086,Ruy Mayo Verdugo,La Rioja,2025-02-17,73,Premium,16,31.7,2,100.62,4,1655.77,Si
+NC-01087,Clarisa del Nogueira,Valencia,2021-09-23,68,Basico,57,12.0,1,29.51,8,2065.23,No
+NC-01088,Sara Ballester Gisbert,Ceuta,2022-07-14,24,Basico,48,14.6,4,157.44,6,2363.9,No
+NC-01089,Eusebia Suárez Parra,Guadalajara,2022-12-16,20,Premium,43,104.1,1,103.62,8,5673.56,No
+NC-01090,Aurora Cabanillas Girona,Badajoz,2022-11-03,64,Basico,44,21.0,1,35.87,9,1554.36,Si
+NC-01091,Francisco Padilla Manzanares,Valencia,2025-05-01,40,Estandar,14,31.1,0,56.93,9,1454.94,No
+NC-01092,Lourdes del Camino,Cantabria,2025-09-01,63,Premium,10,119.1,1,90.1,8,864.08,Si
+NC-01093,Vidal Córdoba Ugarte,Ceuta,2025-07-21,60,Estandar,11,35.5,1,60.94,6,1411.3,No
+NC-01094,Segismundo Recio Campo,Lugo,2021-09-16,64,Basico,58,14.5,5,36.54,4,2538.53,No
+NC-01095,Marcos Ferrández-Expósito,Almería,2025-05-14,62,Estandar,14,45.8,0,68.32,9,1755.33,No
+NC-01096,Teodosio Pozo Garriga,Burgos,2026-07-10,35,Basico,1,14.2,1,26.67,8,322.29,No
+NC-01097,Sara Farré Neira,Salamanca,2023-08-10,55,Premium,35,112.2,3,95.0,5,3355.11,Si
+NC-01098,Reyes Ribas Artigas,Cádiz,2023-04-04,52,Estandar,39,36.0,8,53.88,2,2078.56,Si
+NC-01099,Beatriz Sanjuan-Sebastián,Huesca,2024-01-20,68,Premium,29,82.2,0,90.05,8,2649.52,Si
+NC-01100,Ligia Cañizares-Valenzuela,Lleida,2026-05-22,32,Basico,1,19.2,5,35.24,5,50.0,Si
+NC-01101,Juan Manuel Atienza Roselló,Santa Cruz de Tenerife,2024-11-16,42,Premium,20,74.7,1,89.07,6,1744.05,Si
+NC-01102,Julie Verdugo-Elorza,Cuenca,2021-12-23,72,Basico,54,16.0,3,27.48,5,1827.76,No
+NC-01103,Carmela Castellanos-Calleja,Guipúzcoa,2024-05-20,54,Basico,25,8.4,4,34.82,5,1314.96,No
+NC-01104,Máxima Montserrat Varela,Alicante,2021-08-11,45,Basico,59,22.3,3,34.48,6,2008.58,Si
+NC-01105,Hortensia Hurtado Llanos,Cuenca,2022-06-01,27,Estandar,49,52.1,0,61.96,8,3781.46,No
+NC-01106,Fabiana Mariscal Santamaría,Baleares,2025-03-20,56,Estandar,15,67.5,1,58.49,9,886.9,Si
+NC-01107,Bruno Rey Vila,Lleida,2025-01-29,74,Premium,17,116.8,3,103.15,7,1756.42,Si
+NC-01108,Tadeo Pascual Mir Gelabert,Cáceres,2025-10-05,34,Basico,9,10.5,0,31.12,9,639.78,No
+NC-01109,Cruz Manso,Ceuta,2026-06-19,56,Basico,1,17.7,0,43.67,8,594.16,No
+NC-01110,Águeda Cazorla Enríquez,Pontevedra,2026-04-05,39,Estandar,3,30.8,3,58.89,7,875.82,No
+NC-01111,Macarena Mora,Zamora,2024-01-07,43,Basico,30,21.3,5,20.46,5,595.63,Si
+NC-01112,Ricardo Ortuño Tenorio,Ourense,2021-11-10,61,Estandar,56,29.0,4,46.01,5,3075.73,No
+NC-01113,Marianela Rincón-Macias,Ávila,2025-09-09,42,Premium,10,67.0,2,94.82,7,895.53,Si
+NC-01114,Roxana Alberto Yáñez,Melilla,2024-12-10,34,Premium,19,57.8,2,97.28,6,3022.16,No
+NC-01115,Albano Piquer Codina,Castellón,2025-09-05,30,Premium,10,80.2,1,89.1,7,888.69,Si
+NC-01116,Nico Barbero Folch,Lleida,2025-11-28,37,Estandar,7,33.1,3,68.81,6,1334.01,No
+NC-01117,Remigio Cuevas-Macías,Álava,2025-09-10,42,Basico,10,10.0,5,39.31,4,898.73,No
+NC-01118,Camilo Barrios-Marquez,Valencia,2023-07-08,21,Basico,36,23.0,4,33.35,6,1593.45,No
+NC-01119,Renato Antúnez,Ciudad,2022-01-22,27,Estandar,53,45.3,3,62.23,6,3326.65,Si
+NC-01120,Ruth Santamaria Calatayud,Las Palmas,2026-01-14,20,Premium,6,98.2,2,99.29,7,578.88,Si
+NC-01121,Teófila Nereida Gomez Porcel,Palencia,2021-09-15,58,Basico,58,21.4,0,41.59,9,2906.8,No
+NC-01122,José Mari del Arévalo,Ourense,2025-02-18,62,Basico,16,16.0,3,35.01,7,554.81,Si
+NC-01123,Gala Riera Milla,La Rioja,2026-06-12,35,Basico,1,12.0,1,32.14,5,79.51,Si
+NC-01124,Amelia de Iglesias,Alicante,2024-03-25,64,Estandar,27,23.0,1,60.66,8,2327.39,No
+NC-01125,Martín Salazar,Toledo,2026-04-01,53,Premium,3,73.9,5,95.08,4,287.01,Si
+NC-01126,Xavier del Ferrándiz,Las Palmas,2022-01-31,64,Estandar,53,55.1,4,65.13,6,3431.01,Si
+NC-01127,Eugenio Sanchez,Lugo,2023-10-28,39,Basico,32,10.0,2,23.15,6,1009.63,No
+NC-01128,Néstor Benavente Estévez,León,2025-02-03,51,Premium,17,97.1,6,96.29,1,1626.68,Si
+NC-01129,Quirino Vilaplana Carreras,Ciudad,2025-07-27,64,Estandar,11,50.3,0,62.33,9,1435.75,No
+NC-01130,Almudena Romero Lorenzo,Navarra,2022-07-16,25,Basico,48,16.1,2,31.25,6,1915.41,No
+NC-01131,Dulce de Cuevas,Tarragona,2025-10-02,57,Basico,9,16.6,0,35.58,10,804.24,No
+NC-01132,Soraya Jara-Adán,Castellón,2024-06-29,66,Basico,24,17.6,7,41.37,2,1012.58,Si
+NC-01133,Josefa Cortina Ariño,Huelva,2025-05-10,61,Basico,14,16.5,4,32.34,4,423.39,Si
+NC-01134,Felix Azcona Mascaró,Ciudad,2025-04-03,36,Premium,15,122.2,1,100.68,8,2713.12,No
+NC-01135,Rosa Palma Beltran,Albacete,2021-09-20,59,Estandar,57,29.6,1,65.99,8,4561.13,No
+NC-01136,Lucila Gimeno Espejo,Sevilla,2022-12-01,58,Premium,43,94.8,4,95.29,5,4085.26,Si
+NC-01137,Anabel Vazquez,Cáceres,2023-12-29,54,Basico,30,7.7,2,26.33,8,1097.55,No
+NC-01138,Hipólito Quintanilla Briones,Ourense,2023-03-07,23,Basico,40,6.7,4,33.75,5,1347.87,Si
+NC-01139,Consuela Garcés Mármol,Lleida,2025-07-14,69,Estandar,12,39.2,1,47.91,6,598.09,Si
+NC-01140,Fernanda Marin Gil,Vizcaya,2024-06-20,43,Basico,24,17.2,2,20.23,7,501.43,Si
+NC-01141,Luisa Juanita Agullo Carbó,Teruel,2025-04-09,51,Estandar,15,56.3,2,62.3,6,1663.8,No
+NC-01142,Itziar Hernandez Hervás,Cádiz,2023-07-09,73,Premium,36,138.4,1,87.12,8,4199.55,No
+NC-01143,Néstor Montesinos Pizarro,Santa Cruz de Tenerife,2025-11-11,62,Estandar,8,53.2,4,53.74,6,1126.53,No
+NC-01144,Guadalupe Jerez Luna,Teruel,2023-05-31,23,Estandar,37,47.3,0,57.83,9,2788.28,No
+NC-01145,Xavier Villanueva Perera,Santa Cruz de Tenerife,2026-07-17,54,Basico,1,15.6,2,27.95,7,350.23,No
+NC-01146,Rosaura Verdugo,Jaén,2024-06-05,74,Basico,25,8.9,2,30.15,7,1100.15,No
+NC-01147,Lara Arranz Martin,Melilla,2025-07-12,50,Basico,12,,3,37.0,7,890.4,No
+NC-01148,Felipe Vilaplana,Girona,2022-08-29,70,Estandar,46,52.9,2,61.48,5,2773.36,Si
+NC-01149,Atilio Diego Aguilera,Valladolid,2024-01-15,39,Basico,30,18.6,4,27.66,4,1202.55,No
+NC-01150,Cruz Garcés Rodrigo,Tarragona,2024-11-11,38,Basico,20,9.9,4,37.76,7,1209.72,No
+NC-01151,Cristian Rozas Bello,Zamora,2025-02-02,23,Estandar,17,46.1,4,52.47,4,1530.57,No
+NC-01152,Albano Segovia Mármol,Salamanca,2024-08-10,23,Basico,23,17.1,5,32.82,5,1154.17,No
+NC-01153,Armando Beltrán Ballester,Valencia,2025-07-24,72,Basico,11,16.4,0,23.94,9,535.12,No
+NC-01154,Régulo Infante Bejarano,Málaga,2022-12-03,65,Basico,43,14.9,3,32.75,4,1429.21,Si
+NC-01155,Samanta Goñi-Jordán,Almería,2023-04-22,21,Premium,38,103.3,2,93.74,5,4687.16,No
+NC-01156,Gala Sanmartín Quiroga,Jaén,2023-12-12,47,Estandar,31,47.0,1,65.11,9,1955.87,Si
+NC-01157,Estela Alegria Porras,Lleida,2022-04-11,28,Estandar,51,33.6,1,61.96,7,3900.24,No
+NC-01158,Juanito Aguado Barroso,Huesca,2025-08-26,47,Basico,10,16.8,1,28.74,7,623.95,No
+NC-01159,Amalia Belmonte-Pallarès,Cádiz,2022-08-23,48,Premium,46,86.2,4,89.73,4,4148.48,Si
+NC-01160,Ascensión Manjón,Navarra,2023-01-07,41,Estandar,42,25.1,5,55.93,3,2430.1,Si
+NC-01161,Marcio Armando Lucena Río,Barcelona,2023-03-29,72,Basico,39,12.8,0,40.66,9,2084.99,No
+NC-01162,Gertrudis Anguita Sáez,Ciudad,2022-11-15,26,Premium,44,58.7,2,98.97,5,5605.91,No
+NC-01163,Juanito Gimeno Cerezo,Segovia,2025-09-24,72,Basico,9,18.9,2,27.05,5,222.86,Si
+NC-01164,Rosalinda Marquez Cobos,Valencia,2022-05-27,20,Estandar,49,43.6,5,63.36,6,3846.3,No
+NC-01165,Nilo Vicente Perea Alba,Valladolid,2025-01-30,68,Estandar,17,36.4,0,49.98,7,1442.03,No
+NC-01166,Trinidad de Casal,Guadalajara,2025-09-28,48,Basico,9,20.7,0,29.83,8,281.23,Si
+NC-01167,Abilio Prado Blázquez,Cuenca,2024-02-16,57,Premium,29,91.4,4,89.5,6,3650.28,No
+NC-01168,Cruz Reinaldo Núñez Galán,Cuenca,2023-07-17,54,Estandar,36,25.7,3,251.68,6,2216.76,Si
+NC-01169,Yolanda Vila Cisneros,Asturias,2023-04-29,53,Estandar,38,35.6,3,52.11,7,2606.19,No
+NC-01170,Cirino Giner Iriarte,Huelva,2026-04-13,41,Basico,3,21.5,4,34.3,6,68.61,Si
+NC-01171,Baudelio Escudero,Madrid,2021-12-11,48,Basico,55,12.3,3,31.23,6,2125.88,No
+NC-01172,Tamara Ballester-Serra,Lugo,2021-09-12,23,Basico,58,16.1,1,30.73,9,1801.66,Si
+NC-01173,Angelina del Bautista,León,2024-08-05,19,Estandar,23,47.4,3,68.1,6,1543.51,Si
+NC-01174,Augusto Figueroa-Torrens,Zaragoza,2023-10-06,37,Basico,33,17.4,1,40.54,7,1837.97,No
+NC-01175,Felipa Castellanos Guitart,Cantabria,2024-07-31,45,Estandar,23,64.5,1,60.73,8,2109.11,No
+NC-01176,Erasmo Baños Ferrer,Ávila,2022-11-22,28,Estandar,43,28.2,3,56.09,5,3083.38,No
+NC-01177,Julieta Sanjuan Moya,La Coruña,2023-01-11,21,Basico,42,10.7,1,23.54,9,1269.91,No
+NC-01178,Mónica Encarnación Corominas Pastor,Girona,2025-10-29,32,Estandar,8,28.4,2,57.82,8,1146.33,No
+NC-01179,Inés Domingo Acuña,Badajoz,2021-10-25,23,Basico,56,13.8,2,41.15,7,2823.12,No
+NC-01180,Delia Giralt Rubio,Cuenca,2022-01-31,71,Premium,53,112.0,1,95.56,5,5031.11,Si
+NC-01181,Sosimo Palomares-Cañizares,Tarragona,2024-06-01,66,Estandar,25,29.7,6,61.61,5,1556.36,Si
+NC-01182,Valeria Tena Sevillano,Madrid,2025-03-16,47,Basico,16,19.5,3,24.96,7,708.02,No
+NC-01183,Felisa Mayoral Torrens,Castellón,2022-07-07,73,Basico,48,15.1,5,29.34,5,1366.18,Si
+NC-01184,Asunción de Bilbao,Girona,2023-06-22,55,Basico,36,10.6,5,33.37,4,1177.49,Si
+NC-01185,Timoteo Chaves-Ferrándiz,Soria,2022-07-27,68,Estandar,47,22.5,0,57.78,8,3376.2,No
+NC-01186,Quique Benito-Benet,Lugo,2026-04-29,74,Estandar,2,24.7,0,61.59,8,112.19,Si
+NC-01187,Teobaldo Vendrell Anguita,La Rioja,2023-06-14,19,Estandar,37,,0,55.32,9,2712.13,No
+NC-01188,Marina Quirós-Garcia,Valencia,2025-09-06,32,Basico,10,,5,22.68,4,198.95,Si
+NC-01189,Leoncio Juliá Suarez,Girona,2023-09-27,28,Basico,33,20.4,2,37.65,7,1271.52,Si
+NC-01190,Gervasio Poza Godoy,Asturias,2024-06-09,25,Basico,25,18.2,1,27.14,8,710.23,Si
+NC-01191,Paula Manso-Cañete,Zaragoza,2024-07-25,43,Estandar,23,31.6,0,60.69,8,2161.18,No
+NC-01192,Leyre Vicens Botella,Melilla,2021-12-10,68,Premium,55,98.2,3,97.07,5,6422.15,No
+NC-01193,Filomena Vallés Alarcón,La Rioja,2026-04-13,62,Basico,3,21.6,0,23.84,9,416.05,No
+NC-01194,Teobaldo de Vilaplana,Segovia,2023-10-27,61,Basico,32,22.5,3,37.5,7,1654.98,No
+NC-01195,Jacinto Cuervo Escamilla,Madrid,2022-10-30,22,Estandar,44,36.9,7,55.86,2,2459.26,Si
+NC-01196,Marcia Coll-Tomás,Lleida,2025-12-05,23,Premium,7,109.2,2,96.2,6,1824.74,No
+NC-01197,Almudena Gilabert Torrent,Ourense,2022-06-06,43,Estandar,49,53.9,0,58.6,10,3534.96,No
+NC-01198,Amílcar del Peiró,Zamora,2021-12-21,71,Premium,54,59.9,5,99.1,4,5362.19,Si
+NC-01199,Alfonso de Villaverde,Cáceres,2025-04-08,21,Basico,15,13.0,1,38.02,7,1074.9,No
+NC-01200,Gala Soria Sanz,Ceuta,2025-06-07,36,Basico,13,23.9,4,23.33,5,307.91,Si
