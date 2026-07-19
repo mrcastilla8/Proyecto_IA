@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>PG_IA_Grupo02_Informe4_Clasificacion</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Notebook</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -14903,7 +14903,7 @@ weighted avg     0.7264    0.7125    0.7159       240
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Persistencia de los resultados finales adicionales.</span>
@@ -15152,32 +15152,34 @@ Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_re
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>N°</strong></td>
-<td style="text-align:left">P-10</td>
+<td style="text-align:left">N°</td>
+<td style="text-align:left">P-01</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Objetivo</strong></td>
-<td style="text-align:left">Desarrollar el Informe 3 completo: generar el notebook ejecutable con el código del EDA, el preprocesamiento y los modelos de regresión.</td>
+<td style="text-align:left">Objetivo del prompt</td>
+<td style="text-align:left">Auditar técnicamente el dataset de NovaConecta antes de desarrollar el Informe 4, verificando calidad, construcción, variable objetivo, fuga de información, variables predictoras, preprocesamiento, balanceo, validación, modelos y estructura del notebook.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Herramienta</strong></td>
-<td style="text-align:left">Claude Code — Claude Fable 5 (Anthropic)</td>
+<td style="text-align:left">Herramienta / modelo de IA</td>
+<td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Texto del prompt</strong></td>
-<td style="text-align:left">Actúa como un Data Scientist Senior. Necesito estructurar un Jupyter Notebook ejecutable en Python para la fase de análisis exploratorio (EDA) y modelado predictivo del caso NovaConecta. El notebook debe contener: un bloque en Markdown con el contexto de negocio; un bloque de carga para el archivo <code>dataset_novaconecta.csv</code> que implemente manejo de excepciones (try-except) para soportar ejecución tanto en entorno local como en Google Colab sin modificar el código; un análisis exploratorio (EDA) que ejecute detección de nulos, identificación de outliers mediante la regla de 1.5x IQR, gráficos de distribución y matriz de correlaciones; un flujo de preprocesamiento estricto encapsulado en un Pipeline de scikit-learn que aplique imputación por la mediana, winsorización y One-Hot Encoding; una división de datos (split 80/20, random_state=42) donde la estandarización (StandardScaler) se ajuste exclusivamente sobre el conjunto de entrenamiento para evitar cualquier fuga de datos (data leakage); la instanciación y entrenamiento de los siguientes modelos: Regresión Lineal (Simple y Múltiple), Regresión Polinómica (con búsqueda del grado óptimo por validación cruzada), Ridge, Lasso y Gradient Boosting; un bloque de evaluación que calcule MSE, RMSE y R² mediante validación cruzada de 5-folds, consolide las métricas en un DataFrame comparativo y grafique los residuos del mejor modelo. Asegúrate de que el código sea modular.</td>
+<td style="text-align:left">Texto del prompt</td>
+<td style="text-align:left">Actúa como un ingeniero senior de Machine Learning especializado en modelos de clasificación y predicción de abandono de clientes.<br/> <br/> Estoy desarrollando el Informe 4 de Clasificación del proyecto de Inteligencia Artificial de la empresa ficticia NovaConecta. El repositorio contiene el dataset bloque_b_python/data/dataset_novaconecta.csv y el script bloque_b_python/data/generar_dataset.py.<br/> <br/> Realiza una auditoría técnica completa del dataset antes de comenzar el notebook. Necesito que:<br/> <br/> 1. Verifiques sus dimensiones, columnas, tipos de datos, valores faltantes, duplicados, valores atípicos y distribución de la variable abandono.<br/> 2. Analices cómo fue construida cada variable en generar_dataset.py.<br/> 3. Identifiques posibles casos de data leakage o fuga de información.<br/> 4. Definas cuál será la variable objetivo y cómo debe codificarse.<br/> 5. Indiques qué variables deben utilizarse, cuáles deben excluirse y justifiques cada decisión.<br/> 6. Definas una estrategia correcta de división train/test estratificada.<br/> 7. Propongas el preprocesamiento para variables numéricas y categóricas.<br/> 8. Analices si el desbalance de clases requiere SMOTE, class_weight o ninguna técnica, explicando cómo se comprobará.<br/> 9. Propongas los modelos requeridos por la rúbrica: Regresión Logística y al menos tres entre KNN, SVC, Naive Bayes, Decision Tree y Random Forest, además de un modelo de ensamble o boosting.<br/> 10. Definas las métricas, la validación cruzada y la estrategia de ajuste de hiperparámetros.<br/> 11. Diseñes la estructura completa del notebook Informe_4_Clasificacion.ipynb.<br/> <br/> No inventes métricas ni resultados que todavía no hayan sido ejecutados. Señala claramente cualquier riesgo técnico encontrado.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
-<td style="text-align:left">La IA generó el notebook <code>Informe_3_Regresion.ipynb</code> y lo ejecutó completo sin errores: 25 nulos imputados, 8 outliers winsorizados, mejor modelo Regresión Polinómica grado 2.</td>
+<td style="text-align:left">Resultado / cómo se usó</td>
+<td style="text-align:left">Se revisó el dataset y el script generador. Se confirmó que tiene 1200 registros, 25 datos faltantes y un desbalance moderado. También se detectó que <code>valor_vida_cliente</code> usa información de <code>abandono</code>, por lo que se excluyó para evitar fuga de datos.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
-<td style="text-align:left">Verificado con ejecución completa tipo "Restart &amp; Run All". Observación del QA atendida: el prompt solicita explícitamente la generación del código del notebook.</td>
+<td style="text-align:left">Validación / ajuste del equipo</td>
+<td style="text-align:left">Se comprobaron los datos directamente en el CSV y en el script. Se eliminaron del modelo las columnas que no aportaban información o causaban fuga de datos.</td>
 </tr>
 </tbody>
 </table>
+<p><br/><br/></p>
 <hr/>
+<br/>
 <table>
 <thead>
 <tr>
@@ -15187,32 +15189,34 @@ Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_re
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">N°</td>
 <td style="text-align:left">P-02</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Objetivo del prompt</td>
 <td style="text-align:left">Crear la primera parte del notebook con contexto, carga reproducible, EDA orientado a clasificación, selección de variables, split estratificado y pipeline de preprocesamiento sin entrenar modelos.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">Herramienta / modelo de IA</td>
 <td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Texto del prompt</strong></td>
-<td style="text-align:left">Continúa el Informe 4 de Clasificación de NovaConecta utilizando las decisiones aprobadas en la auditoría técnica anterior y lo que hay en el nuevo repositorio.<br/><br/>Crea el archivo bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb y desarrolla la primera parte del notebook de manera profesional, documentada y ejecutable en Visual Studio Code y Google Colab.<br/><br/>El notebook debe incluir:<br/><br/>1. Encabezado con universidad, curso, empresa ficticia, integrantes, responsable David Joel Aldana Chavez y objetivo.<br/>2. Descripción del problema de abandono de clientes de NovaConecta.<br/>3. Importación ordenada de librerías.<br/>4. Configuración reproducible con semilla 42.<br/>5. Una forma robusta de localizar dataset_novaconecta.csv mediante rutas relativas, independientemente de si el notebook se ejecuta desde la raíz o desde la carpeta notebooks.<br/>6. Carga del dataset.<br/>7. Dimensiones, tipos, resumen estadístico, duplicados y valores faltantes.<br/>8. Gráficos relevantes para la variable abandono y las principales variables predictoras.<br/>9. Análisis del desbalance de clases.<br/>10. Explicación técnica de por qué valor_vida_cliente produce data leakage.<br/>11. Selección justificada de X e y.<br/>12. Codificación de abandono como No=0 y Si=1.<br/>13. División train/test con test_size=0.20, random_state=42 y stratify=y.<br/>14. Identificación separada de variables numéricas y categóricas.<br/>15. Pipeline con SimpleImputer, OneHotEncoder y el escalador más apropiado.<br/>16. ColumnTransformer para encapsular el preprocesamiento.<br/>17. Verificaciones de que el conjunto de prueba no participa en el ajuste.<br/><br/>No apliques SMOTE todavía y no entrenes los modelos finales en esta etapa.<br/><br/>Utiliza celdas Markdown en español para explicar cada decisión. Evita código duplicado y funciones innecesariamente complejas. Ejecuta todas las celdas creadas y comprueba que no existan errores.</td>
+<td style="text-align:left">Texto del prompt</td>
+<td style="text-align:left">Continúa el Informe 4 de Clasificación de NovaConecta utilizando las decisiones aprobadas en la auditoría técnica anterior y lo que hay en el nuevo repositorio.<br/> <br/> Crea el archivo bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb y desarrolla la primera parte del notebook de manera profesional, documentada y ejecutable en Visual Studio Code y Google Colab.<br/> <br/> El notebook debe incluir:<br/> <br/> 1. Encabezado con universidad, curso, empresa ficticia, integrantes, responsable David Joel Aldana Chavez y objetivo.<br/> 2. Descripción del problema de abandono de clientes de NovaConecta.<br/> 3. Importación ordenada de librerías.<br/> 4. Configuración reproducible con semilla 42.<br/> 5. Una forma robusta de localizar dataset_novaconecta.csv mediante rutas relativas, independientemente de si el notebook se ejecuta desde la raíz o desde la carpeta notebooks.<br/> 6. Carga del dataset.<br/> 7. Dimensiones, tipos, resumen estadístico, duplicados y valores faltantes.<br/> 8. Gráficos relevantes para la variable abandono y las principales variables predictoras.<br/> 9. Análisis del desbalance de clases.<br/> 10. Explicación técnica de por qué valor_vida_cliente produce data leakage.<br/> 11. Selección justificada de X e y.<br/> 12. Codificación de abandono como No=0 y Si=1.<br/> 13. División train/test con test_size=0.20, random_state=42 y stratify=y.<br/> 14. Identificación separada de variables numéricas y categóricas.<br/> 15. Pipeline con SimpleImputer, OneHotEncoder y el escalador más apropiado.<br/> 16. ColumnTransformer para encapsular el preprocesamiento.<br/> 17. Verificaciones de que el conjunto de prueba no participa en el ajuste.<br/> <br/> No apliques SMOTE todavía y no entrenes los modelos finales en esta etapa.<br/> <br/> Utiliza celdas Markdown en español para explicar cada decisión. Evita código duplicado y funciones innecesariamente complejas. Ejecuta todas las celdas creadas y comprueba que no existan errores.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Resultado / cómo se usó</td>
 <td style="text-align:left">Se creó la primera parte del notebook con la carga de datos, EDA, selección de variables, división 80/20 y preprocesamiento con imputación, One-Hot Encoding y StandardScaler.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Validación / ajuste del equipo</td>
 <td style="text-align:left">Se ejecutó todo sin errores. Se verificó que el preprocesamiento aprendiera solo con los datos de entrenamiento y que el conjunto de prueba quedara separado.</td>
 </tr>
 </tbody>
 </table>
+<p><br/><br/></p>
 <hr/>
+<br/>
 <table>
 <thead>
 <tr>
@@ -15222,32 +15226,34 @@ Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_re
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">N°</td>
 <td style="text-align:left">P-03</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Objetivo del prompt</td>
 <td style="text-align:left">Implementar y comparar seis modelos base mediante pipelines, validación cruzada estratificada y métricas orientadas a detectar abandono.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">Herramienta / modelo de IA</td>
 <td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Texto del prompt</strong></td>
-<td style="text-align:left">Continúa el notebook bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb de NovaConecta.<br/><br/>Implementa una etapa de modelado base utilizando exactamente el mismo train/test y el ColumnTransformer creado anteriormente.<br/><br/>Entrena estos modelos:<br/><br/>1. Regresión Logística.<br/>2. K-Nearest Neighbors.<br/>3. Support Vector Classifier.<br/>4. Árbol de Decisión.<br/>5. Random Forest.<br/>6. AdaBoost o Gradient Boosting como modelo de boosting.<br/><br/>Requisitos técnicos:<br/><br/>- Cada modelo debe estar encapsulado en un Pipeline.<br/>- Mantén random_state=42 en los modelos que lo permitan.<br/>- No utilices SMOTE todavía.<br/>- No ajustes hiperparámetros todavía.<br/>- Utiliza StratifiedKFold de 5 particiones.<br/>- Calcula resultados de validación cruzada solamente con el conjunto de entrenamiento.<br/>- Evalúa en el conjunto de prueba Accuracy, Precision, Recall, F1-Score y ROC-AUC cuando el modelo lo permita.<br/>- Usa zero_division=0 en las métricas cuando corresponda.<br/>- Registra el tiempo de entrenamiento de cada modelo.<br/>- Construye una tabla comparativa ordenada.<br/>- No selecciones un modelo basándote únicamente en Accuracy.<br/>- Analiza especialmente el Recall y F1 de la clase abandono.<br/>- Explica las diferencias entre modelos lineales, basados en distancia, margen, árboles y boosting.<br/>- Guarda opcionalmente la tabla como bloque_b_python/resultados/informe_4/metricas_modelos_base.csv.<br/><br/>No utilices el conjunto de prueba para modificar los hiperparámetros. Las conclusiones de esta etapa deben considerarse preliminares.<br/><br/>Ejecuta las nuevas celdas y verifica que el notebook funcione de principio a fin.</td>
+<td style="text-align:left">Texto del prompt</td>
+<td style="text-align:left">Continúa el notebook bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb de NovaConecta.<br/> <br/> Implementa una etapa de modelado base utilizando exactamente el mismo train/test y el ColumnTransformer creado anteriormente.<br/> <br/> Entrena estos modelos:<br/> <br/> 1. Regresión Logística.<br/> 2. K-Nearest Neighbors.<br/> 3. Support Vector Classifier.<br/> 4. Árbol de Decisión.<br/> 5. Random Forest.<br/> 6. AdaBoost o Gradient Boosting como modelo de boosting.<br/> <br/> Requisitos técnicos:<br/> <br/> - Cada modelo debe estar encapsulado en un Pipeline.<br/> - Mantén random_state=42 en los modelos que lo permitan.<br/> - No utilices SMOTE todavía.<br/> - No ajustes hiperparámetros todavía.<br/> - Utiliza StratifiedKFold de 5 particiones.<br/> - Calcula resultados de validación cruzada solamente con el conjunto de entrenamiento.<br/> - Evalúa en el conjunto de prueba Accuracy, Precision, Recall, F1-Score y ROC-AUC cuando el modelo lo permita.<br/> - Usa zero_division=0 en las métricas cuando corresponda.<br/> - Registra el tiempo de entrenamiento de cada modelo.<br/> - Construye una tabla comparativa ordenada.<br/> - No selecciones un modelo basándote únicamente en Accuracy.<br/> - Analiza especialmente el Recall y F1 de la clase abandono.<br/> - Explica las diferencias entre modelos lineales, basados en distancia, margen, árboles y boosting.<br/> - Guarda opcionalmente la tabla como bloque_b_python/resultados/informe_4/metricas_modelos_base.csv.<br/> <br/> No utilices el conjunto de prueba para modificar los hiperparámetros. Las conclusiones de esta etapa deben considerarse preliminares.<br/> <br/> Ejecuta las nuevas celdas y verifica que el notebook funcione de principio a fin.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Resultado / cómo se usó</td>
 <td style="text-align:left">Se entrenaron seis modelos base: Regresión Logística, KNN, SVC, Árbol de Decisión, Random Forest y AdaBoost. La Regresión Logística obtuvo el mejor F1 de validación cruzada: 0.6755.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Validación / ajuste del equipo</td>
 <td style="text-align:left">Se comprobó que todos los modelos usaran el mismo entrenamiento, prueba y pipeline. No se aplicó balanceo ni ajuste de parámetros en esta etapa.</td>
 </tr>
 </tbody>
 </table>
+<p><br/><br/></p>
 <hr/>
+<br/>
 <table>
 <thead>
 <tr>
@@ -15257,32 +15263,34 @@ Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_re
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">N°</td>
 <td style="text-align:left">P-04</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Objetivo del prompt</td>
 <td style="text-align:left">Comparar sin balanceo, class_weight='balanced' y SMOTE, garantizando que el balanceo ocurra únicamente dentro del entrenamiento y de cada fold.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">Herramienta / modelo de IA</td>
 <td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Texto del prompt</strong></td>
-<td style="text-align:left">Estoy analizando si el desbalance de la variable <code>abandono</code> afecta el rendimiento de los modelos.<br/><br/>Quiero comparar tres alternativas: trabajar con las clases originales, usar <code>class_weight='balanced'</code> y aplicar SMOTE. ¿Cómo debería realizar esta comparación con Regresión Logística, SVC y Random Forest usando <code>StratifiedKFold</code> de 5 particiones?<br/><br/>SMOTE debe usar <code>random_state=42</code> y ejecutarse dentro de un pipeline de <code>imbalanced-learn</code>, después del preprocesamiento y solamente sobre el entrenamiento de cada fold.<br/><br/>Oriéntame sobre cómo comparar Precision, Recall, F1 y ROC-AUC, y cómo interpretar el costo de falsos positivos y falsos negativos para decidir qué estrategia conviene conservar."Continúa el Informe 4 de Clasificación de NovaConecta y analiza rigurosamente el desbalance de la variable abandono.<br/><br/>No asumas que SMOTE es automáticamente beneficioso. Compara al menos estas estrategias:<br/><br/>1. Sin balanceo.<br/>2. class_weight='balanced' en los modelos que lo soporten.<br/>3. SMOTE aplicado correctamente dentro de un Pipeline de imbalanced-learn.<br/><br/>Requisitos:<br/><br/>- Utiliza únicamente los datos de entrenamiento para las comparaciones.<br/>- Aplica SMOTE después del preprocesamiento y nunca antes de train_test_split.<br/>- No apliques SMOTE al conjunto de prueba.<br/>- Asegúrate de que SMOTE se ejecute dentro de cada partición de validación cruzada para evitar data leakage.<br/>- Utiliza StratifiedKFold con 5 particiones.<br/>- Compara F1, Recall, Precision y ROC-AUC.<br/>- Muestra la distribución de clases original y la distribución generada por SMOTE en el entrenamiento.<br/>- Evalúa las estrategias con los modelos más apropiados, como Regresión Logística, SVC y Random Forest.<br/>- Analiza el costo de falsos positivos y falsos negativos en el contexto de NovaConecta.<br/>- Determina qué estrategia de balanceo se utilizará para el ajuste de hiperparámetros.<br/>- Justifica la decisión con resultados reales y no solamente con teoría.<br/>- Actualiza la tabla comparativa del notebook.<br/><br/>Ejecuta todo el notebook para verificar que los pipelines sean compatibles y que no exista fuga de información.<br/><br/>Al finalizar proporciona:<br/><br/>- Tabla comparativa de estrategias.<br/>- Decisión final sobre balanceo.<br/>- Justificación de negocio.<br/>- Cambios introducidos en el notebook.<br/><br/>Requisito adicional de reproducibilidad:<br/>- Instancia SMOTE con <code>random_state=42</code> o <code>random_state=SEED</code> en todos los pipelines y demostraciones para obtener resultados repetibles."</td>
+<td style="text-align:left">Texto del prompt</td>
+<td style="text-align:left">Estoy analizando si el desbalance de la variable <code>abandono</code> afecta el rendimiento de los modelos.<br/> <br/> Quiero comparar tres alternativas: trabajar con las clases originales, usar <code>class_weight='balanced'</code> y aplicar SMOTE. ¿Cómo debería realizar esta comparación con Regresión Logística, SVC y Random Forest usando <code>StratifiedKFold</code> de 5 particiones?<br/> <br/> SMOTE debe usar <code>random_state=42</code> y ejecutarse dentro de un pipeline de <code>imbalanced-learn</code>, después del preprocesamiento y solamente sobre el entrenamiento de cada fold.<br/> <br/> Oriéntame sobre cómo comparar Precision, Recall, F1 y ROC-AUC, y cómo interpretar el costo de falsos positivos y falsos negativos para decidir qué estrategia conviene conservar."Continúa el Informe 4 de Clasificación de NovaConecta y analiza rigurosamente el desbalance de la variable abandono.<br/><br/>No asumas que SMOTE es automáticamente beneficioso. Compara al menos estas estrategias:<br/><br/>1. Sin balanceo.<br/>2. class_weight='balanced' en los modelos que lo soporten.<br/>3. SMOTE aplicado correctamente dentro de un Pipeline de imbalanced-learn.<br/><br/>Requisitos:<br/><br/>- Utiliza únicamente los datos de entrenamiento para las comparaciones.<br/>- Aplica SMOTE después del preprocesamiento y nunca antes de train_test_split.<br/>- No apliques SMOTE al conjunto de prueba.<br/>- Asegúrate de que SMOTE se ejecute dentro de cada partición de validación cruzada para evitar data leakage.<br/>- Utiliza StratifiedKFold con 5 particiones.<br/>- Compara F1, Recall, Precision y ROC-AUC.<br/>- Muestra la distribución de clases original y la distribución generada por SMOTE en el entrenamiento.<br/>- Evalúa las estrategias con los modelos más apropiados, como Regresión Logística, SVC y Random Forest.<br/>- Analiza el costo de falsos positivos y falsos negativos en el contexto de NovaConecta.<br/>- Determina qué estrategia de balanceo se utilizará para el ajuste de hiperparámetros.<br/>- Justifica la decisión con resultados reales y no solamente con teoría.<br/>- Actualiza la tabla comparativa del notebook.<br/><br/>Ejecuta todo el notebook para verificar que los pipelines sean compatibles y que no exista fuga de información.<br/><br/>Al finalizar proporciona:<br/><br/>- Tabla comparativa de estrategias.<br/>- Decisión final sobre balanceo.<br/>- Justificación de negocio.<br/>- Cambios introducidos en el notebook.<br/><br/>Requisito adicional de reproducibilidad:<br/>- Instancia SMOTE con <code>random_state=42</code> o <code>random_state=SEED</code> en todos los pipelines y demostraciones para obtener resultados repetibles."<br/></td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Resultado / cómo se usó</td>
 <td style="text-align:left">Se compararon tres estrategias: sin balanceo, <code>class_weight</code> y SMOTE. SMOTE obtuvo el mejor F1 y Recall promedio, por lo que se eligió para la optimización.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Validación / ajuste del equipo</td>
 <td style="text-align:left">Se verificó que SMOTE se aplicara solo dentro del entrenamiento y de cada fold. El conjunto de prueba no fue balanceado ni usado para elegir la estrategia.</td>
 </tr>
 </tbody>
 </table>
+<p><br/><br/></p>
 <hr/>
+<br/>
 <table>
 <thead>
 <tr>
@@ -15292,40 +15300,68 @@ Todos los resultados finales adicionales fueron guardados en: /mnt/data/final_re
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>N°</strong></td>
+<td style="text-align:left">N°</td>
 <td style="text-align:left">P-05</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Objetivo del prompt</strong></td>
+<td style="text-align:left">Objetivo del prompt</td>
 <td style="text-align:left">Optimizar los tres modelos más prometedores mediante GridSearchCV, seleccionar el ganador por validación cruzada y evaluar los modelos optimizados sin usar el test durante la búsqueda.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Herramienta / modelo de IA</strong></td>
+<td style="text-align:left">Herramienta / modelo de IA</td>
 <td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Texto del prompt</strong></td>
-<td style="text-align:left">Continúa el notebook Informe_4_Clasificacion.ipynb utilizando los resultados reales de los modelos base y del análisis de balanceo.<br/><br/>Selecciona los tres modelos más prometedores según la validación cruzada del conjunto de entrenamiento. Entre ellos debe existir al menos un modelo de ensamble o boosting.<br/><br/>Realiza ajuste de hiperparámetros utilizando GridSearchCV o RandomizedSearchCV.<br/><br/>Requisitos:<br/><br/>1. El ajuste debe realizarse sobre pipelines completos que incluyan preprocesamiento y la estrategia de balanceo elegida.<br/>2. Utiliza StratifiedKFold de 5 particiones.<br/>3. Mantén el conjunto de prueba completamente separado durante la búsqueda.<br/>4. Define espacios de hiperparámetros razonables y justificados.<br/>5. Utiliza F1 como métrica principal de optimización, considerando también Recall, Precision, Accuracy y ROC-AUC.<br/>6. Evita búsquedas excesivamente grandes que no aporten valor.<br/>7. Muestra los mejores parámetros y la mejor puntuación de validación cruzada.<br/>8. Compara cada modelo optimizado con su versión base.<br/>9. Evalúa una sola vez los modelos optimizados en el conjunto de prueba.<br/>10. Construye la tabla comparativa definitiva.<br/>11. Selecciona el mejor modelo considerando rendimiento, estabilidad, costo de errores e interpretabilidad.<br/>12. Guarda opcionalmente:<br/>- metricas_modelos_finales.csv<br/>- mejores_parametros.json<br/>- mejor_modelo_clasificacion.joblib<br/><br/>No selecciones el modelo basándote repetidamente en el conjunto de prueba. No inventes resultados y reporta cualquier señal de sobreajuste.<br/><br/>Al finalizar proporciona:<br/><br/>- Mejores parámetros reales.<br/>- Resultados de validación cruzada.<br/>- Resultados finales del test.<br/>- Justificación del modelo seleccionado.<br/>- Lista de archivos creados o modificados.<br/><br/>Utiliza estos espacios de búsqueda controlados:<br/>- Regresión Logística: <code>C=[0.01, 0.1, 1, 10]</code> y <code>solver=['liblinear', 'lbfgs']</code>.<br/>- SVC: <code>C=[0.1, 1, 10, 30]</code>, <code>gamma=['scale', 0.01, 0.1]</code> y <code>kernel=['rbf']</code>.<br/>- Random Forest: <code>n_estimators=[100, 200]</code>, <code>max_depth=[5, 10]</code>, <code>min_samples_leaf=[2]</code> y <code>max_features=['sqrt']</code>.<br/>No amplíes estos rangos sin una justificación técnica.</td>
+<td style="text-align:left">Texto del prompt</td>
+<td style="text-align:left">Continúa el notebook Informe_4_Clasificacion.ipynb utilizando los resultados reales de los modelos base y del análisis de balanceo.<br/> <br/> Selecciona los tres modelos más prometedores según la validación cruzada del conjunto de entrenamiento. Entre ellos debe existir al menos un modelo de ensamble o boosting.<br/> <br/> Realiza ajuste de hiperparámetros utilizando GridSearchCV o RandomizedSearchCV.<br/> <br/> Requisitos:<br/> <br/> 1. El ajuste debe realizarse sobre pipelines completos que incluyan preprocesamiento y la estrategia de balanceo elegida.<br/> 2. Utiliza StratifiedKFold de 5 particiones.<br/> 3. Mantén el conjunto de prueba completamente separado durante la búsqueda.<br/> 4. Define espacios de hiperparámetros razonables y justificados.<br/> 5. Utiliza F1 como métrica principal de optimización, considerando también Recall, Precision, Accuracy y ROC-AUC.<br/> 6. Evita búsquedas excesivamente grandes que no aporten valor.<br/> 7. Muestra los mejores parámetros y la mejor puntuación de validación cruzada.<br/> 8. Compara cada modelo optimizado con su versión base.<br/> 9. Evalúa una sola vez los modelos optimizados en el conjunto de prueba.<br/> 10. Construye la tabla comparativa definitiva.<br/> 11. Selecciona el mejor modelo considerando rendimiento, estabilidad, costo de errores e interpretabilidad.<br/> 12. Guarda opcionalmente:<br/>  - metricas_modelos_finales.csv<br/>  - mejores_parametros.json<br/>  - mejor_modelo_clasificacion.joblib<br/> <br/> No selecciones el modelo basándote repetidamente en el conjunto de prueba. No inventes resultados y reporta cualquier señal de sobreajuste.<br/> <br/> Al finalizar proporciona:<br/> <br/> - Mejores parámetros reales.<br/> - Resultados de validación cruzada.<br/> - Resultados finales del test.<br/> - Justificación del modelo seleccionado.<br/> - Lista de archivos creados o modificados.<br/> <br/> Utiliza estos espacios de búsqueda controlados:<br/> - Regresión Logística: <code>C=[0.01, 0.1, 1, 10]</code> y <code>solver=['liblinear', 'lbfgs']</code>.<br/> - SVC: <code>C=[0.1, 1, 10, 30]</code>, <code>gamma=['scale', 0.01, 0.1]</code> y <code>kernel=['rbf']</code>.<br/> - Random Forest: <code>n_estimators=[100, 200]</code>, <code>max_depth=[5, 10]</code>, <code>min_samples_leaf=[2]</code> y <code>max_features=['sqrt']</code>.<br/> No amplíes estos rangos sin una justificación técnica.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Resultado / cómo se usó</strong></td>
+<td style="text-align:left">Resultado / cómo se usó</td>
 <td style="text-align:left">Se optimizaron Regresión Logística, SVC y Random Forest con GridSearchCV. SVC obtuvo el mejor F1 de validación cruzada: 0.7006, con <code>C=1</code>, <code>gamma=0.01</code> y kernel RBF.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Validación / ajuste del equipo</strong></td>
+<td style="text-align:left">Validación / ajuste del equipo</td>
 <td style="text-align:left">Se comprobó que GridSearchCV utilizara solo los datos de entrenamiento. El modelo ganador se eligió por validación cruzada, no por los resultados del test.</td>
 </tr>
 </tbody>
 </table>
+<p><br/><br/></p>
 <hr/>
-<p>| Campo | Descripción |
-| :--- | :--- |
-| <strong>N°</strong> | P-06 |
-| <strong>Objetivo del prompt</strong> | Completar la evaluación final, interpretabilidad, conclusiones y auditoría de calidad del notebook, verificando el cumplimiento integral de la rúbrica. |
-| <strong>Herramienta / modelo de IA</strong> | ChatGPT — GPT-5.6 Thinking |
-| <strong>Texto del prompt</strong> | Realiza la revisión final del notebook bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb de NovaConecta como ingeniero senior de Machine Learning y auditor de calidad.<br/><br/>Completa y verifica:<br/><br/>1. Matriz de confusión del mejor modelo.<br/>2. Classification report.<br/>3. Accuracy, Precision, Recall y F1-Score.<br/>4. ROC-AUC y curva ROC, si corresponde.<br/>5. Interpretación detallada de verdaderos positivos, falsos positivos, falsos negativos y verdaderos negativos.<br/>6. Análisis del costo empresarial de los falsos negativos.<br/>7. Importancia de variables mediante coeficientes, feature_importances_ o permutation importance, según el modelo elegido.<br/>8. Interpretación de las variables más influyentes.<br/>9. Comparación final de todos los modelos.<br/>10. Justificación del modelo ganador.<br/>11. Recomendaciones concretas para que NovaConecta reduzca el abandono.<br/>12. Limitaciones del dataset sintético y del modelo.<br/>13. Conclusiones técnicas y de negocio.<br/>14. Información de versiones, semilla y reproducibilidad.<br/>15. Instrucciones breves para ejecutar el notebook.<br/><br/>Después realiza una auditoría completa:<br/><br/>- Comprueba que no se utilice valor_vida_cliente como predictor.<br/>- Comprueba que no exista data leakage.<br/>- Comprueba que train y test se separen antes del preprocesamiento.<br/>- Comprueba que SMOTE se aplique solamente al entrenamiento.<br/>- Comprueba que GridSearchCV no utilice el test.<br/>- Comprueba que todas las rutas sean relativas.<br/>- Comprueba que todas las celdas se ejecuten en orden.<br/>- Elimina código duplicado, variables sin usar y salidas innecesarias.<br/>- Ejecuta Restart Kernel and Run All.<br/>- Verifica el cumplimiento de cada criterio de la rúbrica del Informe 4.<br/><br/>No inventes métricas, cambios ni validaciones que no se hayan realizado.<br/><br/>Requisito de interpretabilidad:<br/>- Calcula <code>permutation_importance</code> con <code>scoring='f1'</code>, <code>random_state=42</code> o <code>random_state=SEED</code>, para que la importancia de variables sea coherente con la métrica usada para seleccionar el modelo. |
-| <strong>Resultado / cómo se usó</strong> | Se completó la evaluación final con matriz de confusión, métricas, curva ROC, importancia de variables, conclusiones y recomendaciones. El SVC obtuvo F1 de 0.6567 y Recall de 0.7174 en test. |
-| <strong>Validación / ajuste del equipo</strong> | Se ejecutó todo el notebook desde cero y sin errores. Se verificó que no hubiera fuga de datos, que SMOTE y GridSearchCV usaran solo entrenamiento y que se cumpliera la rúbrica. ||</p>
+<br/>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Campo</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">N°</td>
+<td style="text-align:left">P-06</td>
+</tr>
+<tr>
+<td style="text-align:left">Objetivo del prompt</td>
+<td style="text-align:left">Completar la evaluación final, interpretabilidad, conclusiones y auditoría de calidad del notebook, verificando el cumplimiento integral de la rúbrica.</td>
+</tr>
+<tr>
+<td style="text-align:left">Herramienta / modelo de IA</td>
+<td style="text-align:left">ChatGPT — GPT-5.6 Thinking</td>
+</tr>
+<tr>
+<td style="text-align:left">Texto del prompt</td>
+<td style="text-align:left">Realiza la revisión final del notebook bloque_b_python/notebooks/Informe_4_Clasificacion.ipynb de NovaConecta como ingeniero senior de Machine Learning y auditor de calidad.<br/> <br/> Completa y verifica:<br/> <br/> 1. Matriz de confusión del mejor modelo.<br/> 2. Classification report.<br/> 3. Accuracy, Precision, Recall y F1-Score.<br/> 4. ROC-AUC y curva ROC, si corresponde.<br/> 5. Interpretación detallada de verdaderos positivos, falsos positivos, falsos negativos y verdaderos negativos.<br/> 6. Análisis del costo empresarial de los falsos negativos.<br/> 7. Importancia de variables mediante coeficientes, feature_importances_ o permutation importance, según el modelo elegido.<br/> 8. Interpretación de las variables más influyentes.<br/> 9. Comparación final de todos los modelos.<br/> 10. Justificación del modelo ganador.<br/> 11. Recomendaciones concretas para que NovaConecta reduzca el abandono.<br/> 12. Limitaciones del dataset sintético y del modelo.<br/> 13. Conclusiones técnicas y de negocio.<br/> 14. Información de versiones, semilla y reproducibilidad.<br/> 15. Instrucciones breves para ejecutar el notebook.<br/> <br/> Después realiza una auditoría completa:<br/> <br/> - Comprueba que no se utilice valor_vida_cliente como predictor.<br/> - Comprueba que no exista data leakage.<br/> - Comprueba que train y test se separen antes del preprocesamiento.<br/> - Comprueba que SMOTE se aplique solamente al entrenamiento.<br/> - Comprueba que GridSearchCV no utilice el test.<br/> - Comprueba que todas las rutas sean relativas.<br/> - Comprueba que todas las celdas se ejecuten en orden.<br/> - Elimina código duplicado, variables sin usar y salidas innecesarias.<br/> - Ejecuta Restart Kernel and Run All.<br/> - Verifica el cumplimiento de cada criterio de la rúbrica del Informe 4.<br/> <br/><br/> <br/> No inventes métricas, cambios ni validaciones que no se hayan realizado.<br/> <br/> Requisito de interpretabilidad:<br/> - Calcula <code>permutation_importance</code> con <code>scoring='f1'</code>, <code>random_state=42</code> o <code>random_state=SEED</code>, para que la importancia de variables sea coherente con la métrica usada para seleccionar el modelo.</td>
+</tr>
+<tr>
+<td style="text-align:left">Resultado / cómo se usó</td>
+<td style="text-align:left">Se completó la evaluación final con matriz de confusión, métricas, curva ROC, importancia de variables, conclusiones y recomendaciones. El SVC obtuvo F1 de 0.6567 y Recall de 0.7174 en test.</td>
+</tr>
+<tr>
+<td style="text-align:left">Validación / ajuste del equipo</td>
+<td style="text-align:left">Se ejecutó todo el notebook desde cero y sin errores. Se verificó que no hubiera fuga de datos, que SMOTE y GridSearchCV usaran solo entrenamiento y que se cumpliera la rúbrica.</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
